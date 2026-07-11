@@ -1,0 +1,51 @@
+# Qwen Public URL Smoke Test
+
+Public sources rechecked: 2026-07-11 KST.
+
+Deadline: July 20, 2026, 2:00 PM PDT.
+
+KST conversion: July 21, 2026, 6:00 AM KST.
+
+Run this after public URLs exist and before accepting rules or clicking the final Devpost `Submit project` button.
+
+## Source Facts
+
+- Devpost overview and rules page header list the deadline as July 20, 2026, 2:00 PM PDT.
+- Qwen Cloud challenge page says the submission deadline was extended to July 20 while coupon redemption remained July 9 at 11:59 PM GMT+7.
+- Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
+- Devpost rules require a public code repository, proof that the backend runs on Alibaba Cloud, an architecture diagram, a text description, track selection, a public demo video, and working-project access for judging and testing.
+- Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
+- Devpost rules use the stricter demo-video threshold of less than 3 minutes.
+- Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
+- Public Devpost surfaces showed 7,561 participants during the July 11 source recheck.
+
+## Private-Browser Checks
+
+Open a fresh private/incognito browser window with no entrant account logged in.
+
+| Asset | URL to paste | Pass condition | Stop condition |
+| --- | --- | --- | --- |
+| Public repository | https://github.com/memekr/biddesk-autopilot | Repository loads without login and shows README, license, source, sample input, validation commands, and Qwen truth boundary. | Repo is private, missing license/setup, or contains secrets/customer data. |
+| Alibaba Cloud deployment proof | Code-file URL in the public repository | File visibly demonstrates Alibaba Cloud service/API usage for the backend deployment proof. | Proof is only a private screenshot, vague README claim, or unrelated code. |
+| Qwen Cloud proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Evidence shows Qwen Cloud/DashScope API usage without exposing keys, tokens, account IDs, billing data, or private endpoints. | Evidence contains secrets or only claims generic Qwen/Bedrock/local model usage. |
+| Demo video | Public video URL | Video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, or claims unverified live cloud usage. |
+| Working project access | https://github.com/memekr/biddesk-autopilot#local-demo | Judges can test through a website, functioning demo, or local test build with synthetic data. | Project requires undisclosed credentials, unsafe credentials, private customer data, or unavailable cloud resources. |
+| Presentation deck/PDF | Public deck or PDF URL if Devpost asks for it | Deck opens without login and matches the final architecture, demo, and truth boundary. | Deck is private, stale, or overclaims production/live proof. |
+| Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram clearly shows Qwen Cloud, backend, Alibaba Cloud deployment, data flow, and human approval gates. | Diagram omits Qwen/Alibaba proof path or contradicts the submitted implementation. |
+
+## Devpost Field Cross-Check
+
+- Title and short description match `submission/qwen-devpost-draft.md`.
+- Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.
+- Project description includes live Qwen Cloud and Alibaba Cloud claims only after the proof rows above pass.
+- Testing instructions use only synthetic data and safe temporary non-admin credentials if credentials are unavoidable.
+- No field contains API keys, account emails, billing identifiers, private customer data, or invented business metrics.
+- Any blog/social bonus URL is optional and must be entrant-published; do not create it from automation.
+
+## GO / DOWNGRADE / STOP
+
+GO - public URLs ready only if every required URL opens in a private browser, the demo video is less than 3 minutes, the Alibaba Cloud proof is a repository code-file link, and Qwen Cloud proof is redacted.
+
+DOWNGRADE - submit truthful prototype wording only if the public repo, local test build, diagram, deck, and demo video are ready but live Qwen Cloud or Alibaba Cloud deployment proof is incomplete.
+
+STOP - external commitment required before publishing repositories, uploading videos, creating cloud credentials, adding judge credentials, accepting official rules, or clicking final Devpost `Submit project`.

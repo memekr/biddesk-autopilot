@@ -1,0 +1,111 @@
+{
+  "customer": "Northstar Facilities",
+  "track": "Track 4 Autopilot Agent with Track 3 Agent Society evidence",
+  "requirements": [
+    "single approval-ready proposal packet",
+    "security questionnaire response with SOC2 evidence mapping",
+    "line-item quote with assumptions and exclusions",
+    "delivery timeline with customer-side dependencies",
+    "integration scope and technical discovery checklist"
+  ],
+  "missing_info": [],
+  "policy_flags": [
+    "requires review for term: penalty",
+    "requires review for term: custom integration",
+    "legal review explicitly requested by customer"
+  ],
+  "quote_lines": [
+    "Discovery and proposal validation: $10,200",
+    "Implementation for 5 requirement groups: $46,750",
+    "Governance, testing, and launch support: $15,300"
+  ],
+  "approval_questions": [
+    "Can sales commit to the proposed pricing range?",
+    "Can legal accept the flagged terms or provide fallback language?",
+    "Can delivery commit to the timeline after customer dependencies are confirmed?"
+  ],
+  "agent_steps": [
+    {
+      "agent": "intake",
+      "action": "extract request facts and normalize attachments",
+      "inputs": [
+        "email+rfi",
+        "request_text",
+        "attachments"
+      ],
+      "outputs": [
+        "single approval-ready proposal packet",
+        "security questionnaire response with SOC2 evidence mapping",
+        "line-item quote with assumptions and exclusions",
+        "delivery timeline with customer-side dependencies",
+        "integration scope and technical discovery checklist"
+      ],
+      "human_gate": false,
+      "qwen_cloud_role": "Qwen long-context extraction"
+    },
+    {
+      "agent": "research",
+      "action": "summarize account context and technical assumptions",
+      "inputs": [
+        "Northstar Facilities",
+        "public/customer-provided context"
+      ],
+      "outputs": [
+        "account assumptions",
+        "technical discovery checklist"
+      ],
+      "human_gate": false,
+      "qwen_cloud_role": "Qwen reasoning over retrieved context"
+    },
+    {
+      "agent": "policy",
+      "action": "check pricing, legal, delivery, and compliance constraints",
+      "inputs": [
+        "requirements",
+        "policy library",
+        "budget"
+      ],
+      "outputs": [
+        "requires review for term: penalty",
+        "requires review for term: custom integration",
+        "legal review explicitly requested by customer"
+      ],
+      "human_gate": true,
+      "qwen_cloud_role": "Qwen policy comparison with cited snippets"
+    },
+    {
+      "agent": "quote",
+      "action": "draft proposal, quote lines, and assumptions",
+      "inputs": [
+        "requirements",
+        "policy flags",
+        "budget"
+      ],
+      "outputs": [
+        "Discovery and proposal validation: $10,200",
+        "Implementation for 5 requirement groups: $46,750",
+        "Governance, testing, and launch support: $15,300"
+      ],
+      "human_gate": false,
+      "qwen_cloud_role": "Qwen structured proposal drafting"
+    },
+    {
+      "agent": "approval",
+      "action": "route risky commitments to human approvers",
+      "inputs": [
+        "quote",
+        "policy flags",
+        "missing info"
+      ],
+      "outputs": [
+        "Can sales commit to the proposed pricing range?",
+        "Can legal accept the flagged terms or provide fallback language?",
+        "Can delivery commit to the timeline after customer dependencies are confirmed?"
+      ],
+      "human_gate": true,
+      "qwen_cloud_role": "Qwen approval memo generation"
+    }
+  ],
+  "generated_at": "2026-07-11T01:35:51+00:00",
+  "qwen_cloud_live_summary": "**Verified Output**  \nThe packet for Northstar Facilities (Track 4 Autopilot Agent + Track 3 Agent Society evidence) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs are confirmed generated.\n\n**Human Approval Gates**  \nTwo agents trigger mandatory human review: *policy* agent flagged \u201cpenalty\u201d and \u201ccustom integration\u201d terms and noted explicit legal review request; *approval* agent escalated three commitment questions\u2014sales pricing authority, legal acceptance of flagged terms, and delivery timeline confirmation post-dependency validation.\n\n**Next Actions**  \nPending human decisions on: (1) sales sign-off on $72,250 quote, (2) legal resolution of penalty/custom integration language (fallback options needed), and (3) delivery confirmation of timeline once Northstar\u2019s dependencies are specified. No missing info remains\u2014full packet is assembled and awaiting approvals."
+}

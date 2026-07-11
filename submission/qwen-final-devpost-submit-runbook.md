@@ -1,0 +1,57 @@
+# Qwen Final Devpost Submit Runbook
+
+Public sources rechecked: 2026-07-02 KST.
+
+Deadline: July 9, 2026, 2:00 PM PDT.
+
+KST conversion: July 10, 2026, 6:00 AM KST.
+
+Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qwen-deployment-proof-gate.md`, `submission/qwen-live-connector-gate.md`, `submission/qwen-video-duration-arbitration.md`, `submission/qwen-judging-testing-access-gate.md`, and `submission/qwen-public-url-smoke-test.md` are current.
+
+## Source Facts
+
+- Devpost overview still lists the Qwen Cloud hackathon deadline as July 9, 2026, 2:00 PM PDT.
+- Devpost rules still list the submission period as May 26, 2026, 8:00 AM PT through July 9, 2026, 2:00 PM PT.
+- Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
+- The public requirement set still includes Qwen Cloud usage, Alibaba Cloud deployment proof, a public code repository, an architecture diagram, a public demo video, working-project access for judges, and project text.
+- Alibaba Cloud deployment proof should be a link to a public repository code file demonstrating use of Alibaba Cloud services and APIs.
+- Devpost rules use the stricter demo-video threshold of less than 3 minutes.
+
+## Paste Order
+
+1. Open `https://qwencloud-hackathon.devpost.com/`.
+2. Click `Join hackathon` if the entrant has not joined yet.
+3. Open the project submission form from Devpost.
+4. Select Track 4 Autopilot Agent. Add Track 3 Agent Society only as secondary evidence if the form permits multiple track signals.
+5. Paste the title from `submission/qwen-devpost-draft.md`.
+6. Paste the short description from `submission/qwen-devpost-draft.md`.
+7. Paste the project description from `submission/qwen-devpost-draft.md`, then append only verified live proof from `submission/qwen-deployment-proof-gate.md` and `submission/qwen-live-connector-gate.md`.
+8. Paste the public repository URL after confirming it is publicly visible and has `README.md`, `LICENSE`, source, sample inputs, and setup instructions.
+9. Paste the public demo video URL after confirming the runtime is less than 3 minutes.
+10. Paste the working-project URL or reproducible test-build instructions from `submission/qwen-judging-testing-access-gate.md`.
+11. Paste the presentation deck or PDF URL if Devpost asks for it.
+12. Paste architecture and Alibaba Cloud deployment proof links if the form has separate fields; otherwise include them in the project description.
+13. Run the private-browser checks in `submission/qwen-public-url-smoke-test.md`.
+14. Review every live Qwen Cloud, Alibaba Cloud, revenue, customer, and production claim against captured evidence.
+15. Accept official rules only after the entrant has personally reviewed eligibility, terms, and all public URLs.
+16. Click final `Submit project` only after the entrant confirms the complete form.
+
+## Required Data
+
+- Entrant or team display name.
+- Public repository URL under the entrant identity.
+- Public demo video URL.
+- Judge-accessible working project URL or reproducible test-build instructions.
+- Alibaba Cloud deployment proof URL or screenshot reference.
+- Qwen Cloud live-call proof with secrets redacted.
+- Architecture diagram location.
+- Presentation deck or PDF URL if the field is present.
+- Safe temporary judge credentials only if the project is private and the entrant intentionally created synthetic-data, non-admin credentials.
+
+## GO / DOWNGRADE / STOP
+
+GO - final Devpost submit only if public repository, public demo video, judge-accessible working project, Qwen Cloud live proof, Alibaba Cloud deployment proof, architecture diagram, deck asset, and all paste fields are verified.
+
+DOWNGRADE - submit truthful prototype wording only if public repository, local reproducible test build, architecture diagram, demo video, and deck exist but live Qwen Cloud or Alibaba Cloud proof is incomplete.
+
+STOP - external commitment required before Devpost login, joining the hackathon, accepting official rules, publishing a repository, uploading a video, creating cloud credentials, adding private test credentials, or clicking final `Submit project`.

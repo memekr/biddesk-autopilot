@@ -1,0 +1,11 @@
+{
+  "customer": "Northstar Facilities",
+  "channel": "email+rfi",
+  "deadline": "2026-07-18",
+  "budget_usd": 85000,
+  "request_text": "We need a quote for a facilities maintenance portal launch. Include security answers, SOC2 mapping, API integration with our ticketing system, pricing, timeline, and legal review. We may need custom integration work and strict penalty terms if launch misses the deadline. The rollout starts with 120 users.",
+  "attachments": [
+    "northstar-rfi.txt",
+    "security-questionnaire.xlsx"
+  ]
+}

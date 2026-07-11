@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-11T01:35:55+00:00
+Generated UTC: 2026-07-11T01:38:45+00:00
 
-Generated KST: 2026-07-11T10:35:55+09:00
+Generated KST: 2026-07-11T10:38:45+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 9d 19h 24m
+Remaining: 9d 19h 21m
 
 Phase: active submission window
 

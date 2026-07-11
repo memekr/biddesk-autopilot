@@ -29,7 +29,7 @@ a8e7aa7700289491c8d3feda79f119215356a4d5b9d1c25a6e49929823d7b5ab  ./qwen-final-d
 93c93356357d16755b6e8d95a37770066dba59760483db97a882a02978176f16  ./qwen-final-operator-index.md
 4ca0946355d7c69125c2f023149bc4a582efc9a797056e5c518818059e8ff608  ./qwen-final-public-proof-evidence-lock.md
 ce056356f8a74bb74160ec42343eb14382c49604bb699f0d572a65e10636b2f1  ./qwen-final-week-execution-sheet.md
-27268d2f9b03cf1a3d590c3afff71e5d9fd852935ded7e8203a54f4856abf177  ./qwen-judge-clean-room-rehearsal.md
+e5aad3ed7c921a8820fa1975198f907d21e658316fcb6618a79d512b80a7a58b  ./qwen-judge-clean-room-rehearsal.md
 2afa2b95762f44c35ac819f381b86ed9099fc5ab25a3f183e7b85289fa5338f8  ./qwen-judging-criteria-map.md
 133715befecb586e5fc50e871084f8cb89985c2910ba7456cc2724a9b4702c2b  ./qwen-judging-testing-access-gate.md
 5a4a8797948279485145e880b8ea6b52e88dacc0e3218b72558db26888339930  ./qwen-live-call-evidence.md
@@ -37,14 +37,14 @@ fe3bcb072d02cb5f24d51e2ee2dbcf8ef29dd3d23125929bbb4a7de7355e1511  ./qwen-live-co
 f451c59044586e177c47d231a6b5b22148ff45019b19998d39621c3f4bca6dd6  ./qwen-post-extension-10-day-proof-sprint.md
 d434e868c4dae59c0da89a82cf5a5a906bb6402262d08aa646708156a55efaad  ./qwen-presentation-deck-outline.md
 48a2d299b4f41fc9eeacf2c4b1bcefa7e59a61352030b2e9d2054442012bf263  ./qwen-public-asset-ledger.md
-43049999c58fe80c91e39daefe66101f846ea8f9e57c970d7fa6198646c59def  ./qwen-public-repository-publication.md
+2a5871680a5665c3d137d7405b94c6d1813d5b2eb1e702937de6aa332036aa8f  ./qwen-public-repository-publication.md
 16a4f7efa87817e0790ac1db4ca4f3d069871db152c4cc6e1a12949fd5a871aa  ./qwen-public-url-smoke-test.md
 6f5418cf061fa0d33fd0da6f32a1d2ad051c3678d28d63ccde7e93bdaf66c9ce  ./qwen-ready-checklist.md
 516d5481d1ab6539819b57936a8966ea6ef182a6a7f05b9cafda8446739ca1df  ./qwen-recording-evidence-capture.md
-5594620918c79cdcc3c3ae8a416de9d6295834a4aa93d0a22cba8e275be05612  ./qwen-source-recheck-snapshot.md
+8d1ce6e5b99fe47c592ed63c974312a014106392d693de56e38d7dbd5c883dcf  ./qwen-source-recheck-snapshot.md
 d278c62f0afb75d4672afa1cb4d55f06337852301e01814722e956a5edeb6637  ./qwen-video-duration-arbitration.md
-82b73d3df6cf4e4cb453ff710549fb4ec9d77de9d0ae1fc26e5450f9582826f8  ./sample-proposal-packet.json
-9ad5608a314de8553d0ebdac05e0e88e532b7e437eeee400c890eb40f25ee1d2  ./sample-proposal-packet.md
+a3e6ebd01f4d53580d718bce8f3e10c279f3f4cd924d25dc86f363089e97cd77  ./sample-proposal-packet.json
+5b43998ab1ec400f06d6994974ed2c915339d85b842c7b4c446d82cd7585aa35  ./sample-proposal-packet.md
 2be724290ce5978806dbab2168b6baa9e629a792ea233a2cd997a43146b42973  ./sample-request.json
 b4602cc04641e19b4d2247bce11d05f40b947856b9fc1adf9c8868aab50c99cc  ./scripts/qwen-deadline-status.py
 80c064764385fa681c8599df95dcedcf0a025bcd99e42ff518658af0d279093e  ./scripts/write-qwen-judge-clean-room-rehearsal.py

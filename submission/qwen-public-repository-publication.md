@@ -59,9 +59,16 @@ is available yet:
   publication, so the chosen public repository name was available.
 - Pre-publish secret scan used the Git-tracked candidate set and excluded
   `.env`, virtualenvs, cache folders, Python bytecode, and generated zip files.
-- Final public verification should confirm that the GitHub URL opens without
-  login and shows `README.md`, `LICENSE`, source, reports, tests, and submission
-  artifacts.
+- Initial publication commit: `a5a4189698de581f7ea7a002ba9ad3c405338be6`.
+- GitHub reported the repository as public with default branch `main` and
+  `pushedAt` `2026-07-11T01:37:32Z`.
+- Unauthenticated raw URL checks at 2026-07-11 10:38 KST:
+  - `README.md`: HTTP 200.
+  - `LICENSE`: HTTP 200.
+  - `submission/qwen-live-call-evidence.md`: HTTP 200.
+  - `.env`: HTTP 404.
+- Final public verification confirmed that the GitHub URL opens without login
+  for the required source, license, README, and redacted live evidence paths.
 
 ## GO / DOWNGRADE / STOP
 

@@ -20,7 +20,7 @@ Use this gate before filling Devpost testing instructions, recording the final d
 
 | Item | Minimum acceptable public evidence | Truth boundary |
 | --- | --- | --- |
-| Working project access | Public Alibaba Cloud endpoint, public demo site, or reproducible local test build instructions | Do not claim a hosted app if only local CLI exists |
+| Working project access | Public Alibaba Cloud endpoint, public demo site, or reproducible local test build instructions | Do not claim Alibaba Cloud deployment if only the static demo or local CLI exists |
 | Repository test path | README command sequence that creates the same sample packet judges see in the video | Synthetic data only |
 | Qwen Cloud live path | `--use-qwen` proof plus generated `Qwen Cloud Live Summary` | Do not expose API keys or account IDs |
 | Alibaba Cloud proof | Public code-file URL, endpoint URL, or redacted deployment proof showing Alibaba Cloud backend | Hide billing, account, and private console identifiers |
@@ -33,13 +33,17 @@ Use this for the current public-repository/test-build path:
 
 > Judges can test BidDesk Autopilot from the public repository at https://github.com/memekr/biddesk-autopilot. The README includes a reproducible local path using synthetic data: run `uv sync --all-groups`, then `uv run biddesk-autopilot reports/sample-request.json --qwen-status --out reports/sample-proposal-packet.md --json reports/sample-proposal-packet.json` to generate the same sample packet shown in the submission materials. Redacted live Qwen Cloud evidence is available at https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md. Alibaba Cloud deployment proof is still pending and is not claimed in this testing path.
 
+Use this upgraded paragraph after GitHub Pages is live:
+
+> Judges can test BidDesk Autopilot from the public web demo at https://memekr.github.io/biddesk-autopilot/ and the public repository at https://github.com/memekr/biddesk-autopilot. The README includes a reproducible local path using synthetic data: run `uv sync --all-groups`, then `uv run biddesk-autopilot reports/sample-request.json --qwen-status --out reports/sample-proposal-packet.md --json reports/sample-proposal-packet.json` to generate the same sample packet shown in the submission materials. Redacted live Qwen Cloud evidence is available at https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md. The web demo and local test build do not claim Alibaba Cloud deployment; Alibaba Cloud proof is still pending.
+
 Only add a credential sentence if the entrant deliberately creates safe judge-only credentials:
 
 > Test login, if requested by the form: username `[JUDGE_TEST_USERNAME]`, password `[JUDGE_TEST_PASSWORD]`. These credentials must be temporary, non-billing, non-admin, and contain only synthetic sample data.
 
 ## GO / DOWNGRADE / STOP
 
-GO - provide working project access only if a public repository, public video, Alibaba Cloud endpoint or test build, and deployment proof are all present.
+GO - provide working project access only if a public repository, public web demo or local test build, public video, and matching proof links are present.
 
 DOWNGRADE - provide local test build instructions if the repository and video are public but live endpoint or Qwen/Alibaba proof is incomplete. Use "Qwen-ready local prototype" wording.
 

@@ -33,7 +33,7 @@ Use this after the source snapshot, deployment proof gate, live connector gate, 
 | Demo video URL | `submission/qwen-video-duration-arbitration.md` and entrant upload | Public video opens in private/incognito browser and runtime is less than 3 minutes | STOP until public URL exists |
 | Architecture diagram | `submission/qwen-architecture-diagram.md` | Diagram is included in repo, deck, or public asset URL | GO if visible to judges |
 | Alibaba Cloud proof | `submission/qwen-deployment-proof-gate.md` | Public code-file URL demonstrates Alibaba Cloud services/API usage | STOP until proof URL exists |
-| Working project/testing instructions | `submission/qwen-judging-testing-access-gate.md` | Website, functioning demo, or reproducible test build is accessible to judges | STOP until access path exists |
+| Working project/testing instructions | `submission/qwen-judging-testing-access-gate.md` | Static web demo or reproducible test build is accessible to judges without credentials | GO for static demo plus local test build; STOP for Alibaba endpoint claims until deployment proof exists |
 | Presentation deck/PDF | `submission/qwen-presentation-deck-outline.md` | Public deck/PDF URL exists if Devpost asks for it | DOWNGRADE if no field exists; STOP if required field exists without URL |
 | Blog/social prize URL | Entrant-owned public post | Optional public URL, no sensitive data | Leave blank unless entrant intentionally published it |
 | Screenshots/images | Sample report and local terminal screenshots | No API keys, emails, account IDs, billing data, or private customer data | GO only after scrub |

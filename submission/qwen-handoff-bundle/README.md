@@ -20,6 +20,14 @@ uv run biddesk-autopilot reports/sample-request.json \
   --json reports/sample-proposal-packet.json
 ```
 
+## Public Web Demo
+
+Judge-facing static demo: https://memekr.github.io/biddesk-autopilot/
+
+The web demo uses only synthetic data and mirrors the sample proposal packet,
+approval gates, Qwen proof boundary, and Devpost testing instructions. It is a
+working-project access aid, not an Alibaba Cloud deployment claim.
+
 To verify the Qwen Cloud connector path without making a network request:
 
 ```bash
@@ -51,6 +59,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-final-public-proof-evidence-lock.md` locks the July 11 source state, about 7,500 public participants, coupon cutoff risk, and final proof order before public publication or Devpost paste.
 - `submission/qwen-public-repository-publication.md` records the public GitHub repository URL, judge test-build path, secret boundary, and publication verification gate.
 - `submission/qwen-live-call-evidence.md` records the July 11 live Qwen Cloud call, free-tier-only cost boundary, redacted connector status, and secret-handling proof.
+- `docs/index.html` is the public static judge demo published through GitHub Pages at https://memekr.github.io/biddesk-autopilot/.
 - `submission/qwen-d6-submission-control-board.md` compresses the last six days into daily proof deadlines and GO/DOWNGRADE/STOP decisions.
 - `submission/qwen-external-proof-packet.md` maps every external proof item to accepted evidence, redaction rules, claim boundaries, and ready testing-instruction wording.
 - `submission/qwen-d5-public-submission-rehearsal.md` rehearses the public URL, Devpost paste, and downgrade decisions before any external publication or submit action.
@@ -93,5 +102,5 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - Qwen Cloud voucher request and Discord join. Account creation, free-tier activation, API key creation, and live local inference are complete.
 - Alibaba Cloud deployment proof for the backend.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot
-- Judge-accessible working project path is the reproducible local test build in the public README until a hosted endpoint exists.
+- Judge-accessible working project path is the public static demo at https://memekr.github.io/biddesk-autopilot/ plus the reproducible local test build in the public README until an Alibaba Cloud endpoint exists.
 - Public demo video URL, presentation deck URL if requested, and final Devpost submission.

@@ -78,7 +78,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 1. Public repository: confirm the repository is public, has `README.md`, `LICENSE`, source code, sample inputs, and reproducible setup instructions.
 2. Qwen Cloud: run the local connector path with entrant-owned credentials, capture output that shows live model use, and redact keys or tokens.
 3. Alibaba Cloud: capture the backend deployment proof and the public repository code-file link demonstrating Alibaba Cloud service/API usage.
-4. Working project: verify website, functioning demo, or local test build instructions in a private browser or clean environment.
+4. Working project: verify the static web demo, functioning demo, or local test build instructions in a private browser or clean environment.
 5. Architecture: verify the diagram shows Qwen Cloud, backend, storage/state, frontend or CLI, and human approval gates.
 6. Video: record the working flow, keep the final public runtime below 3 minutes, and verify the public URL in a private browser.
 7. Deck: publish or export the deck only under the entrant identity, then verify the URL if Devpost asks for it.
@@ -90,7 +90,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 3. Project description from `submission/qwen-devpost-draft.md`, with only verified live-proof additions.
 4. Public repository URL.
 5. Public demo video URL.
-6. Working-project URL or test build instructions from `submission/qwen-judging-testing-access-gate.md`.
+6. Working-project URL or test build instructions from `submission/qwen-judging-testing-access-gate.md`; use https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
 7. Architecture diagram location.
 8. Alibaba Cloud deployment proof code-file URL.
 9. Presentation deck or PDF URL if the form exposes that field.

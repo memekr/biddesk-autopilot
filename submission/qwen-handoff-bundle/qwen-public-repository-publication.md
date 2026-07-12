@@ -29,19 +29,30 @@ README, license, tests, synthetic sample request, generated sample packet,
 architecture notes, Devpost draft, redacted Qwen Cloud live-call evidence, and
 the Qwen submission packet.
 
+## Public Static Demo
+
+- Demo URL: https://memekr.github.io/biddesk-autopilot/
+- Source file: `docs/index.html`
+- Scope: synthetic-data judge demo for workflow, proposal packet, proof gate,
+  and Devpost testing instructions.
+- Boundary: this is not Alibaba Cloud deployment proof and must not be used to
+  claim an Alibaba-hosted endpoint.
+
 ## Judge Test Build Path
 
 Paste this into Devpost testing instructions if no hosted Alibaba Cloud endpoint
 is available yet:
 
-> Judges can test BidDesk Autopilot from the public repository at
+> Judges can test BidDesk Autopilot from the public web demo at
+> https://memekr.github.io/biddesk-autopilot/ and the public repository at
 > https://github.com/memekr/biddesk-autopilot. The README includes a
 > reproducible local path using synthetic data: run `uv sync --all-groups`, then
 > `uv run biddesk-autopilot reports/sample-request.json --qwen-status --out
 > reports/sample-proposal-packet.md --json reports/sample-proposal-packet.json`.
 > The expected output is the included sample proposal packet and JSON artifact.
 > Live Qwen Cloud evidence is redacted in `submission/qwen-live-call-evidence.md`.
-> Alibaba Cloud deployment proof is still pending and is not claimed here.
+> The web demo and local test build do not claim Alibaba Cloud deployment;
+> Alibaba Cloud proof is still pending.
 
 ## Secret And Account Boundary
 
@@ -73,7 +84,8 @@ is available yet:
 ## GO / DOWNGRADE / STOP
 
 GO - use the public repository URL for Devpost after the GitHub page opens
-without login and shows the README, license, source, tests, and sample artifacts.
+without login and shows the README, license, source, tests, sample artifacts,
+and `docs/index.html` public demo source.
 
 DOWNGRADE - use the judge test-build path above if Alibaba Cloud deployment proof
 or public demo video is still missing.

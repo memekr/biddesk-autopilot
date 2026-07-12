@@ -32,7 +32,7 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 | Alibaba Cloud proof recording |  | Separate recording, if used, hides account IDs, billing, private console identifiers, and secrets. | Optional supporting link or video notes | DOWNGRADE if only local proof exists. |
 | Qwen Cloud live proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Redacted run log shows configured Qwen Cloud/DashScope API use and no API keys or account data. | "How it uses Qwen Cloud" copy and demo video | GO for synthetic local live proof only. |
 | Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. | Demo video URL | STOP until public URL exists and duration passes. |
-| Working project access | https://github.com/memekr/biddesk-autopilot#local-demo | Public app, functioning demo, or reproducible local test build works with synthetic data. | Testing instructions | GO as local test build; do not claim hosted endpoint. |
+| Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Public static demo opens without login, and reproducible local test build works with synthetic data. | Testing instructions | GO as static demo plus local test build; do not claim Alibaba Cloud endpoint. |
 | Test credentials, if needed |  | Entrant-created non-admin synthetic-data credentials only; no personal, billing, or production access. | Testing instructions | STOP for automation; entrant must decide. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram shows Qwen Cloud, backend, Alibaba Cloud proof path, state/data flow, and human approval gates. | Architecture diagram or repository/deck link | GO if visible to judges. |
 | Presentation deck/PDF |  | Public deck or PDF matches final claims and opens without login if Devpost asks for it. | Deck/PDF field if present | STOP only if Devpost requires it and URL is missing. |
@@ -55,7 +55,7 @@ If Qwen Cloud live proof or Alibaba Cloud deployment proof is missing, paste thi
 1. Open the repository URL.
 2. Open the Alibaba Cloud proof code-file URL.
 3. Open the demo video URL and confirm runtime is less than 3 minutes.
-4. Open the working project URL or follow the test build instructions from a clean checkout.
+4. Open the static web demo URL and follow the test build instructions from a clean checkout.
 5. Open the deck/PDF URL if Devpost asks for it.
 6. Open the architecture diagram location.
 7. Compare this ledger with `submission/qwen-devpost-field-lock.md`.

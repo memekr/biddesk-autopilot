@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-11T01:38:40+00:00
+Generated: 2026-07-12T05:55:03+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -81,13 +81,11 @@ Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 ## Qwen Cloud Live Summary
 
 **Verified Output**  
-A single approval-ready proposal packet is generated, including: SOC2-mapped security questionnaire response; line-item quote totaling $72,250 ($10,200 + $46,750 + $15,300); delivery timeline noting customer-side dependencies; integration scope; and technical discovery checklist. All required outputs from the intake and quote agents are confirmed present. No missing info is reported.
+The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and an integration scope with technical discovery checklist. All required outputs are confirmed present; no missing info is listed.
 
 **Human Approval Gates**  
-Two human gates are triggered:  
-- *Policy agent*: Requires review of “penalty” and “custom integration” terms, plus explicit legal review requested by Northstar Facilities.  
-- *Approval agent*: Routes three commitment questions to humans: sales pricing acceptance, legal fallback language for flagged terms, and delivery’s timeline confirmation post-customer dependency validation.
+Two agents require human review: *policy* (flags “penalty”, “custom integration”, and explicit legal review request) and *approval* (routes three commitment questions to sales, legal, and delivery). Legal review is explicitly mandated by the customer per policy flags.
 
 **Next Actions**  
-Secure approvals for: (1) sales sign-off on $72,250 quote, (2) legal resolution of penalty/custom integration terms, and (3) delivery confirmation of timeline once Northstar Facilities validates dependencies. No further agent automation is pending—next steps are fully human-led.
+Sales must confirm pricing range commitment; Legal must approve or revise flagged terms (penalty, custom integration); Delivery must validate timeline feasibility once customer dependencies are confirmed. No unverified dates, credentials, or external systems appear in the data — all facts align strictly with the provided JSON.
 

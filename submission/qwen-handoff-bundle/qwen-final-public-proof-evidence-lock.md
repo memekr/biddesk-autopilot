@@ -60,6 +60,8 @@ paste, rules acceptance, or final submit.
 
 - Public open-source repository with visible license, source, assets, sample data, and
   setup instructions.
+- Public static demo page that gives judges a website view of the sample workflow and
+  proof boundary without requiring credentials.
 - Alibaba Cloud deployment proof as a public repository code-file link.
 - Architecture diagram that shows Qwen Cloud, backend/deployment proof, state/data flow,
   CLI or frontend, and human approval gates.
@@ -160,7 +162,7 @@ delivery, and customer promises stop at human approval gates.
 
 - Publish `/Users/mac/hackathon-agent/biddesk-autopilot` only under the entrant identity.
 - Include `README.md`, `LICENSE`, `src/`, `tests/`, `reports/sample-request.json`,
-  generated sample outputs, and the `submission/` evidence files.
+  generated sample outputs, `docs/index.html`, and the `submission/` evidence files.
 - Run a local secret scan or manual scrub before public publication.
 - Fill `submission/qwen-public-asset-ledger.md` only after public URLs exist.
 - Run `submission/qwen-public-url-smoke-test.md` before `submission/qwen-devpost-field-lock.md`.
@@ -194,8 +196,9 @@ regenerated, and the zip plus manifest both include this lock file.
   `qwen-live-call-evidence.md`; voucher profile fields and Discord remain external.
 - Alibaba Cloud proof is eligibility-critical; do not claim deployed backend usage without
   public proof.
-- Public repository, demo video, deck, and working-project URLs require entrant-owned
-  publication.
+- Public repository and static web demo are published through the entrant-owned GitHub
+  repository. Demo video, deck, and Alibaba-hosted working-project URLs still require
+  entrant-owned publication.
 - Devpost login, event registration, eligibility acceptance, and official rules acceptance
   completed on July 11, 2026 KST under `spdish12@gmail.com`.
 - Devpost project creation is paused at an image CAPTCHA before the project record is

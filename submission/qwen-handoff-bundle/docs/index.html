@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BidDesk Autopilot Demo</title>
+    <meta
+      name="description"
+      content="Judge-facing BidDesk Autopilot demo for the Qwen Cloud Global AI Hackathon."
+    >
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8fb;
+        --surface: #ffffff;
+        --surface-2: #f0f3f7;
+        --ink: #20242a;
+        --muted: #646b76;
+        --line: #d9dee8;
+        --blue: #2563eb;
+        --green: #168a5b;
+        --amber: #a45f05;
+        --red: #b42318;
+        --violet: #6d4aff;
+        --shadow: 0 16px 42px rgba(32, 36, 42, 0.1);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: var(--bg);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        min-height: 100vh;
+        min-width: 0;
+        display: grid;
+        grid-template-rows: auto 1fr;
+      }
+
+      .topbar {
+        min-width: 0;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(16px);
+      }
+
+      .topbar-inner {
+        max-width: 1240px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 18px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+      }
+
+      .brand > div {
+        min-width: 0;
+      }
+
+      .brand-mark {
+        width: 40px;
+        height: 40px;
+        display: grid;
+        place-items: center;
+        border: 1px solid #b8c7f7;
+        border-radius: 8px;
+        background: #eaf0ff;
+        color: #173f9f;
+        font-weight: 800;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 22px;
+        line-height: 1.15;
+      }
+
+      .subtitle {
+        margin-top: 3px;
+        color: var(--muted);
+        font-size: 13px;
+        overflow-wrap: anywhere;
+      }
+
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-height: 38px;
+        padding: 8px 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--ink);
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        border-color: var(--ink);
+        color: #fff;
+      }
+
+      main {
+        max-width: 1240px;
+        width: 100%;
+        min-width: 0;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      .status-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .status {
+        min-height: 84px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        padding: 14px;
+        display: grid;
+        align-content: space-between;
+      }
+
+      .status strong {
+        display: block;
+        font-size: 13px;
+      }
+
+      .status span {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .status.good {
+        border-left: 4px solid var(--green);
+      }
+
+      .status.warn {
+        border-left: 4px solid var(--amber);
+      }
+
+      .status.stop {
+        border-left: 4px solid var(--red);
+      }
+
+      .workspace {
+        display: grid;
+        grid-template-columns: 280px minmax(0, 1fr) 300px;
+        gap: 16px;
+        align-items: start;
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .panel-header {
+        padding: 16px;
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .panel-header h2 {
+        font-size: 15px;
+      }
+
+      .panel-body {
+        padding: 16px;
+      }
+
+      .metric-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .metric {
+        display: grid;
+        gap: 4px;
+      }
+
+      .label {
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .value {
+        color: var(--ink);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
+      .request-text {
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .agent-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(116px, 1fr));
+        gap: 10px;
+      }
+
+      .agent {
+        min-height: 142px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        padding: 12px;
+        display: grid;
+        align-content: start;
+        gap: 10px;
+      }
+
+      .agent.active {
+        border-color: #9ab5ff;
+        background: #f3f6ff;
+      }
+
+      .agent small {
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.35;
+      }
+
+      .agent-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .gate {
+        border-radius: 999px;
+        padding: 3px 7px;
+        background: var(--surface-2);
+        color: var(--muted);
+        font-size: 11px;
+        white-space: nowrap;
+      }
+
+      .gate.required {
+        background: #fff1e1;
+        color: var(--amber);
+      }
+
+      .packet {
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .packet-section {
+        min-height: 190px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .packet-section h3 {
+        margin-bottom: 10px;
+        font-size: 13px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      li {
+        margin: 7px 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.4;
+      }
+
+      .proof-list {
+        display: grid;
+        gap: 10px;
+      }
+
+      .proof {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+      }
+
+      .proof strong {
+        display: block;
+        font-size: 13px;
+      }
+
+      .proof span {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.35;
+      }
+
+      .proof[data-state="ready"] {
+        border-left: 4px solid var(--green);
+      }
+
+      .proof[data-state="pending"] {
+        border-left: 4px solid var(--amber);
+      }
+
+      .proof[data-state="blocked"] {
+        border-left: 4px solid var(--red);
+      }
+
+      .tabs {
+        margin-top: 16px;
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        overflow: hidden;
+      }
+
+      .tab-list {
+        display: flex;
+        gap: 0;
+        border-bottom: 1px solid var(--line);
+        background: var(--surface-2);
+        overflow-x: auto;
+      }
+
+      .tab {
+        min-width: 132px;
+        border: 0;
+        border-right: 1px solid var(--line);
+        background: transparent;
+        padding: 12px 14px;
+        color: var(--muted);
+        font: inherit;
+        font-size: 13px;
+        font-weight: 800;
+        cursor: pointer;
+      }
+
+      .tab[aria-selected="true"] {
+        background: var(--surface);
+        color: var(--ink);
+      }
+
+      .tab-panel {
+        display: none;
+        padding: 16px;
+      }
+
+      .tab-panel.active {
+        display: block;
+      }
+
+      .copy-block {
+        min-height: 182px;
+        margin: 0;
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #161a22;
+        color: #e8edf7;
+        padding: 14px;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+        font-size: 12px;
+        line-height: 1.55;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
+
+      .tab-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 12px;
+      }
+
+      .tab-heading h2 {
+        font-size: 15px;
+      }
+
+      .toast {
+        min-height: 18px;
+        color: var(--green);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      @media (max-width: 1100px) {
+        .workspace {
+          grid-template-columns: 1fr;
+        }
+
+        .status-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        .topbar-inner,
+        main {
+          padding-left: 16px;
+          padding-right: 16px;
+          max-width: 100vw;
+          width: 100vw;
+        }
+
+        .topbar-inner,
+        .actions,
+        .tab-heading {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .brand {
+          max-width: 100%;
+          width: 100%;
+        }
+
+        h1 {
+          overflow-wrap: anywhere;
+        }
+
+        .actions,
+        .button {
+          max-width: 100%;
+        }
+
+        .actions {
+          justify-content: flex-start;
+        }
+
+        .button {
+          justify-content: center;
+          width: 100%;
+        }
+
+        .status-grid,
+        .agent-grid,
+        .packet {
+          grid-template-columns: 1fr;
+        }
+
+        .agent {
+          min-height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="topbar-inner">
+          <div class="brand">
+            <div class="brand-mark" aria-hidden="true">BD</div>
+            <div>
+              <h1>BidDesk Autopilot</h1>
+              <p class="subtitle">Track 4 Autopilot Agent with five-agent proposal governance</p>
+            </div>
+          </div>
+          <nav class="actions" aria-label="Project links">
+            <a class="button" href="https://github.com/memekr/biddesk-autopilot">Repository</a>
+            <a
+              class="button"
+              href="https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md"
+            >Qwen Proof</a>
+            <a
+              class="button primary"
+              href="https://github.com/memekr/biddesk-autopilot#local-demo"
+            >Test Build</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="status-grid" aria-label="Submission status">
+          <div class="status good">
+            <strong>Public repo</strong>
+            <span>MIT source, sample data, tests, README, and redacted live Qwen evidence.</span>
+          </div>
+          <div class="status good">
+            <strong>Working demo path</strong>
+            <span>Static web demo plus reproducible local CLI test build.</span>
+          </div>
+          <div class="status warn">
+            <strong>Demo video</strong>
+            <span>Recording script ready; public YouTube, Vimeo, or Youku URL still needed.</span>
+          </div>
+          <div class="status stop">
+            <strong>Alibaba proof</strong>
+            <span>Deployment code-file proof remains blocked by Alibaba account console access.</span>
+          </div>
+        </section>
+
+        <section class="workspace" aria-label="BidDesk workflow">
+          <article class="panel">
+            <div class="panel-header">
+              <h2>RFP Intake</h2>
+              <span class="gate">synthetic</span>
+            </div>
+            <div class="panel-body">
+              <div class="metric-list">
+                <div class="metric">
+                  <span class="label">Customer</span>
+                  <span class="value">Northstar Facilities</span>
+                </div>
+                <div class="metric">
+                  <span class="label">Channel</span>
+                  <span class="value">Email plus RFI</span>
+                </div>
+                <div class="metric">
+                  <span class="label">Budget</span>
+                  <span class="value">$85,000</span>
+                </div>
+                <div class="metric">
+                  <span class="label">Deadline</span>
+                  <span class="value">July 18, 2026</span>
+                </div>
+                <div class="metric">
+                  <span class="label">Attachments</span>
+                  <span class="value">RFI and security questionnaire</span>
+                </div>
+              </div>
+              <p class="request-text">
+                Facilities maintenance portal launch with SOC2 mapping, ticketing API
+                integration, pricing, timeline, legal review, custom integration, and penalty
+                terms.
+              </p>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Agent Workflow</h2>
+              <span class="gate required">2 human gates</span>
+            </div>
+            <div class="panel-body">
+              <div class="agent-grid" aria-label="Agent sequence">
+                <div class="agent active">
+                  <div class="agent-title">Intake <span class="gate">auto</span></div>
+                  <small>Extracts request facts, attachments, requirements, and sales context.</small>
+                </div>
+                <div class="agent active">
+                  <div class="agent-title">Research <span class="gate">auto</span></div>
+                  <small>Builds account assumptions and a technical discovery checklist.</small>
+                </div>
+                <div class="agent">
+                  <div class="agent-title">Policy <span class="gate required">review</span></div>
+                  <small>Flags penalty terms, custom integration, and explicit legal review.</small>
+                </div>
+                <div class="agent active">
+                  <div class="agent-title">Quote <span class="gate">auto</span></div>
+                  <small>Drafts discovery, implementation, and governance quote lines.</small>
+                </div>
+                <div class="agent">
+                  <div class="agent-title">Approval <span class="gate required">review</span></div>
+                  <small>Routes pricing, legal fallback language, and delivery timing to humans.</small>
+                </div>
+              </div>
+
+              <div class="packet" aria-label="Generated packet">
+                <section class="packet-section">
+                  <h3>Requirements</h3>
+                  <ul>
+                    <li>Approval-ready proposal packet</li>
+                    <li>SOC2 security response</li>
+                    <li>Line-item quote</li>
+                    <li>Delivery timeline</li>
+                    <li>API discovery checklist</li>
+                  </ul>
+                </section>
+                <section class="packet-section">
+                  <h3>Quote Draft</h3>
+                  <ul>
+                    <li>Discovery: $10,200</li>
+                    <li>Implementation: $46,750</li>
+                    <li>Governance: $15,300</li>
+                    <li>Total: $72,250</li>
+                  </ul>
+                </section>
+                <section class="packet-section">
+                  <h3>Approval Questions</h3>
+                  <ul>
+                    <li>Can sales commit to the proposed pricing range?</li>
+                    <li>Can legal accept flagged terms or fallback language?</li>
+                    <li>Can delivery commit after dependencies are confirmed?</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+
+          <aside class="panel">
+            <div class="panel-header">
+              <h2>Proof Gate</h2>
+              <span class="gate">July 12</span>
+            </div>
+            <div class="panel-body">
+              <div class="proof-list">
+                <div class="proof" data-state="ready">
+                  <strong>Qwen Cloud live call</strong>
+                  <span>Redacted `qwen-plus` evidence is public in the repository.</span>
+                </div>
+                <div class="proof" data-state="ready">
+                  <strong>Judge access</strong>
+                  <span>Static web demo and clean local test-build instructions are public.</span>
+                </div>
+                <div class="proof" data-state="pending">
+                  <strong>Public video</strong>
+                  <span>Script is ready; upload URL must be added after recording.</span>
+                </div>
+                <div class="proof" data-state="blocked">
+                  <strong>Alibaba Cloud</strong>
+                  <span>Deployment proof is not claimed until the account console advances.</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="tabs" aria-label="Submission packet excerpts">
+          <div class="tab-list" role="tablist" aria-label="Packet views">
+            <button class="tab" role="tab" id="tab-packet" aria-controls="panel-packet" aria-selected="true">
+              Packet
+            </button>
+            <button class="tab" role="tab" id="tab-testing" aria-controls="panel-testing" aria-selected="false">
+              Testing
+            </button>
+            <button class="tab" role="tab" id="tab-proof" aria-controls="panel-proof" aria-selected="false">
+              Proof
+            </button>
+          </div>
+
+          <div class="tab-panel active" id="panel-packet" role="tabpanel" aria-labelledby="tab-packet">
+            <div class="tab-heading">
+              <h2>Generated Markdown Packet</h2>
+              <span class="toast" id="packet-toast" aria-live="polite"></span>
+            </div>
+            <pre class="copy-block" id="packet-copy"># BidDesk Autopilot Demo Packet
+
+Customer: Northstar Facilities
+Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
+
+Policy flags:
+- requires review for term: penalty
+- requires review for term: custom integration
+- legal review explicitly requested by customer
+
+Human approval questions:
+- Can sales commit to the proposed pricing range?
+- Can legal accept the flagged terms or provide fallback language?
+- Can delivery commit to the timeline after customer dependencies are confirmed?</pre>
+          </div>
+
+          <div class="tab-panel" id="panel-testing" role="tabpanel" aria-labelledby="tab-testing">
+            <div class="tab-heading">
+              <h2>Devpost Testing Instructions</h2>
+              <button class="button" type="button" data-copy-target="testing-copy" data-toast="testing-toast">
+                Copy
+              </button>
+              <span class="toast" id="testing-toast" aria-live="polite"></span>
+            </div>
+            <pre class="copy-block" id="testing-copy">Judges can test BidDesk Autopilot from the public repository at https://github.com/memekr/biddesk-autopilot and the public web demo at https://memekr.github.io/biddesk-autopilot/. The README includes a reproducible local path using synthetic data: run `uv sync --all-groups`, then `uv run biddesk-autopilot reports/sample-request.json --qwen-status --out reports/sample-proposal-packet.md --json reports/sample-proposal-packet.json` to generate the same sample packet shown in the submission materials. Redacted live Qwen Cloud evidence is available at https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md. Alibaba Cloud deployment proof is still pending and is not claimed in this testing path.</pre>
+          </div>
+
+          <div class="tab-panel" id="panel-proof" role="tabpanel" aria-labelledby="tab-proof">
+            <div class="tab-heading">
+              <h2>Proof Boundary</h2>
+              <span class="toast" id="proof-toast" aria-live="polite"></span>
+            </div>
+            <pre class="copy-block" id="proof-copy">GO:
+- Public repository
+- Static web demo
+- Reproducible local test build
+- Redacted live Qwen Cloud evidence
+- Architecture diagram
+
+PENDING:
+- Public video URL under 3 minutes
+- Alibaba Cloud deployment code-file proof
+- Devpost project form after image CAPTCHA
+
+Claim boundary:
+BidDesk Autopilot is a Qwen-ready local prototype with redacted live Qwen Cloud evidence. Alibaba Cloud deployment is not claimed until public deployment proof exists.</pre>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+      const panels = Array.from(document.querySelectorAll('[role="tabpanel"]'));
+
+      function activateTab(tab) {
+        tabs.forEach((item) => item.setAttribute("aria-selected", String(item === tab)));
+        panels.forEach((panel) => {
+          panel.classList.toggle("active", panel.id === tab.getAttribute("aria-controls"));
+        });
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => activateTab(tab));
+      });
+
+      document.querySelectorAll("[data-copy-target]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const target = document.getElementById(button.dataset.copyTarget);
+          const toast = document.getElementById(button.dataset.toast);
+          if (!target || !toast) return;
+          try {
+            await navigator.clipboard.writeText(target.textContent.trim());
+            toast.textContent = "Copied";
+            setTimeout(() => {
+              toast.textContent = "";
+            }, 1800);
+          } catch {
+            toast.textContent = "Select text to copy";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

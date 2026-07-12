@@ -26,6 +26,8 @@ uv run ruff check .
 uv run ty check src tests
 
 test -f README.md
+test -f docs/index.html
+test -f docs/.nojekyll
 test -f LICENSE
 test -f submission/qwen-devpost-draft.md
 test -f submission/qwen-architecture-diagram.md
@@ -73,6 +75,10 @@ test -f reports/sample-proposal-packet.json
 test -f scripts/write-qwen-judge-clean-room-rehearsal.py
 
 grep -q "Qwen Cloud" README.md
+grep -q "https://memekr.github.io/biddesk-autopilot/" README.md
+grep -q "BidDesk Autopilot Demo" docs/index.html
+grep -q "Alibaba Cloud deployment proof is still pending" docs/index.html
+grep -q "https://memekr.github.io/biddesk-autopilot/" docs/index.html
 if [[ -f .env ]]; then
   grep -q "Qwen Cloud Live Summary" reports/sample-proposal-packet.md
   grep -q '"qwen_cloud_live_summary"' reports/sample-proposal-packet.json
@@ -95,6 +101,7 @@ grep -q "GO - upload the demo video" submission/qwen-video-duration-arbitration.
 grep -q "DOWNGRADE - record the local prototype path" submission/qwen-video-duration-arbitration.md
 grep -q "STOP - external commitment required" submission/qwen-video-duration-arbitration.md
 grep -q "working project for judging and testing" submission/qwen-judging-testing-access-gate.md
+grep -q "https://memekr.github.io/biddesk-autopilot/" submission/qwen-judging-testing-access-gate.md
 grep -q "GO - provide working project access" submission/qwen-judging-testing-access-gate.md
 grep -q "DOWNGRADE - provide local test build instructions" submission/qwen-judging-testing-access-gate.md
 grep -q "STOP - external commitment required" submission/qwen-judging-testing-access-gate.md
@@ -107,11 +114,13 @@ grep -q "GO - final Devpost submit" submission/qwen-final-devpost-submit-runbook
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-devpost-submit-runbook.md
 grep -q "STOP - external commitment required" submission/qwen-final-devpost-submit-runbook.md
 grep -q "Qwen Public URL Smoke Test" submission/qwen-public-url-smoke-test.md
+grep -q "https://memekr.github.io/biddesk-autopilot/" submission/qwen-public-url-smoke-test.md
 grep -q "private/incognito browser" submission/qwen-public-url-smoke-test.md
 grep -q "GO - public URLs ready" submission/qwen-public-url-smoke-test.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-public-url-smoke-test.md
 grep -q "STOP - external commitment required" submission/qwen-public-url-smoke-test.md
 grep -q "Qwen Public Asset Ledger" submission/qwen-public-asset-ledger.md
+grep -q "https://memekr.github.io/biddesk-autopilot/" submission/qwen-public-asset-ledger.md
 grep -q "GO - public asset ledger ready" submission/qwen-public-asset-ledger.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-public-asset-ledger.md
 grep -q "STOP - external commitment required" submission/qwen-public-asset-ledger.md
@@ -150,6 +159,7 @@ grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-
 grep -q "STOP - external commitment required" submission/qwen-final-public-proof-evidence-lock.md
 grep -q "Qwen Public Repository Publication" submission/qwen-public-repository-publication.md
 grep -q "https://github.com/memekr/biddesk-autopilot" submission/qwen-public-repository-publication.md
+grep -q "https://memekr.github.io/biddesk-autopilot/" submission/qwen-public-repository-publication.md
 grep -q "GO - use the public repository URL" submission/qwen-public-repository-publication.md
 grep -q "DOWNGRADE - use the judge test-build path" submission/qwen-public-repository-publication.md
 grep -q "STOP - do not claim Alibaba Cloud deployment" submission/qwen-public-repository-publication.md
@@ -258,7 +268,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "about 7,500 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "7,665 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "GO - continue live Qwen submission" submission/qwen-source-recheck-snapshot.md

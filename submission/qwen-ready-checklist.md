@@ -94,6 +94,7 @@ Current source facts:
 - [x] Devpost testing instructions prepared with only synthetic data and no credentials.
 - [x] Live Qwen Cloud proof captured in `qwen-live-call-evidence.md` without exposing the API key.
 - [x] Public repository URL published under entrant identity: https://github.com/memekr/biddesk-autopilot
+- [x] Public static working demo prepared for GitHub Pages: https://memekr.github.io/biddesk-autopilot/
 - [ ] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
 - [ ] Presentation deck or PDF URL prepared if Devpost asks for the deck field.
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.
@@ -136,14 +137,15 @@ Current source facts:
 32. Open `submission/qwen-video-duration-arbitration.md`.
 33. Open `submission/qwen-judging-testing-access-gate.md`.
 34. Open `submission/qwen-public-asset-ledger.md`.
-35. Open `submission/qwen-public-url-smoke-test.md`.
-36. Open `submission/qwen-devpost-field-lock.md`.
-37. Open `submission/qwen-recording-evidence-capture.md`.
-38. Open `submission/qwen-account-risk-triage.md`.
-39. Open `submission/qwen-demo-script.md`.
-40. Open `submission/qwen-presentation-deck-outline.md`.
-41. Open `submission/qwen-final-devpost-submit-runbook.md`.
-42. Open `submission/qwen-external-handoff-checklist.md`.
+35. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
+36. Open `submission/qwen-public-url-smoke-test.md`.
+37. Open `submission/qwen-devpost-field-lock.md`.
+38. Open `submission/qwen-recording-evidence-capture.md`.
+39. Open `submission/qwen-account-risk-triage.md`.
+40. Open `submission/qwen-demo-script.md`.
+41. Open `submission/qwen-presentation-deck-outline.md`.
+42. Open `submission/qwen-final-devpost-submit-runbook.md`.
+43. Open `submission/qwen-external-handoff-checklist.md`.
 
 ## GO / STOP
 

@@ -31,17 +31,18 @@ Open in this order during the human external session:
 27. `submission/qwen-video-duration-arbitration.md`
 28. `submission/qwen-judging-testing-access-gate.md`
 29. `submission/qwen-public-asset-ledger.md`
-30. `submission/qwen-public-url-smoke-test.md`
-31. `submission/qwen-devpost-field-lock.md`
-32. `submission/qwen-recording-evidence-capture.md`
-33. `README.md`
-34. `reports/sample-proposal-packet.md`
-35. `submission/qwen-devpost-draft.md`
-36. `submission/qwen-judging-criteria-map.md`
-37. `submission/qwen-architecture-diagram.md`
-38. `submission/qwen-demo-script.md`
-39. `submission/qwen-presentation-deck-outline.md`
-40. `submission/qwen-final-devpost-submit-runbook.md`
+30. `docs/index.html` / https://memekr.github.io/biddesk-autopilot/
+31. `submission/qwen-public-url-smoke-test.md`
+32. `submission/qwen-devpost-field-lock.md`
+33. `submission/qwen-recording-evidence-capture.md`
+34. `README.md`
+35. `reports/sample-proposal-packet.md`
+36. `submission/qwen-devpost-draft.md`
+37. `submission/qwen-judging-criteria-map.md`
+38. `submission/qwen-architecture-diagram.md`
+39. `submission/qwen-demo-script.md`
+40. `submission/qwen-presentation-deck-outline.md`
+41. `submission/qwen-final-devpost-submit-runbook.md`
 
 ## Exact External Sites and Buttons
 
@@ -67,6 +68,7 @@ Open in this order during the human external session:
 - Devpost final paste order: follow `submission/qwen-final-devpost-submit-runbook.md` before accepting rules or clicking `Submit project`.
 - Public URL smoke test: follow `submission/qwen-public-url-smoke-test.md` in a private/incognito browser before pasting URLs into Devpost.
 - Public asset ledger: fill `submission/qwen-public-asset-ledger.md` with final public URLs and proof links before the smoke test and field lock.
+- Static working demo: verify https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live; do not present it as Alibaba Cloud deployment proof.
 - Devpost field lock: follow `submission/qwen-devpost-field-lock.md` to map every final field to a local artifact, public URL, and GO/DOWNGRADE/STOP decision.
 - Devpost testing instructions: paste the completed paragraph from `submission/qwen-judging-testing-access-gate.md` only after public repo, endpoint/test build, and proof URLs exist.
 - Demo video: upload only after `submission/qwen-video-duration-arbitration.md` passes and the public runtime is less than 3 minutes.
@@ -79,6 +81,7 @@ Open in this order during the human external session:
 
 - Entrant/team name and eligibility details.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot
+- Public static working demo URL: https://memekr.github.io/biddesk-autopilot/
 - Public demo video URL.
 - Alibaba Cloud deployment proof.
 - Alibaba Cloud deployment proof code-file URL in the public repository.

@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-12T05:57:52+00:00
+Generated: 2026-07-12T11:56:38+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -81,11 +81,11 @@ Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 ## Qwen Cloud Live Summary
 
 **Verified Output**  
-The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and an integration scope with technical discovery checklist. All required outputs are confirmed present; no missing info is listed.
+The packet for Northstar Facilities (Track 4 Autopilot Agent + Track 3 Agent Society evidence) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs from intake, research, quote, and approval agents are confirmed complete. No missing info is listed.
 
 **Human Approval Gates**  
-Two agents require human review: *policy* (flags “penalty”, “custom integration”, and explicit legal review request) and *approval* (routes three commitment questions to sales, legal, and delivery). Legal review is explicitly mandated by the customer per policy flags.
+Two human gates are active: policy agent flags *penalty terms*, *custom integration*, and explicit legal review request; approval agent escalates three questions—sales pricing commitment, legal acceptance of flagged terms (or fallback language), and delivery’s timeline commitment post-dependency confirmation.
 
 **Next Actions**  
-Sales must confirm pricing range commitment; legal must approve or revise flagged terms (penalty, custom integration); delivery must validate timeline feasibility once customer dependencies are confirmed. No unverified dates, credentials, or external systems appear in the data.
+Secure approvals on the three escalation questions. Legal must address penalty/custom integration clauses and confirm alignment with customer’s explicit request. Sales and delivery must validate pricing range and timeline feasibility once customer dependencies are finalized. No further agent automation is pending—only human sign-offs remain.
 

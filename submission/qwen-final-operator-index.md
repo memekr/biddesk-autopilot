@@ -31,7 +31,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - `submission/qwen-external-proof-packet.md` maps each entrant-owned external proof item to accepted evidence, redaction rules, and exact Devpost claim boundaries before recording or final paste.
 - `submission/qwen-final-96-hour-judge-access-drill.md` checks public assets, clean-room local commands, working-project access, and Qwen/Alibaba proof from a judge-first perspective before Devpost paste.
 - `submission/qwen-final-devpost-value-audit.md` checks final public form values against track fit, proof sources, judge-visible value, participant competition, and the strict less-than-3-minute video rule before field lock.
-- `submission/qwen-public-asset-ledger.md`, `submission/qwen-public-url-smoke-test.md`, and `submission/qwen-devpost-field-lock.md` are the final public URL and field-freeze sequence before rules acceptance.
+- `submission/qwen-demo-video-preupload.md`, `submission/qwen-public-asset-ledger.md`, `submission/qwen-public-url-smoke-test.md`, and `submission/qwen-devpost-field-lock.md` are the final public media, public URL, and field-freeze sequence before rules acceptance.
 
 ## First-Open Sequence
 
@@ -66,12 +66,13 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 29. Open `submission/qwen-live-connector-gate.md` before running or recording Qwen Cloud API proof.
 30. Open `submission/qwen-account-risk-triage.md` before recording live Qwen or Alibaba proof.
 31. Open `submission/qwen-recording-evidence-capture.md` before screen recording.
-32. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
-33. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
-34. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
-35. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
-36. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
-37. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
+32. Open `submission/qwen-demo-video-preupload.md` and run `bash scripts/render-qwen-demo-video.sh` before opening any video host.
+33. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
+34. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
+35. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
+36. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
+37. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
+38. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
 
 ## Evidence Capture Order
 
@@ -80,7 +81,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 3. Alibaba Cloud: capture the backend deployment proof and the public repository code-file link demonstrating Alibaba Cloud service/API usage.
 4. Working project: verify the static web demo, functioning demo, or local test build instructions in a private browser or clean environment.
 5. Architecture: verify the diagram shows Qwen Cloud, backend, storage/state, frontend or CLI, and human approval gates.
-6. Video: record the working flow, keep the final public runtime below 3 minutes, and verify the public URL in a private browser.
+6. Video: render the local preupload MP4, upload it to YouTube, Vimeo, or Youku, keep the final public runtime below 3 minutes, and verify the public URL in a private browser.
 7. Deck: publish or export the deck only under the entrant identity, then verify the URL if Devpost asks for it.
 
 ## Devpost Paste Order

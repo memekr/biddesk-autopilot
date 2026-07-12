@@ -64,7 +64,7 @@ def main() -> None:
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
         "Public Devpost surfaces visible during the July 12, 2026 KST recheck "
-        "show 7,665 participants, so final form values should make "
+        "show about 7,681 participants, so final form values should make "
         "track fit, proof, and business value obvious without judge inference.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
@@ -77,6 +77,10 @@ def main() -> None:
         "and test-build path; it is not Alibaba Cloud deployment proof.",
         "GitHub Pages was enabled from `main` `/docs` on July 12, 2026 KST and "
         "returned HTTP 200 for the static demo page during the public smoke test.",
+        "A local under-3-minute demo video preupload asset can be rendered with "
+        "`bash scripts/render-qwen-demo-video.sh`; it is not a public Devpost "
+        "video URL until uploaded to YouTube, Vimeo, or Youku and verified in a "
+        "private browser.",
     ]
     fact_lines = "\n".join(f"- {fact}" for fact in facts)
     body = f"""# Qwen Source Recheck Snapshot

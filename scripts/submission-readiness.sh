@@ -58,6 +58,7 @@ test -f submission/qwen-final-96-hour-judge-access-drill.md
 test -f submission/qwen-final-devpost-value-audit.md
 test -f submission/qwen-final-84-hour-submit-slot.md
 test -f submission/qwen-final-72-hour-recording-lock.md
+test -f submission/qwen-demo-video-preupload.md
 test -f submission/qwen-final-48-hour-public-proof-lock.md
 test -f submission/qwen-final-external-blocker-matrix.md
 test -f submission/qwen-d3-final-submit-rehearsal.md
@@ -73,6 +74,7 @@ test -f submission/qwen-ready-checklist.md
 test -f reports/sample-proposal-packet.md
 test -f reports/sample-proposal-packet.json
 test -f scripts/write-qwen-judge-clean-room-rehearsal.py
+test -x scripts/render-qwen-demo-video.sh
 
 grep -q "Qwen Cloud" README.md
 grep -q "https://memekr.github.io/biddesk-autopilot/" README.md
@@ -208,6 +210,11 @@ grep -q "2026-07-05 KST" submission/qwen-final-72-hour-recording-lock.md
 grep -q "GO - final 72-hour recording lock ready" submission/qwen-final-72-hour-recording-lock.md
 grep -q "DOWNGRADE - record the Qwen-ready prototype path" submission/qwen-final-72-hour-recording-lock.md
 grep -q "STOP - external commitment required" submission/qwen-final-72-hour-recording-lock.md
+grep -q "Qwen Demo Video Preupload Packet" submission/qwen-demo-video-preupload.md
+grep -q "scripts/render-qwen-demo-video.sh" submission/qwen-demo-video-preupload.md
+grep -q "GO - upload only if" submission/qwen-demo-video-preupload.md
+grep -q "DOWNGRADE - use prototype-only Devpost wording" submission/qwen-demo-video-preupload.md
+grep -q "STOP - external commitment required" submission/qwen-demo-video-preupload.md
 grep -q "Qwen Final 48-Hour Public Proof Lock" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "2026-07-06 KST" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "GO - final 48-hour public proof lock ready" submission/qwen-final-48-hour-public-proof-lock.md
@@ -268,7 +275,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "7,665 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "7,681 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "GO - continue live Qwen submission" submission/qwen-source-recheck-snapshot.md

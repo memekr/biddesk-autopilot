@@ -50,6 +50,7 @@ cp submission/qwen-final-96-hour-judge-access-drill.md "$BUNDLE_DIR/qwen-final-9
 cp submission/qwen-final-devpost-value-audit.md "$BUNDLE_DIR/qwen-final-devpost-value-audit.md"
 cp submission/qwen-final-84-hour-submit-slot.md "$BUNDLE_DIR/qwen-final-84-hour-submit-slot.md"
 cp submission/qwen-final-72-hour-recording-lock.md "$BUNDLE_DIR/qwen-final-72-hour-recording-lock.md"
+cp submission/qwen-demo-video-preupload.md "$BUNDLE_DIR/qwen-demo-video-preupload.md"
 cp submission/qwen-final-48-hour-public-proof-lock.md "$BUNDLE_DIR/qwen-final-48-hour-public-proof-lock.md"
 cp submission/qwen-final-external-blocker-matrix.md "$BUNDLE_DIR/qwen-final-external-blocker-matrix.md"
 cp submission/qwen-d3-final-submit-rehearsal.md "$BUNDLE_DIR/qwen-d3-final-submit-rehearsal.md"
@@ -67,6 +68,7 @@ mkdir -p "$BUNDLE_DIR/scripts"
 cp scripts/qwen-deadline-status.py "$BUNDLE_DIR/scripts/qwen-deadline-status.py"
 cp scripts/write-qwen-source-recheck-snapshot.py "$BUNDLE_DIR/scripts/write-qwen-source-recheck-snapshot.py"
 cp scripts/write-qwen-judge-clean-room-rehearsal.py "$BUNDLE_DIR/scripts/write-qwen-judge-clean-room-rehearsal.py"
+cp scripts/render-qwen-demo-video.sh "$BUNDLE_DIR/scripts/render-qwen-demo-video.sh"
 
 (
   cd "$BUNDLE_DIR"

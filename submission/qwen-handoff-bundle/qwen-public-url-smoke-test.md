@@ -28,7 +28,7 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 | Public repository | https://github.com/memekr/biddesk-autopilot | Repository loads without login and shows README, license, source, sample input, validation commands, and Qwen truth boundary. | Repo is private, missing license/setup, or contains secrets/customer data. |
 | Alibaba Cloud deployment proof | Code-file URL in the public repository | File visibly demonstrates Alibaba Cloud service/API usage for the backend deployment proof. | Proof is only a private screenshot, vague README claim, or unrelated code. |
 | Qwen Cloud proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Evidence shows Qwen Cloud/DashScope API usage without exposing keys, tokens, account IDs, billing data, or private endpoints. | Evidence contains secrets or only claims generic Qwen/Bedrock/local model usage. |
-| Demo video | Public video URL | Video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, or claims unverified live cloud usage. |
+| Demo video | Public video URL after upload; local preupload file is `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4` | Video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, or claims unverified live cloud usage. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Static demo opens without login, and judges can reproduce the packet through the local test build with synthetic data. | Project requires undisclosed credentials, unsafe credentials, private customer data, unavailable cloud resources, or claims Alibaba Cloud deployment from the static page. |
 | Presentation deck/PDF | Public deck or PDF URL if Devpost asks for it | Deck opens without login and matches the final architecture, demo, and truth boundary. | Deck is private, stale, or overclaims production/live proof. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram clearly shows Qwen Cloud, backend, Alibaba Cloud deployment, data flow, and human approval gates. | Diagram omits Qwen/Alibaba proof path or contradicts the submitted implementation. |
@@ -47,6 +47,9 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   Alibaba Cloud proof-pending boundary.
 - Result: working-project URL GO as static demo plus local test build; Alibaba
   Cloud deployment proof remains STOP.
+- Local video preupload render path is ready through
+  `scripts/render-qwen-demo-video.sh`; public video URL remains STOP until the
+  MP4 is uploaded to YouTube, Vimeo, or Youku and verified in a private browser.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

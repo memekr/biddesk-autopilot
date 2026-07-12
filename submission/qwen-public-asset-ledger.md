@@ -31,7 +31,7 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 | Alibaba Cloud proof code file |  | Public repo code-file URL demonstrates Alibaba Cloud service/API usage for backend deployment proof. | Alibaba Cloud deployment proof field or project description | STOP until exact code-file URL exists. |
 | Alibaba Cloud proof recording |  | Separate recording, if used, hides account IDs, billing, private console identifiers, and secrets. | Optional supporting link or video notes | DOWNGRADE if only local proof exists. |
 | Qwen Cloud live proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Redacted run log shows configured Qwen Cloud/DashScope API use and no API keys or account data. | "How it uses Qwen Cloud" copy and demo video | GO for synthetic local live proof only. |
-| Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. | Demo video URL | STOP until public URL exists and duration passes. |
+| Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. Local preupload asset can be rendered at `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`. | Demo video URL | STOP until public URL exists and duration passes. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Public static demo opens without login, and reproducible local test build works with synthetic data. | Testing instructions | GO as static demo plus local test build; do not claim Alibaba Cloud endpoint. |
 | Test credentials, if needed |  | Entrant-created non-admin synthetic-data credentials only; no personal, billing, or production access. | Testing instructions | STOP for automation; entrant must decide. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram shows Qwen Cloud, backend, Alibaba Cloud proof path, state/data flow, and human approval gates. | Architecture diagram or repository/deck link | GO if visible to judges. |
@@ -54,6 +54,13 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Browser smoke test: page title, proof gate, Devpost testing instructions,
   repository link, Qwen proof link, and Alibaba proof-pending boundary were
   visible from the public URL.
+
+## July 12 Demo Video Preupload
+
+- Render command: `bash scripts/render-qwen-demo-video.sh`
+- Local MP4 output: `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`
+- Validation outputs: `output/playwright/qwen-demo-video/ffprobe.json` and `output/playwright/qwen-demo-video/sha256.txt`
+- Upload boundary: the MP4 is ready for public-host upload only after YouTube, Vimeo, or Youku account access is available; the Devpost video URL field remains blank until a private-browser public playback check passes.
 
 Use live wording only when the repository, demo video, Qwen Cloud proof, Alibaba Cloud proof code-file URL, architecture diagram, and judge-access path are all verified.
 

@@ -25,7 +25,7 @@ Current source facts:
 - Public rules require access to a working project for judging and testing through a website, functioning demo, or test build.
 - Devpost official rules say the demo video should be less than three (3) minutes and judges are not required to watch beyond three minutes; use this stricter threshold even if another Qwen page says 5 minutes or less.
 - Public judging criteria weight Technical Depth & Engineering at 30%, Innovation & AI Creativity at 30%, Problem Value & Impact at 25%, and Presentation & Documentation at 15%.
-- Public Devpost surfaces visible on July 11, 2026 KST show about 7,500 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible on July 12, 2026 KST show about 7,681 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
 - Public Devpost update surfaces visible during recent rechecks emphasize that Alibaba Cloud proof is eligibility-critical: no proof means not eligible.
 - The local CLI supports `--qwen-status` for no-network connector verification and `--use-qwen` for an explicit live Qwen Cloud call after the entrant supplies an API key.
 
@@ -63,6 +63,7 @@ Current source facts:
 - [x] Final Devpost value audit drafted.
 - [x] Final 84-hour submit slot drafted.
 - [x] Final 72-hour recording lock drafted.
+- [x] Demo video preupload packet and render script drafted.
 - [x] Final 48-hour public proof lock drafted.
 - [x] Final external blocker matrix drafted.
 - [x] D-3 final submit rehearsal drafted.
@@ -96,6 +97,7 @@ Current source facts:
 - [x] Public repository URL published under entrant identity: https://github.com/memekr/biddesk-autopilot
 - [x] Public static working demo published and verified through GitHub Pages: https://memekr.github.io/biddesk-autopilot/
 - [ ] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
+- [x] Local under-3-minute demo video preupload asset render path prepared.
 - [ ] Presentation deck or PDF URL prepared if Devpost asks for the deck field.
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.
 - [ ] Final `Submit project` clicked by entrant.
@@ -141,11 +143,13 @@ Current source facts:
 36. Open `submission/qwen-public-url-smoke-test.md`.
 37. Open `submission/qwen-devpost-field-lock.md`.
 38. Open `submission/qwen-recording-evidence-capture.md`.
-39. Open `submission/qwen-account-risk-triage.md`.
-40. Open `submission/qwen-demo-script.md`.
-41. Open `submission/qwen-presentation-deck-outline.md`.
-42. Open `submission/qwen-final-devpost-submit-runbook.md`.
-43. Open `submission/qwen-external-handoff-checklist.md`.
+39. Open `submission/qwen-demo-video-preupload.md`.
+40. Run `bash scripts/render-qwen-demo-video.sh` before any public video upload.
+41. Open `submission/qwen-account-risk-triage.md`.
+42. Open `submission/qwen-demo-script.md`.
+43. Open `submission/qwen-presentation-deck-outline.md`.
+44. Open `submission/qwen-final-devpost-submit-runbook.md`.
+45. Open `submission/qwen-external-handoff-checklist.md`.
 
 ## GO / STOP
 

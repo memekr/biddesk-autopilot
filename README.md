@@ -68,6 +68,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-final-devpost-value-audit.md` checks final Devpost fields for track fit, proof-to-claim alignment, judge-visible value, and the <3 minute video rule before field lock.
 - `submission/qwen-final-84-hour-submit-slot.md` locks the last uninterrupted external work slot to one claim set before recording, public proof checks, or Devpost paste.
 - `submission/qwen-final-72-hour-recording-lock.md` locks the first 30 seconds, runtime, proof visuals, fallback narration, and video description before public upload.
+- `submission/qwen-demo-video-preupload.md` records the local MP4 render path, upload title/description, validation command, and public-upload stop line before YouTube, Vimeo, or Youku publication.
 - `submission/qwen-final-48-hour-public-proof-lock.md` freezes public URL evidence, Devpost fields, and Qwen/Alibaba claim boundaries before final paste or submit.
 - `submission/qwen-final-external-blocker-matrix.md` lists each remaining external site, button/action, data requirement, and fallback line before account, publication, rules, or submit commitments.
 - `submission/qwen-d3-final-submit-rehearsal.md` compresses the D-3 dry run into deadline check, source snapshot, public URL proof, field lock, paste rehearsal, and exact external stop lines.
@@ -82,6 +83,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-live-connector-gate.md` defines the exact Qwen environment variables, live-call proof, and redaction rules.
 - `submission/qwen-devpost-draft.md` contains ready-to-paste Devpost copy with a truthful local-prototype boundary.
 - `submission/qwen-demo-script.md` keeps the video under the stricter Devpost rules threshold.
+- `scripts/render-qwen-demo-video.sh` renders a local under-3-minute MP4 preupload asset from generated packet evidence and Playwright screenshots into ignored `output/playwright/qwen-demo-video/`.
 - `submission/qwen-presentation-deck-outline.md` gives slide-by-slide source copy for the required presentation deck.
 - `submission/qwen-judging-criteria-map.md` maps Devpost scoring criteria to exact local evidence and truth boundaries.
 - `submission/qwen-video-duration-arbitration.md` resolves public duration conflicts by using a less-than-3-minute final demo gate.
@@ -103,4 +105,4 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - Alibaba Cloud deployment proof for the backend.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot
 - Judge-accessible working project path is the public static demo at https://memekr.github.io/biddesk-autopilot/ plus the reproducible local test build in the public README until an Alibaba Cloud endpoint exists.
-- Public demo video URL, presentation deck URL if requested, and final Devpost submission.
+- Local demo video preupload asset can be rendered with `bash scripts/render-qwen-demo-video.sh`; the required public YouTube, Vimeo, or Youku URL, presentation deck URL if requested, and final Devpost submission remain external.

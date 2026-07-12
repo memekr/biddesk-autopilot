@@ -60,6 +60,8 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-public-repository-publication.md` records the public GitHub repository URL, judge test-build path, secret boundary, and publication verification gate.
 - `submission/qwen-live-call-evidence.md` records the July 11 live Qwen Cloud call, free-tier-only cost boundary, redacted connector status, and secret-handling proof.
 - `docs/index.html` is the public static judge demo published through GitHub Pages at https://memekr.github.io/biddesk-autopilot/.
+- `src/biddesk_autopilot/alibaba_function_compute.py` is the Alibaba Cloud Function Compute handler code-file candidate for deployment proof; it is not live deployment proof until the entrant completes and verifies a Function Compute deployment.
+- `submission/qwen-alibaba-function-compute-proof-adapter.md` records the handler path, expected public code-file URL, source recheck, validation, and truthful Alibaba proof boundary.
 - `submission/qwen-d6-submission-control-board.md` compresses the last six days into daily proof deadlines and GO/DOWNGRADE/STOP decisions.
 - `submission/qwen-external-proof-packet.md` maps every external proof item to accepted evidence, redaction rules, claim boundaries, and ready testing-instruction wording.
 - `submission/qwen-d5-public-submission-rehearsal.md` rehearses the public URL, Devpost paste, and downgrade decisions before any external publication or submit action.
@@ -102,7 +104,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 
 - Devpost registration and official rules acceptance.
 - Qwen Cloud voucher request and Discord join. Account creation, free-tier activation, API key creation, and live local inference are complete.
-- Alibaba Cloud deployment proof for the backend.
+- Alibaba Cloud deployment proof for the backend. The repository now contains a Function Compute handler code-file candidate at https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py, but live deployment proof remains pending.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot
 - Judge-accessible working project path is the public static demo at https://memekr.github.io/biddesk-autopilot/ plus the reproducible local test build in the public README until an Alibaba Cloud endpoint exists.
 - Local demo video preupload asset can be rendered with `bash scripts/render-qwen-demo-video.sh`; the required public YouTube, Vimeo, or Youku URL, presentation deck URL if requested, and final Devpost submission remain external.

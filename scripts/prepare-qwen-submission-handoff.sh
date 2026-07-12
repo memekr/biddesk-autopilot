@@ -42,6 +42,7 @@ cp submission/qwen-judge-clean-room-rehearsal.md "$BUNDLE_DIR/qwen-judge-clean-r
 cp submission/qwen-final-public-proof-evidence-lock.md "$BUNDLE_DIR/qwen-final-public-proof-evidence-lock.md"
 cp submission/qwen-public-repository-publication.md "$BUNDLE_DIR/qwen-public-repository-publication.md"
 cp submission/qwen-live-call-evidence.md "$BUNDLE_DIR/qwen-live-call-evidence.md"
+cp submission/qwen-alibaba-function-compute-proof-adapter.md "$BUNDLE_DIR/qwen-alibaba-function-compute-proof-adapter.md"
 cp submission/qwen-d6-submission-control-board.md "$BUNDLE_DIR/qwen-d6-submission-control-board.md"
 cp submission/qwen-external-proof-packet.md "$BUNDLE_DIR/qwen-external-proof-packet.md"
 cp submission/qwen-d5-public-submission-rehearsal.md "$BUNDLE_DIR/qwen-d5-public-submission-rehearsal.md"
@@ -69,6 +70,8 @@ cp scripts/qwen-deadline-status.py "$BUNDLE_DIR/scripts/qwen-deadline-status.py"
 cp scripts/write-qwen-source-recheck-snapshot.py "$BUNDLE_DIR/scripts/write-qwen-source-recheck-snapshot.py"
 cp scripts/write-qwen-judge-clean-room-rehearsal.py "$BUNDLE_DIR/scripts/write-qwen-judge-clean-room-rehearsal.py"
 cp scripts/render-qwen-demo-video.sh "$BUNDLE_DIR/scripts/render-qwen-demo-video.sh"
+mkdir -p "$BUNDLE_DIR/src/biddesk_autopilot"
+cp src/biddesk_autopilot/alibaba_function_compute.py "$BUNDLE_DIR/src/biddesk_autopilot/alibaba_function_compute.py"
 
 (
   cd "$BUNDLE_DIR"

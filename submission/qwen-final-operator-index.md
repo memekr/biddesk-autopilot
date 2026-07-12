@@ -1,6 +1,6 @@
 # Qwen Final Operator Index
 
-Public sources rechecked: 2026-07-11 KST.
+Public sources rechecked: 2026-07-13 KST.
 
 Devpost public header deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -23,7 +23,8 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - `submission/qwen-deadline-extension-arbitration.md` remains the historical July 8 source-conflict record and proof-quality guardrail.
 - Devpost rules still require a public open-source repository, a text description, track selection, an architecture diagram, Alibaba Cloud backend deployment proof, and a public demo video.
 - Alibaba Cloud proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
-- Devpost rules still require the video to be less than three (3) minutes and publicly visible on YouTube, Vimeo, or Youku.
+- Devpost overview currently says the public video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live Devpost form clearly accepts another host.
+- `submission/qwen-alibaba-function-compute-proof-adapter.md` records the Function Compute handler code-file candidate and the deployment-pending qualifier.
 - Devpost rules still require working-project access for judging and testing through a website, functioning demo, or test build.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Qwen Cloud challenge page still frames final deliverables as repository, demo video, deck, and project description before the deadline.
@@ -63,22 +64,23 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 26. Open `submission/qwen-final-48-hour-submit-readiness.md` before opening any entrant-owned external account, publication, or submit surface.
 27. Open `submission/qwen-final-week-execution-sheet.md` for the broader calendar order.
 28. Open `submission/qwen-deployment-proof-gate.md` before making any Alibaba Cloud or live deployment claim.
-29. Open `submission/qwen-live-connector-gate.md` before running or recording Qwen Cloud API proof.
-30. Open `submission/qwen-account-risk-triage.md` before recording live Qwen or Alibaba proof.
-31. Open `submission/qwen-recording-evidence-capture.md` before screen recording.
-32. Open `submission/qwen-demo-video-preupload.md` and run `bash scripts/render-qwen-demo-video.sh` before opening any video host.
-33. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
-34. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
-35. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
-36. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
-37. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
-38. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
+29. Open `submission/qwen-alibaba-function-compute-proof-adapter.md` before using the Alibaba code-file URL candidate.
+30. Open `submission/qwen-live-connector-gate.md` before running or recording Qwen Cloud API proof.
+31. Open `submission/qwen-account-risk-triage.md` before recording live Qwen or Alibaba proof.
+32. Open `submission/qwen-recording-evidence-capture.md` before screen recording.
+33. Open `submission/qwen-demo-video-preupload.md` and run `bash scripts/render-qwen-demo-video.sh` before opening any video host.
+34. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
+35. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
+36. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
+37. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
+38. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
+39. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
 
 ## Evidence Capture Order
 
 1. Public repository: confirm the repository is public, has `README.md`, `LICENSE`, source code, sample inputs, and reproducible setup instructions.
 2. Qwen Cloud: run the local connector path with entrant-owned credentials, capture output that shows live model use, and redact keys or tokens.
-3. Alibaba Cloud: capture the backend deployment proof and the public repository code-file link demonstrating Alibaba Cloud service/API usage.
+3. Alibaba Cloud: verify the public Function Compute handler code-file URL, then capture live backend deployment proof before claiming the backend is running on Alibaba Cloud.
 4. Working project: verify the static web demo, functioning demo, or local test build instructions in a private browser or clean environment.
 5. Architecture: verify the diagram shows Qwen Cloud, backend, storage/state, frontend or CLI, and human approval gates.
 6. Video: render the local preupload MP4, upload it to YouTube, Vimeo, or Youku, keep the final public runtime below 3 minutes, and verify the public URL in a private browser.
@@ -93,7 +95,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 5. Public demo video URL.
 6. Working-project URL or test build instructions from `submission/qwen-judging-testing-access-gate.md`; use https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
 7. Architecture diagram location.
-8. Alibaba Cloud deployment proof code-file URL.
+8. Alibaba Cloud deployment proof code-file URL, with deployment-pending qualifier unless live Function Compute proof exists.
 9. Presentation deck or PDF URL if the form exposes that field.
 10. Final private-browser verification result from `submission/qwen-public-url-smoke-test.md`.
 

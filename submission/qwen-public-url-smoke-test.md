@@ -49,7 +49,7 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   Cloud deployment proof remains STOP.
 - Local video preupload render path is ready through
   `scripts/render-qwen-demo-video.sh`; public video URL remains STOP until the
-  MP4 is uploaded to YouTube, Vimeo, or Youku and verified in a private browser.
+  MP4 is uploaded to an Official Rules-accepted public host and verified in a private browser.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

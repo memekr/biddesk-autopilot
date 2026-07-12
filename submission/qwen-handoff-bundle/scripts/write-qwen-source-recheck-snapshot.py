@@ -28,7 +28,7 @@ def main() -> None:
     phase = "active submission window" if remaining_seconds > 0 else "deadline passed"
 
     facts = [
-        "Devpost deadline alignment reconfirmed during the July 12, 2026 KST "
+        "Devpost deadline alignment reconfirmed during the July 13, 2026 KST "
         "recheck: the Devpost overview header, rules page header, and Official "
         "Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is "
         "July 21, 2026, 6:00 AM KST.",
@@ -52,6 +52,10 @@ def main() -> None:
         "Cloud services and APIs.",
         "Devpost rules require an architecture diagram, text description, "
         "track selection, and public demo video.",
+        "The Devpost overview currently says the public video can be on YouTube, "
+        "Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, "
+        "or Youku. Prefer the Official Rules list unless the live form explicitly "
+        "accepts another host.",
         "Devpost rules set the strict demo-video gate at less than 3 minutes.",
         "Devpost rules require access to a working project for judging and testing "
         "through a website, functioning demo, or test build.",
@@ -63,8 +67,8 @@ def main() -> None:
         "Public judging criteria weight Technical Depth & Engineering 30%, "
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
-        "Public Devpost surfaces visible during the July 12, 2026 KST recheck "
-        "show about 7,681 participants, so final form values should make "
+        "Public Devpost surfaces visible during the July 13, 2026 KST recheck "
+        "show 7,716 participants, so final form values should make "
         "track fit, proof, and business value obvious without judge inference.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
@@ -75,6 +79,10 @@ def main() -> None:
         "The public static demo URL `https://memekr.github.io/biddesk-autopilot/` "
         "is the current judge-facing working-project URL for the synthetic workflow "
         "and test-build path; it is not Alibaba Cloud deployment proof.",
+        "The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` "
+        "as the Alibaba Cloud Function Compute handler code-file candidate; it "
+        "is not live deployment proof until a Function Compute deployment is "
+        "completed and verified under the entrant account.",
         "GitHub Pages was enabled from `main` `/docs` on July 12, 2026 KST and "
         "returned HTTP 200 for the static demo page during the public smoke test.",
         "A local under-3-minute demo video preupload asset can be rendered with "

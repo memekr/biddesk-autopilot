@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-12T11:56:38+00:00
+Generated: 2026-07-12T17:56:24+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -81,11 +81,11 @@ Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 ## Qwen Cloud Live Summary
 
 **Verified Output**  
-The packet for Northstar Facilities (Track 4 Autopilot Agent + Track 3 Agent Society evidence) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs from intake, research, quote, and approval agents are confirmed complete. No missing info is listed.
+The packet for Northstar Facilities (Track 4 Autopilot Agent + Track 3 Agent Society evidence) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs from intake, research, quote, and approval agents are confirmed present. No missing info is listed.
 
 **Human Approval Gates**  
-Two human gates are active: policy agent flags *penalty terms*, *custom integration*, and explicit legal review request; approval agent escalates three questions—sales pricing commitment, legal acceptance of flagged terms (or fallback language), and delivery’s timeline commitment post-dependency confirmation.
+Two human gates are active: policy agent flagged *penalty terms*, *custom integration terms*, and explicit legal review request; approval agent escalated three commitment questions—sales pricing authority, legal acceptance of flagged terms (or fallback language), and delivery’s timeline confirmation post-customer dependency validation.
 
 **Next Actions**  
-Secure approvals on the three escalation questions. Legal must address penalty/custom integration clauses and confirm alignment with customer’s explicit request. Sales and delivery must validate pricing range and timeline feasibility once customer dependencies are finalized. No further agent automation is pending—only human sign-offs remain.
+Secure approvals on: (1) sales’ authority to commit to $72,250 quote, (2) legal’s disposition of penalty/custom integration terms, and (3) delivery’s sign-off on timeline once Northstar confirms dependencies. No unverified assumptions or external data gaps remain.
 

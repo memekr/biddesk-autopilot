@@ -1,6 +1,6 @@
 # Qwen Public Asset Ledger
 
-Public sources rechecked: 2026-07-11 KST.
+Public sources rechecked: 2026-07-13 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -12,10 +12,10 @@ Use this after the entrant has public URLs or proof links, and before `submissio
 
 - Devpost overview and rules now list the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 11, 2026 KST show about 7,500 participants.
+- Public Devpost surfaces visible on July 13, 2026 KST show 7,716 participants.
 - Devpost rules still require a public open-source repository, text description, architecture diagram, track selection, public demo video, Alibaba Cloud deployment proof, and working-project access for judging/testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
-- Devpost rules say the demo video should be less than three (3) minutes, publicly visible on YouTube, Vimeo, or Youku, and must not expose unauthorized third-party material.
+- Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - Devpost resources still list the Qwen Cloud OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
 - Public discussion topics visible during recent rechecks still show account, credit, region, security verification, and Alibaba Cloud deployment blockers; do not hide these behind optimistic copy.
 
@@ -28,7 +28,7 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 | Public repository | https://github.com/memekr/biddesk-autopilot | Private/incognito browser opens README, LICENSE, source, sample input, validation commands, and no secrets. | Repository URL | GO after public browser check passes. |
 | Repository license | https://github.com/memekr/biddesk-autopilot/blob/main/LICENSE | Top-level MIT license is visible from the public repository. | Repository review evidence | GO after public browser check passes. |
 | README setup path | https://github.com/memekr/biddesk-autopilot#local-demo | README explains local run, Qwen connector status, validation commands, and truth boundary. | Judges and project description support | GO after readiness passes. |
-| Alibaba Cloud proof code file |  | Public repo code-file URL demonstrates Alibaba Cloud service/API usage for backend deployment proof. | Alibaba Cloud deployment proof field or project description | STOP until exact code-file URL exists. |
+| Alibaba Cloud proof code file | https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py | Public repo code-file URL demonstrates Alibaba Cloud Function Compute handler/service usage. Live deployment must still be separately verified. | Alibaba Cloud deployment proof field or project description | GO as proof-code candidate after public browser check passes; DOWNGRADE for any live deployment claim until deployment evidence exists. |
 | Alibaba Cloud proof recording |  | Separate recording, if used, hides account IDs, billing, private console identifiers, and secrets. | Optional supporting link or video notes | DOWNGRADE if only local proof exists. |
 | Qwen Cloud live proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Redacted run log shows configured Qwen Cloud/DashScope API use and no API keys or account data. | "How it uses Qwen Cloud" copy and demo video | GO for synthetic local live proof only. |
 | Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. Local preupload asset can be rendered at `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`. | Demo video URL | STOP until public URL exists and duration passes. |
@@ -61,6 +61,13 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Local MP4 output: `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`
 - Validation outputs: `output/playwright/qwen-demo-video/ffprobe.json` and `output/playwright/qwen-demo-video/sha256.txt`
 - Upload boundary: the MP4 is ready for public-host upload only after YouTube, Vimeo, or Youku account access is available; the Devpost video URL field remains blank until a private-browser public playback check passes.
+
+## July 13 Alibaba Function Compute Code-File Candidate
+
+- Source file: `src/biddesk_autopilot/alibaba_function_compute.py`
+- Packet: `submission/qwen-alibaba-function-compute-proof-adapter.md`
+- Public URL target: https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py
+- Boundary: the code file demonstrates a Function Compute-compatible handler and sanitized FC runtime metadata, but it is not proof that the backend is already running on Alibaba Cloud until deployment evidence is captured.
 
 Use live wording only when the repository, demo video, Qwen Cloud proof, Alibaba Cloud proof code-file URL, architecture diagram, and judge-access path are all verified.
 

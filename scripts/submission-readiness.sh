@@ -50,6 +50,7 @@ test -f submission/qwen-judge-clean-room-rehearsal.md
 test -f submission/qwen-final-public-proof-evidence-lock.md
 test -f submission/qwen-public-repository-publication.md
 test -f submission/qwen-live-call-evidence.md
+test -f submission/qwen-alibaba-function-compute-proof-adapter.md
 test -f submission/qwen-d6-submission-control-board.md
 test -f submission/qwen-external-proof-packet.md
 test -f submission/qwen-d5-public-submission-rehearsal.md
@@ -75,6 +76,7 @@ test -f reports/sample-proposal-packet.md
 test -f reports/sample-proposal-packet.json
 test -f scripts/write-qwen-judge-clean-room-rehearsal.py
 test -x scripts/render-qwen-demo-video.sh
+test -f src/biddesk_autopilot/alibaba_function_compute.py
 
 grep -q "Qwen Cloud" README.md
 grep -q "https://memekr.github.io/biddesk-autopilot/" README.md
@@ -85,7 +87,7 @@ if [[ -f .env ]]; then
   grep -q "Qwen Cloud Live Summary" reports/sample-proposal-packet.md
   grep -q '"qwen_cloud_live_summary"' reports/sample-proposal-packet.json
 fi
-grep -q "July 10, 2026, 6:00 AM KST" submission/qwen-deployment-proof-gate.md
+grep -q "July 21, 2026, 6:00 AM KST" submission/qwen-deployment-proof-gate.md
 grep -q "GO - submit live Qwen entry" submission/qwen-deployment-proof-gate.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-deployment-proof-gate.md
 grep -q "Qwen connector: configured" submission/qwen-live-connector-gate.md
@@ -169,6 +171,11 @@ grep -q "Qwen Cloud Live Call Evidence" submission/qwen-live-call-evidence.md
 grep -q "Qwen connector: configured" submission/qwen-live-call-evidence.md
 grep -q "GO - claim live Qwen Cloud inference" submission/qwen-live-call-evidence.md
 grep -q "STOP - do not expose" submission/qwen-live-call-evidence.md
+grep -q "Qwen Alibaba Function Compute Proof Adapter" submission/qwen-alibaba-function-compute-proof-adapter.md
+grep -q "src/biddesk_autopilot/alibaba_function_compute.py" submission/qwen-alibaba-function-compute-proof-adapter.md
+grep -q "GO - use the code-file URL" submission/qwen-alibaba-function-compute-proof-adapter.md
+grep -q "DOWNGRADE - submit prototype wording" submission/qwen-alibaba-function-compute-proof-adapter.md
+grep -q "STOP - external commitment required" submission/qwen-alibaba-function-compute-proof-adapter.md
 grep -q "Qwen D-6 Submission Control Board" submission/qwen-d6-submission-control-board.md
 grep -q "2026-07-04 KST" submission/qwen-d6-submission-control-board.md
 grep -q "GO - D-6 live submission path" submission/qwen-d6-submission-control-board.md
@@ -275,7 +282,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "7,681 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "7,716 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "GO - continue live Qwen submission" submission/qwen-source-recheck-snapshot.md

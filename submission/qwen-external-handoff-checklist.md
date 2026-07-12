@@ -26,25 +26,26 @@ Open in this order during the human external session:
 22. `submission/qwen-final-60-hour-command-center.md`
 23. `submission/qwen-final-week-execution-sheet.md`
 24. `submission/qwen-deployment-proof-gate.md`
-25. `submission/qwen-live-connector-gate.md`
-26. `submission/qwen-account-risk-triage.md`
-27. `submission/qwen-video-duration-arbitration.md`
-28. `submission/qwen-judging-testing-access-gate.md`
-29. `submission/qwen-public-asset-ledger.md`
-30. `docs/index.html` / https://memekr.github.io/biddesk-autopilot/
-31. `submission/qwen-public-url-smoke-test.md`
-32. `submission/qwen-devpost-field-lock.md`
-33. `submission/qwen-recording-evidence-capture.md`
-34. `submission/qwen-demo-video-preupload.md`
-35. Run `bash scripts/render-qwen-demo-video.sh`
-36. `README.md`
-37. `reports/sample-proposal-packet.md`
-38. `submission/qwen-devpost-draft.md`
-39. `submission/qwen-judging-criteria-map.md`
-40. `submission/qwen-architecture-diagram.md`
-41. `submission/qwen-demo-script.md`
-42. `submission/qwen-presentation-deck-outline.md`
-43. `submission/qwen-final-devpost-submit-runbook.md`
+25. `submission/qwen-alibaba-function-compute-proof-adapter.md`
+26. `submission/qwen-live-connector-gate.md`
+27. `submission/qwen-account-risk-triage.md`
+28. `submission/qwen-video-duration-arbitration.md`
+29. `submission/qwen-judging-testing-access-gate.md`
+30. `submission/qwen-public-asset-ledger.md`
+31. `docs/index.html` / https://memekr.github.io/biddesk-autopilot/
+32. `submission/qwen-public-url-smoke-test.md`
+33. `submission/qwen-devpost-field-lock.md`
+34. `submission/qwen-recording-evidence-capture.md`
+35. `submission/qwen-demo-video-preupload.md`
+36. Run `bash scripts/render-qwen-demo-video.sh`
+37. `README.md`
+38. `reports/sample-proposal-packet.md`
+39. `submission/qwen-devpost-draft.md`
+40. `submission/qwen-judging-criteria-map.md`
+41. `submission/qwen-architecture-diagram.md`
+42. `submission/qwen-demo-script.md`
+43. `submission/qwen-presentation-deck-outline.md`
+44. `submission/qwen-final-devpost-submit-runbook.md`
 
 ## Exact External Sites and Buttons
 
@@ -60,6 +61,7 @@ Open in this order during the human external session:
 - Judge clean-room rehearsal: open `submission/qwen-judge-clean-room-rehearsal.md` before public URL publication so fallback testing instructions match reproducible local evidence.
 - Final public proof evidence lock: open `submission/qwen-final-public-proof-evidence-lock.md` after the clean-room rehearsal to confirm the July 11 source state, about 7,500 public participants, coupon cutoff risk, and exact proof order.
 - Public repository publication: open `submission/qwen-public-repository-publication.md` to copy the public repo URL, judge test-build path, and no-secret publication boundary.
+- Alibaba Function Compute proof adapter: open `submission/qwen-alibaba-function-compute-proof-adapter.md` before using the public code-file URL candidate, and keep the deployment-pending qualifier until live Function Compute proof exists.
 - External proof packet: fill `submission/qwen-external-proof-packet.md` before recording proof, writing testing instructions, or making final live Qwen/Alibaba claims.
 - Final 96-hour judge access drill: follow `submission/qwen-final-96-hour-judge-access-drill.md` before trusting any public repository, hosted/test-build path, Qwen proof, Alibaba proof, video, or Devpost testing instruction.
 - Final Devpost value audit: follow `submission/qwen-final-devpost-value-audit.md` before field lock so track, value story, proof links, and less-than-3-minute video evidence match the public form.

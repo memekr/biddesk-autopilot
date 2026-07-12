@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import TYPE_CHECKING, cast
 
+from biddesk_autopilot.alibaba_function_compute import handler as alibaba_fc_handler
 from biddesk_autopilot.core import build_packet, load_request, packet_to_dict, render_markdown
 from biddesk_autopilot.qwen_adapter import (
     QwenCloudConfig,
@@ -93,3 +94,28 @@ def test_qwen_prompt_requires_grounded_complete_output() -> None:
     assert "Use only facts present" in system_prompt
     assert "Never invent evidence" in system_prompt
     assert "under 220 words" in system_prompt
+
+
+def test_alibaba_function_compute_handler_returns_sanitized_runtime_proof(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setenv("FC_REGION", "us-east-1")
+    monkeypatch.setenv("FC_FUNCTION_NAME", "biddesk-autopilot")
+    monkeypatch.setenv("ALIBABA_CLOUD_ACCESS_KEY_ID", "id-secret")
+    monkeypatch.setenv("ALIBABA_CLOUD_ACCESS_KEY_SECRET", "key-secret")
+    monkeypatch.setenv("ALIBABA_CLOUD_SECURITY_TOKEN", "token-secret")
+
+    raw_event = SAMPLE.read_bytes()
+    rendered = alibaba_fc_handler(raw_event, object())
+    payload = json.loads(rendered)
+
+    assert payload["customer"] == "Northstar Facilities"
+    assert payload["alibaba_cloud_runtime"]["provider"] == "Alibaba Cloud Function Compute"
+    assert payload["alibaba_cloud_runtime"]["handler"].endswith(".handler")
+    assert payload["alibaba_cloud_runtime"]["region"] == "us-east-1"
+    assert payload["alibaba_cloud_runtime"]["function_name"] == "biddesk-autopilot"
+    assert payload["alibaba_cloud_runtime"]["has_execution_role_credentials"] is True
+    assert "FC_FUNCTION_NAME" in payload["alibaba_cloud_runtime"]["observed_fc_env_vars"]
+    assert "id-secret" not in rendered
+    assert "key-secret" not in rendered
+    assert "token-secret" not in rendered

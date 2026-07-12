@@ -35,6 +35,19 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 
 ## Devpost Field Cross-Check
 
+## July 12 Public URL Smoke Result
+
+- Public repository raw README: HTTP 200.
+- Public raw `docs/index.html`: HTTP 200.
+- Public GitHub Pages demo: HTTP 200 at https://memekr.github.io/biddesk-autopilot/.
+- Public raw `.env`: HTTP 404.
+- GitHub Pages API status: `built`, HTTPS enforced, public, source `main` `/docs`.
+- Chrome DOM smoke test confirmed `BidDesk Autopilot Demo`, `Proof Gate`,
+  Devpost testing instructions, repository link, Qwen proof link, and the
+  Alibaba Cloud proof-pending boundary.
+- Result: working-project URL GO as static demo plus local test build; Alibaba
+  Cloud deployment proof remains STOP.
+
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.
 - Project description includes live Qwen Cloud and Alibaba Cloud claims only after the proof rows above pass.

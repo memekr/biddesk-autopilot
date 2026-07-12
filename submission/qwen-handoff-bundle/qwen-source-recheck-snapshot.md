@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-12T05:55:08+00:00
+Generated UTC: 2026-07-12T05:57:56+00:00
 
-Generated KST: 2026-07-12T14:55:08+09:00
+Generated KST: 2026-07-12T14:57:56+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 8d 15h 4m
+Remaining: 8d 15h 2m
 
 Phase: active submission window
 
@@ -46,6 +46,7 @@ Phase: active submission window
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.
+- GitHub Pages was enabled from `main` `/docs` on July 12, 2026 KST and returned HTTP 200 for the static demo page during the public smoke test.
 
 ## Operator Decision
 

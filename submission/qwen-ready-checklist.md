@@ -94,7 +94,7 @@ Current source facts:
 - [x] Devpost testing instructions prepared with only synthetic data and no credentials.
 - [x] Live Qwen Cloud proof captured in `qwen-live-call-evidence.md` without exposing the API key.
 - [x] Public repository URL published under entrant identity: https://github.com/memekr/biddesk-autopilot
-- [x] Public static working demo prepared for GitHub Pages: https://memekr.github.io/biddesk-autopilot/
+- [x] Public static working demo published and verified through GitHub Pages: https://memekr.github.io/biddesk-autopilot/
 - [ ] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
 - [ ] Presentation deck or PDF URL prepared if Devpost asks for the deck field.
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.

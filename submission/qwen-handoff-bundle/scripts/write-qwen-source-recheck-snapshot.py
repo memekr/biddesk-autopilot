@@ -75,6 +75,8 @@ def main() -> None:
         "The public static demo URL `https://memekr.github.io/biddesk-autopilot/` "
         "is the current judge-facing working-project URL for the synthetic workflow "
         "and test-build path; it is not Alibaba Cloud deployment proof.",
+        "GitHub Pages was enabled from `main` `/docs` on July 12, 2026 KST and "
+        "returned HTTP 200 for the static demo page during the public smoke test.",
     ]
     fact_lines = "\n".join(f"- {fact}" for fact in facts)
     body = f"""# Qwen Source Recheck Snapshot

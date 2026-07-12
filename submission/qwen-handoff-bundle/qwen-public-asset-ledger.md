@@ -44,6 +44,17 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 
 ## Paste-Safe Claim Set
 
+## July 12 Public Demo Verification
+
+- GitHub Pages URL: https://memekr.github.io/biddesk-autopilot/
+- Source commit: `e279c9ee92c495f73929fdb59d9bc534fcad7986`
+- Pages source: `main` branch, `/docs` path.
+- Public status: HTTP 200 for the Pages URL and raw `docs/index.html`.
+- Secret boundary: raw `.env` returned HTTP 404.
+- Browser smoke test: page title, proof gate, Devpost testing instructions,
+  repository link, Qwen proof link, and Alibaba proof-pending boundary were
+  visible from the public URL.
+
 Use live wording only when the repository, demo video, Qwen Cloud proof, Alibaba Cloud proof code-file URL, architecture diagram, and judge-access path are all verified.
 
 If Qwen Cloud live proof or Alibaba Cloud deployment proof is missing, paste this instead:

@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-12T05:55:03+00:00
+Generated: 2026-07-12T05:57:52+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -87,5 +87,5 @@ The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) 
 Two agents require human review: *policy* (flags “penalty”, “custom integration”, and explicit legal review request) and *approval* (routes three commitment questions to sales, legal, and delivery). Legal review is explicitly mandated by the customer per policy flags.
 
 **Next Actions**  
-Sales must confirm pricing range commitment; Legal must approve or revise flagged terms (penalty, custom integration); Delivery must validate timeline feasibility once customer dependencies are confirmed. No unverified dates, credentials, or external systems appear in the data — all facts align strictly with the provided JSON.
+Sales must confirm pricing range commitment; legal must approve or revise flagged terms (penalty, custom integration); delivery must validate timeline feasibility once customer dependencies are confirmed. No unverified dates, credentials, or external systems appear in the data.
 

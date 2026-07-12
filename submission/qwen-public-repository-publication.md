@@ -37,6 +37,11 @@ the Qwen submission packet.
   and Devpost testing instructions.
 - Boundary: this is not Alibaba Cloud deployment proof and must not be used to
   claim an Alibaba-hosted endpoint.
+- GitHub Pages source: `main` branch, `/docs` path.
+- Pages status at 2026-07-12 14:56 KST: `built`, HTTPS enforced, public.
+- Public smoke test at 2026-07-12 14:56 KST: demo URL returned HTTP 200 and
+  contained `BidDesk Autopilot Demo`, `Proof Gate`, Devpost testing
+  instructions, repository links, and the Alibaba proof-pending boundary.
 
 ## Judge Test Build Path
 
@@ -80,6 +85,14 @@ is available yet:
   - `.env`: HTTP 404.
 - Final public verification confirmed that the GitHub URL opens without login
   for the required source, license, README, and redacted live evidence paths.
+- July 12 working-demo verification:
+  - latest pushed demo commit: `e279c9ee92c495f73929fdb59d9bc534fcad7986`
+  - repository homepage set to https://memekr.github.io/biddesk-autopilot/
+  - GitHub Pages URL: HTTP 200
+  - raw `docs/index.html`: HTTP 200
+  - raw `.env`: HTTP 404
+  - Chrome DOM smoke test confirmed title, proof gate, testing instructions,
+    repository link, Qwen proof link, and Alibaba proof-pending boundary.
 
 ## GO / DOWNGRADE / STOP
 

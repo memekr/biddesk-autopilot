@@ -28,6 +28,12 @@ The web demo uses only synthetic data and mirrors the sample proposal packet,
 approval gates, Qwen proof boundary, and Devpost testing instructions. It is a
 working-project access aid, not an Alibaba Cloud deployment claim.
 
+Public demo video preview: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
+
+The MP4 preview is the validated under-three-minute demo asset on GitHub Pages.
+It is supplemental public evidence; the final Devpost video field still needs a
+YouTube, Vimeo, or Youku URL unless the live form explicitly accepts another host.
+
 To verify the Qwen Cloud connector path without making a network request:
 
 ```bash
@@ -71,6 +77,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-final-84-hour-submit-slot.md` locks the last uninterrupted external work slot to one claim set before recording, public proof checks, or Devpost paste.
 - `submission/qwen-final-72-hour-recording-lock.md` locks the first 30 seconds, runtime, proof visuals, fallback narration, and video description before public upload.
 - `submission/qwen-demo-video-preupload.md` records the local MP4 render path, upload title/description, validation command, and public-upload stop line before YouTube, Vimeo, or Youku publication.
+- `submission/qwen-public-pages-video-fallback.md` records the public GitHub Pages MP4 fallback, YouTube upload blocker, and official-host truth boundary.
 - `submission/qwen-final-48-hour-public-proof-lock.md` freezes public URL evidence, Devpost fields, and Qwen/Alibaba claim boundaries before final paste or submit.
 - `submission/qwen-final-external-blocker-matrix.md` lists each remaining external site, button/action, data requirement, and fallback line before account, publication, rules, or submit commitments.
 - `submission/qwen-d3-final-submit-rehearsal.md` compresses the D-3 dry run into deadline check, source snapshot, public URL proof, field lock, paste rehearsal, and exact external stop lines.
@@ -107,4 +114,4 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - Alibaba Cloud deployment proof for the backend. The repository now contains a Function Compute handler code-file candidate at https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py, but live deployment proof remains pending.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot
 - Judge-accessible working project path is the public static demo at https://memekr.github.io/biddesk-autopilot/ plus the reproducible local test build in the public README until an Alibaba Cloud endpoint exists.
-- Local demo video preupload asset can be rendered with `bash scripts/render-qwen-demo-video.sh`; the required public YouTube, Vimeo, or Youku URL, presentation deck URL if requested, and final Devpost submission remain external.
+- Public demo video preview is available on GitHub Pages, but the required public YouTube, Vimeo, or Youku URL, presentation deck URL if requested, and final Devpost submission remain external.

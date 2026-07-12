@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-12T17:56:29+00:00
+Generated UTC: 2026-07-12T23:55:19+00:00
 
-Generated KST: 2026-07-13T02:56:29+09:00
+Generated KST: 2026-07-13T08:55:19+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 8d 3h 3m
+Remaining: 7d 21h 4m
 
 Phase: active submission window
 
@@ -43,13 +43,13 @@ Phase: active submission window
 - Devpost resources route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
 - Public judging criteria weight Technical Depth & Engineering 30%, Innovation & AI Creativity 30%, Problem Value & Impact 25%, and Presentation & Documentation 15%.
-- Public Devpost surfaces visible during the July 13, 2026 KST recheck show 7,716 participants, so final form values should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible during the July 13, 2026 KST recheck show 7,722 participants, so final form values should make track fit, proof, and business value obvious without judge inference.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until a Function Compute deployment is completed and verified under the entrant account.
 - GitHub Pages was enabled from `main` `/docs` on July 12, 2026 KST and returned HTTP 200 for the static demo page during the public smoke test.
-- A local under-3-minute demo video preupload asset can be rendered with `bash scripts/render-qwen-demo-video.sh`; it is not a public Devpost video URL until uploaded to YouTube, Vimeo, or Youku and verified in a private browser.
+- A local under-3-minute demo video preupload asset can be rendered with `bash scripts/render-qwen-demo-video.sh`; the validated MP4 is also embedded as a public GitHub Pages preview fallback, but it is not the final Devpost video URL until uploaded to YouTube, Vimeo, or Youku and verified in a private browser.
 
 ## Operator Decision
 

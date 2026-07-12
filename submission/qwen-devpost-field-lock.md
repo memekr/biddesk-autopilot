@@ -12,7 +12,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 
 - Devpost overview and rules now show the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the submission deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 13, 2026 KST show 7,716 participants.
+- Public Devpost surfaces visible on July 13, 2026 KST show 7,722 participants.
 - The public rules require a public code repository, text description, Alibaba Cloud deployment proof, architecture diagram, demonstration video, and track selection.
 - Alibaba Cloud deployment proof must be a public repository code-file link that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
@@ -30,7 +30,8 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 | How it uses Qwen Cloud | `submission/qwen-live-connector-gate.md` | Redacted live run includes `Qwen Cloud Live Summary` | GO for live wording only after proof; DOWNGRADE to target API wording otherwise |
 | Built with | `submission/qwen-devpost-draft.md` | No secret or account data included | GO |
 | Repository URL | Entrant-owned public repository | Private/incognito browser shows README, LICENSE, source, sample input, and setup instructions | STOP until public URL exists |
-| Demo video URL | `submission/qwen-video-duration-arbitration.md` and entrant upload | Public video opens in private/incognito browser and runtime is less than 3 minutes | STOP until public URL exists |
+| Demo video URL | `submission/qwen-video-duration-arbitration.md` and entrant upload | Public YouTube, Vimeo, or Youku video opens in private/incognito browser and runtime is less than 3 minutes | STOP until official-host public URL exists |
+| Public MP4 preview | `submission/qwen-public-pages-video-fallback.md` | GitHub Pages MP4 opens without login and is labeled as supplemental evidence only | GO for description/testing evidence; do not use as the official video URL unless the live form accepts it |
 | Architecture diagram | `submission/qwen-architecture-diagram.md` | Diagram is included in repo, deck, or public asset URL | GO if visible to judges |
 | Alibaba Cloud proof | `submission/qwen-deployment-proof-gate.md` and `submission/qwen-alibaba-function-compute-proof-adapter.md` | Public code-file URL demonstrates Alibaba Cloud Function Compute handler/API usage; live deployment evidence is still required before claiming the backend is running on Alibaba Cloud | DOWNGRADE until public URL is pushed and live deployment proof exists |
 | Working project/testing instructions | `submission/qwen-judging-testing-access-gate.md` | Static web demo or reproducible test build is accessible to judges without credentials | GO for static demo plus local test build; STOP for Alibaba endpoint claims until deployment proof exists |
@@ -49,7 +50,7 @@ Use live Qwen Cloud wording only when all of these are true:
 - `uv run biddesk-autopilot reports/sample-request.json --qwen-status --use-qwen` completed with secrets redacted.
 - The generated packet includes `Qwen Cloud Live Summary`.
 - Alibaba Cloud deployment proof exists as a public repository code-file URL and any live-deployment claim is backed by deployment evidence, not only the code-file candidate.
-- The public demo video shows or states the live path without exposing credentials.
+- The public demo video shows or states the live path without exposing credentials; the GitHub Pages MP4 fallback is not treated as the official video URL.
 
 If any item is missing, use this downgrade sentence in the project description:
 

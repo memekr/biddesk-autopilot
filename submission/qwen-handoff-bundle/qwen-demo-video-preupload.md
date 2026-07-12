@@ -1,6 +1,6 @@
 # Qwen Demo Video Preupload Packet
 
-Generated for the July 12, 2026 KST submission run.
+Generated for the July 12, 2026 KST submission run. Updated July 13, 2026 KST after the public Pages fallback and YouTube upload retry.
 
 Use this packet after `submission/qwen-final-72-hour-recording-lock.md` and before any public upload to YouTube, Vimeo, or Youku. It records the local video asset, validation command, truth boundary, and the exact external blocker that remains before a final Devpost video URL exists.
 
@@ -9,7 +9,7 @@ Use this packet after `submission/qwen-final-72-hour-recording-lock.md` and befo
 - Devpost overview: https://qwencloud-hackathon.devpost.com/
 - Devpost official rules: https://qwencloud-hackathon.devpost.com/rules
 - Qwen Cloud challenge page: https://www.qwencloud.com/challenge/hackathon
-- Current public source state on July 12, 2026 KST: Devpost overview and Official Rules show the submission deadline as July 20, 2026, 2:00 PM Pacific Time; public pages showed about 7,681 participants during this run.
+- Current public source state on July 13, 2026 KST: Devpost overview and Official Rules show the submission deadline as July 20, 2026, 2:00 PM Pacific Time; public pages showed 7,722 participants during this run.
 
 ## Deadline and Timezone
 
@@ -28,7 +28,14 @@ The Official Rules require a public demonstration video that is less than three 
 - Probe output: `output/playwright/qwen-demo-video/ffprobe.json`
 - Hash output: `output/playwright/qwen-demo-video/sha256.txt`
 - Voiceover source: `output/playwright/qwen-demo-video/voiceover.txt`
-- Repository policy: generated video files stay under ignored `output/` and are not committed to the public repository.
+- Repository policy: generated video working files stay under ignored `output/`; the validated final MP4 may be copied to `docs/assets/` only as a public Pages fallback with the official-host boundary below.
+
+## Public Pages Fallback
+
+- Public demo page: https://memekr.github.io/biddesk-autopilot/
+- Public MP4 fallback target: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
+- Repository file: `docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4`
+- Boundary: this is a public preview and supplemental evidence, not the final Official Rules-compliant video URL unless the live Devpost form explicitly accepts it.
 
 ## Content Map
 
@@ -81,10 +88,17 @@ Current render evidence from July 12, 2026 KST:
 - SHA-256: `cb70b6e2f88105a8f9da422faf1c6df1cc657597e257591e69c0ec220cd3afb2`.
 - Metadata: live Qwen evidence present, live summary present, Alibaba proof pending.
 
+July 13, 2026 KST upload retry:
+
+- YouTube Studio upload dialog was open in the existing signed-in Chrome session.
+- The `파일 선택` file chooser opened successfully, but `fileChooser.setFiles` failed with `Not allowed`.
+- Narrow unblock from Chrome upload troubleshooting: go to `chrome://extensions`, click Details under the ChatGPT Chrome Extension, and enable `Allow access to file URLs`.
+- Public fallback created by copying the validated MP4 to `docs/assets/` and embedding it in the GitHub Pages demo.
+
 ## GO / DOWNGRADE / STOP
 
-GO - upload only if the rendered MP4 is under three minutes, uses synthetic data, and still matches the current Qwen and Alibaba proof state.
+GO - upload to YouTube, Vimeo, or Youku only if the rendered MP4 is under three minutes, uses synthetic data, and still matches the current Qwen and Alibaba proof state.
 
-DOWNGRADE - use prototype-only Devpost wording if the video is public but Alibaba Cloud deployment proof remains missing.
+DOWNGRADE - use prototype-only Devpost wording if only the GitHub Pages MP4 fallback is public or if Alibaba Cloud deployment proof remains missing.
 
 STOP - external commitment required before YouTube, Vimeo, or Youku login/upload, public URL publication, rules acceptance, or final Devpost `Submit project`.

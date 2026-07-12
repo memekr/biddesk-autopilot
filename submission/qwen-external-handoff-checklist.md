@@ -78,6 +78,7 @@ Open in this order during the human external session:
 - Demo video: render the local preupload MP4 with `bash scripts/render-qwen-demo-video.sh`, then upload only after `submission/qwen-video-duration-arbitration.md` passes and the public runtime is less than 3 minutes.
 - Recording evidence capture: follow `submission/qwen-recording-evidence-capture.md` before recording the public demo video or separate Alibaba Cloud proof recording.
 - Demo video preupload: follow `submission/qwen-demo-video-preupload.md` before opening YouTube, Vimeo, or Youku; the local MP4 is not a public Devpost URL until uploaded and verified.
+- Public Pages video fallback: follow `submission/qwen-public-pages-video-fallback.md`; https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 is supplemental public evidence, not the official Devpost video URL.
 - Account risk triage: follow `submission/qwen-account-risk-triage.md` before claiming Qwen Cloud access, hackathon credits, API-key proof, or Alibaba Cloud deployment.
 - Presentation deck: build from `submission/qwen-presentation-deck-outline.md`, export to a public URL or PDF URL only under the entrant identity.
 - Final Devpost action: accept official rules, then click `Submit project`.
@@ -89,6 +90,7 @@ Open in this order during the human external session:
 - Public static working demo URL: https://memekr.github.io/biddesk-autopilot/
 - Public demo video URL.
 - Local video preupload asset path: `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`
+- Public Pages MP4 fallback URL: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 - Alibaba Cloud deployment proof.
 - Alibaba Cloud deployment proof code-file URL in the public repository.
 - Judge-accessible reproducible test build instructions from the public README.

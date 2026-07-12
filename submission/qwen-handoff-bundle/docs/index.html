@@ -375,6 +375,35 @@
         border-left: 4px solid var(--red);
       }
 
+      .video-section {
+        margin-top: 16px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .video-wrap {
+        background: #111827;
+        aspect-ratio: 16 / 9;
+        width: 100%;
+      }
+
+      .video-wrap video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .video-note {
+        padding: 12px 16px 16px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
       .tabs {
         margin-top: 16px;
         min-width: 0;
@@ -553,11 +582,11 @@
           </div>
           <div class="status warn">
             <strong>Demo video</strong>
-            <span>Recording script ready; public YouTube, Vimeo, or Youku URL still needed.</span>
+            <span>Public Pages preview is available; official YouTube, Vimeo, or Youku URL still needed.</span>
           </div>
           <div class="status stop">
             <strong>Alibaba proof</strong>
-            <span>Deployment code-file proof remains blocked by Alibaba account console access.</span>
+            <span>Deployment is not claimed; live proof remains blocked by Alibaba account console access.</span>
           </div>
         </section>
 
@@ -676,7 +705,7 @@
                 </div>
                 <div class="proof" data-state="pending">
                   <strong>Public video</strong>
-                  <span>Script is ready; upload URL must be added after recording.</span>
+                  <span>GitHub Pages preview is public; official video-host URL must still be added.</span>
                 </div>
                 <div class="proof" data-state="blocked">
                   <strong>Alibaba Cloud</strong>
@@ -685,6 +714,27 @@
               </div>
             </div>
           </aside>
+        </section>
+
+        <section class="video-section" aria-label="Demo video preview">
+          <div class="panel-header">
+            <h2>Demo Video Preview</h2>
+            <span class="gate">1:45</span>
+          </div>
+          <div class="video-wrap">
+            <video
+              controls
+              preload="metadata"
+              poster=""
+              src="assets/biddesk-autopilot-qwen-demo-preupload.mp4"
+            >
+              <a href="assets/biddesk-autopilot-qwen-demo-preupload.mp4">Open demo video MP4</a>
+            </video>
+          </div>
+          <p class="video-note">
+            Public preview of the validated under-three-minute demo asset. Devpost still requires
+            a public YouTube, Vimeo, or Youku URL before final submission.
+          </p>
         </section>
 
         <section class="tabs" aria-label="Submission packet excerpts">
@@ -745,12 +795,12 @@ Human approval questions:
 - Architecture diagram
 
 PENDING:
-- Public video URL under 3 minutes
+- Official public video URL under 3 minutes
 - Alibaba Cloud deployment code-file proof
 - Devpost project form after image CAPTCHA
 
 Claim boundary:
-BidDesk Autopilot is a Qwen-ready local prototype with redacted live Qwen Cloud evidence. Alibaba Cloud deployment is not claimed until public deployment proof exists.</pre>
+BidDesk Autopilot is a Qwen-ready local prototype with redacted live Qwen Cloud evidence. The GitHub Pages MP4 is only a public preview; final Devpost video proof still needs YouTube, Vimeo, or Youku. Alibaba Cloud deployment is not claimed until public deployment proof exists.</pre>
           </div>
         </section>
       </main>

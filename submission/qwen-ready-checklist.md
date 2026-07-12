@@ -25,7 +25,7 @@ Current source facts:
 - Public rules require access to a working project for judging and testing through a website, functioning demo, or test build.
 - Devpost official rules say the demo video should be less than three (3) minutes and judges are not required to watch beyond three minutes; use this stricter threshold even if another Qwen page says 5 minutes or less.
 - Public judging criteria weight Technical Depth & Engineering at 30%, Innovation & AI Creativity at 30%, Problem Value & Impact at 25%, and Presentation & Documentation at 15%.
-- Public Devpost surfaces visible on July 13, 2026 KST show 7,716 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible on July 13, 2026 KST show 7,722 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
 - Devpost overview currently says the public demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until Function Compute deployment evidence is captured.
 - Public Devpost update surfaces visible during recent rechecks emphasize that Alibaba Cloud proof is eligibility-critical: no proof means not eligible.
@@ -66,6 +66,7 @@ Current source facts:
 - [x] Final 84-hour submit slot drafted.
 - [x] Final 72-hour recording lock drafted.
 - [x] Demo video preupload packet and render script drafted.
+- [x] Public GitHub Pages MP4 fallback drafted.
 - [x] Final 48-hour public proof lock drafted.
 - [x] Final external blocker matrix drafted.
 - [x] D-3 final submit rehearsal drafted.
@@ -102,6 +103,7 @@ Current source facts:
 - [x] Public static working demo published and verified through GitHub Pages: https://memekr.github.io/biddesk-autopilot/
 - [ ] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
 - [x] Local under-3-minute demo video preupload asset render path prepared.
+- [x] Public GitHub Pages MP4 preview fallback prepared: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 - [ ] Presentation deck or PDF URL prepared if Devpost asks for the deck field.
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.
 - [ ] Final `Submit project` clicked by entrant.

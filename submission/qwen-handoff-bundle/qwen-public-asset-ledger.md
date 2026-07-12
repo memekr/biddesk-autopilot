@@ -12,7 +12,7 @@ Use this after the entrant has public URLs or proof links, and before `submissio
 
 - Devpost overview and rules now list the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 13, 2026 KST show 7,716 participants.
+- Public Devpost surfaces visible on July 13, 2026 KST show 7,722 participants.
 - Devpost rules still require a public open-source repository, text description, architecture diagram, track selection, public demo video, Alibaba Cloud deployment proof, and working-project access for judging/testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
@@ -31,7 +31,8 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 | Alibaba Cloud proof code file | https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py | Public repo code-file URL demonstrates Alibaba Cloud Function Compute handler/service usage. Live deployment must still be separately verified. | Alibaba Cloud deployment proof field or project description | GO as proof-code candidate after public browser check passes; DOWNGRADE for any live deployment claim until deployment evidence exists. |
 | Alibaba Cloud proof recording |  | Separate recording, if used, hides account IDs, billing, private console identifiers, and secrets. | Optional supporting link or video notes | DOWNGRADE if only local proof exists. |
 | Qwen Cloud live proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Redacted run log shows configured Qwen Cloud/DashScope API use and no API keys or account data. | "How it uses Qwen Cloud" copy and demo video | GO for synthetic local live proof only. |
-| Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. Local preupload asset can be rendered at `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`. | Demo video URL | STOP until public URL exists and duration passes. |
+| Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. Local preupload asset can be rendered at `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`. | Demo video URL | STOP until official-host public URL exists and duration passes. |
+| Public MP4 fallback | https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 | GitHub Pages MP4 opens without login, hash matches the local preupload asset, and it is labeled as supplemental preview evidence only. | Supplemental project description/testing evidence only | GO as fallback evidence; do not paste as the official video URL unless the live form accepts it. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Public static demo opens without login, and reproducible local test build works with synthetic data. | Testing instructions | GO as static demo plus local test build; do not claim Alibaba Cloud endpoint. |
 | Test credentials, if needed |  | Entrant-created non-admin synthetic-data credentials only; no personal, billing, or production access. | Testing instructions | STOP for automation; entrant must decide. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram shows Qwen Cloud, backend, Alibaba Cloud proof path, state/data flow, and human approval gates. | Architecture diagram or repository/deck link | GO if visible to judges. |
@@ -62,6 +63,15 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Validation outputs: `output/playwright/qwen-demo-video/ffprobe.json` and `output/playwright/qwen-demo-video/sha256.txt`
 - Upload boundary: the MP4 is ready for public-host upload only after YouTube, Vimeo, or Youku account access is available; the Devpost video URL field remains blank until a private-browser public playback check passes.
 
+## July 13 Public Pages Video Fallback
+
+- Public demo page: https://memekr.github.io/biddesk-autopilot/
+- Public MP4 fallback target: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
+- Repository file: `docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4`
+- SHA-256: `cb70b6e2f88105a8f9da422faf1c6df1cc657597e257591e69c0ec220cd3afb2`
+- YouTube upload retry result: `fileChooser.setFiles` failed with `Not allowed`; exact unblock is enabling `Allow access to file URLs` for the ChatGPT Chrome Extension.
+- Boundary: this fallback improves public judge access but does not satisfy the Official Rules video-host requirement by itself.
+
 ## July 13 Alibaba Function Compute Code-File Candidate
 
 - Source file: `src/biddesk_autopilot/alibaba_function_compute.py`
@@ -79,11 +89,12 @@ If Qwen Cloud live proof or Alibaba Cloud deployment proof is missing, paste thi
 
 1. Open the repository URL.
 2. Open the Alibaba Cloud proof code-file URL.
-3. Open the demo video URL and confirm runtime is less than 3 minutes.
-4. Open the static web demo URL and follow the test build instructions from a clean checkout.
-5. Open the deck/PDF URL if Devpost asks for it.
-6. Open the architecture diagram location.
-7. Compare this ledger with `submission/qwen-devpost-field-lock.md`.
+3. Open the public MP4 fallback URL and confirm it plays without login.
+4. Open the official-host demo video URL and confirm runtime is less than 3 minutes after YouTube, Vimeo, or Youku upload succeeds.
+5. Open the static web demo URL and follow the test build instructions from a clean checkout.
+6. Open the deck/PDF URL if Devpost asks for it.
+7. Open the architecture diagram location.
+8. Compare this ledger with `submission/qwen-devpost-field-lock.md`.
 
 ## GO / DOWNGRADE / STOP
 

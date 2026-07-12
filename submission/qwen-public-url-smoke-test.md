@@ -1,6 +1,6 @@
 # Qwen Public URL Smoke Test
 
-Public sources rechecked: 2026-07-11 KST.
+Public sources rechecked: 2026-07-13 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -17,7 +17,7 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed 7,561 participants during the July 11 source recheck.
+- Public Devpost surfaces showed 7,722 participants during the July 13 source recheck.
 
 ## Private-Browser Checks
 
@@ -28,7 +28,8 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 | Public repository | https://github.com/memekr/biddesk-autopilot | Repository loads without login and shows README, license, source, sample input, validation commands, and Qwen truth boundary. | Repo is private, missing license/setup, or contains secrets/customer data. |
 | Alibaba Cloud deployment proof | Code-file URL in the public repository | File visibly demonstrates Alibaba Cloud service/API usage for the backend deployment proof. | Proof is only a private screenshot, vague README claim, or unrelated code. |
 | Qwen Cloud proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Evidence shows Qwen Cloud/DashScope API usage without exposing keys, tokens, account IDs, billing data, or private endpoints. | Evidence contains secrets or only claims generic Qwen/Bedrock/local model usage. |
-| Demo video | Public video URL after upload; local preupload file is `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4` | Video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, or claims unverified live cloud usage. |
+| Demo video | Official-host public video URL after upload; local preupload file is `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4` | YouTube, Vimeo, or Youku video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, hosted only on an unaccepted fallback, or claims unverified live cloud usage. |
+| Public MP4 fallback | https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 | GitHub Pages MP4 plays without login and is labeled as supplemental preview evidence only. | MP4 does not load, differs from the validated render, or is treated as the official Devpost video URL without live-form acceptance. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Static demo opens without login, and judges can reproduce the packet through the local test build with synthetic data. | Project requires undisclosed credentials, unsafe credentials, private customer data, unavailable cloud resources, or claims Alibaba Cloud deployment from the static page. |
 | Presentation deck/PDF | Public deck or PDF URL if Devpost asks for it | Deck opens without login and matches the final architecture, demo, and truth boundary. | Deck is private, stale, or overclaims production/live proof. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram clearly shows Qwen Cloud, backend, Alibaba Cloud deployment, data flow, and human approval gates. | Diagram omits Qwen/Alibaba proof path or contradicts the submitted implementation. |
@@ -48,8 +49,11 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 - Result: working-project URL GO as static demo plus local test build; Alibaba
   Cloud deployment proof remains STOP.
 - Local video preupload render path is ready through
-  `scripts/render-qwen-demo-video.sh`; public video URL remains STOP until the
-  MP4 is uploaded to an Official Rules-accepted public host and verified in a private browser.
+  `scripts/render-qwen-demo-video.sh`.
+- July 13 KST: the MP4 was copied to `docs/assets/` and embedded in the
+  GitHub Pages demo as a public preview fallback. Public video URL remains STOP
+  until the MP4 is uploaded to an Official Rules-accepted public host and
+  verified in a private browser.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

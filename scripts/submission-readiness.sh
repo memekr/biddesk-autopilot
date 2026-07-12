@@ -28,6 +28,7 @@ uv run ty check src tests
 test -f README.md
 test -f docs/index.html
 test -f docs/.nojekyll
+test -f docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 test -f LICENSE
 test -f submission/qwen-devpost-draft.md
 test -f submission/qwen-architecture-diagram.md
@@ -60,6 +61,7 @@ test -f submission/qwen-final-devpost-value-audit.md
 test -f submission/qwen-final-84-hour-submit-slot.md
 test -f submission/qwen-final-72-hour-recording-lock.md
 test -f submission/qwen-demo-video-preupload.md
+test -f submission/qwen-public-pages-video-fallback.md
 test -f submission/qwen-final-48-hour-public-proof-lock.md
 test -f submission/qwen-final-external-blocker-matrix.md
 test -f submission/qwen-d3-final-submit-rehearsal.md
@@ -81,8 +83,10 @@ test -f src/biddesk_autopilot/alibaba_function_compute.py
 grep -q "Qwen Cloud" README.md
 grep -q "https://memekr.github.io/biddesk-autopilot/" README.md
 grep -q "BidDesk Autopilot Demo" docs/index.html
+grep -q "assets/biddesk-autopilot-qwen-demo-preupload.mp4" docs/index.html
 grep -q "Alibaba Cloud deployment proof is still pending" docs/index.html
 grep -q "https://memekr.github.io/biddesk-autopilot/" docs/index.html
+grep -q "https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4" README.md
 if [[ -f .env ]]; then
   grep -q "Qwen Cloud Live Summary" reports/sample-proposal-packet.md
   grep -q '"qwen_cloud_live_summary"' reports/sample-proposal-packet.json
@@ -219,9 +223,14 @@ grep -q "DOWNGRADE - record the Qwen-ready prototype path" submission/qwen-final
 grep -q "STOP - external commitment required" submission/qwen-final-72-hour-recording-lock.md
 grep -q "Qwen Demo Video Preupload Packet" submission/qwen-demo-video-preupload.md
 grep -q "scripts/render-qwen-demo-video.sh" submission/qwen-demo-video-preupload.md
-grep -q "GO - upload only if" submission/qwen-demo-video-preupload.md
+grep -q "GO - upload to YouTube, Vimeo, or Youku" submission/qwen-demo-video-preupload.md
 grep -q "DOWNGRADE - use prototype-only Devpost wording" submission/qwen-demo-video-preupload.md
 grep -q "STOP - external commitment required" submission/qwen-demo-video-preupload.md
+grep -q "Qwen Public Pages Video Fallback" submission/qwen-public-pages-video-fallback.md
+grep -q "https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4" submission/qwen-public-pages-video-fallback.md
+grep -q "GO - use the GitHub Pages MP4" submission/qwen-public-pages-video-fallback.md
+grep -q "DOWNGRADE - keep final Devpost wording truthful" submission/qwen-public-pages-video-fallback.md
+grep -q "STOP - external commitment required" submission/qwen-public-pages-video-fallback.md
 grep -q "Qwen Final 48-Hour Public Proof Lock" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "2026-07-06 KST" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "GO - final 48-hour public proof lock ready" submission/qwen-final-48-hour-public-proof-lock.md
@@ -282,7 +291,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "7,716 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "7,722 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "GO - continue live Qwen submission" submission/qwen-source-recheck-snapshot.md

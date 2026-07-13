@@ -12,7 +12,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 
 - Devpost overview and rules now show the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the submission deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 14, 2026 KST show about 7,804 participants.
+- Public Devpost surfaces visible on July 14, 2026 KST show about 7,826 participants.
 - The public rules require a public code repository, text description, Alibaba Cloud deployment proof, architecture diagram, demonstration video, and track selection.
 - Alibaba Cloud deployment proof must be a public repository code-file link that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
@@ -64,7 +64,10 @@ If any item is missing, use this downgrade sentence in the project description:
 3. Open every external URL in a private/incognito browser.
 4. Compare each Devpost field against the table above.
 5. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
-6. Stop before Devpost login, rules acceptance, external publication, credential creation, or final submit.
+6. Confirm the Devpost project-creation CAPTCHA is complete; the July 14 KST blocker was `Select all images with bridges` plus `Verify`.
+7. Confirm the official-host video URL exists; the July 14 KST YouTube blocker was `fileChooser.setFiles` returning `Not allowed`.
+8. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to `82-010****7848`.
+9. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.
 
 ## GO / DOWNGRADE / STOP
 

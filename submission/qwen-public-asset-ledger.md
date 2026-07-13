@@ -12,7 +12,7 @@ Use this after the entrant has public URLs or proof links, and before `submissio
 
 - Devpost overview and rules now list the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 14, 2026 KST show about 7,804 participants.
+- Public Devpost surfaces visible on July 14, 2026 KST show about 7,826 participants.
 - The Qwen Cloud challenge page still asks for a presentation PPT; the generated public preview and committed PPTX now cover this deck asset.
 - Devpost rules still require a public open-source repository, text description, architecture diagram, track selection, public demo video, Alibaba Cloud deployment proof, and working-project access for judging/testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
@@ -72,6 +72,12 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - SHA-256: `cb70b6e2f88105a8f9da422faf1c6df1cc657597e257591e69c0ec220cd3afb2`
 - YouTube upload retry result: `fileChooser.setFiles` failed with `Not allowed`; exact unblock is enabling `Allow access to file URLs` for the ChatGPT Chrome Extension.
 - Boundary: this fallback improves public judge access but does not satisfy the Official Rules video-host requirement by itself.
+
+## July 14 External Blocker Recheck
+
+- Devpost project creation reached the image reCAPTCHA again. Current visible challenge: `Select all images with bridges`, followed by the `Verify` button.
+- YouTube Studio still opens the upload dialog under the signed-in channel, but setting the local MP4 through the file chooser fails with `Not allowed`.
+- Alibaba Cloud international Google login with `spdish12@gmail.com` reached phone verification. A code was sent to `82-010****7848`; no Function Compute deployment or paid/billable resource was created.
 
 ## July 13 Alibaba Function Compute Code-File Candidate
 

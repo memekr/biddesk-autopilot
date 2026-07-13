@@ -1,6 +1,6 @@
 # Qwen Judge Clean-Room Rehearsal
 
-Generated UTC: 2026-07-13T18:09:57+00:00
+Generated UTC: 2026-07-13T23:58:32+00:00
 
 Use this after `submission/qwen-post-extension-10-day-proof-sprint.md` and before any
 public URL publication. It rehearses the exact no-account path a judge can run if live
@@ -14,7 +14,7 @@ Qwen Cloud or Alibaba Cloud proof is not yet available.
 - Qwen Cloud challenge page: https://www.qwencloud.com/challenge/hackathon
 - July 14, 2026 KST source state: Devpost overview, rules, and the Qwen challenge page
   align on the July 20, 2026 submission deadline.
-- Current public Devpost surface observed in this run: about 7,804 participants.
+- Current public Devpost surface observed in this run: about 7,826 participants.
 - Voucher and live account access remain external because the Devpost resources page still
   shows the July 9, 10AM PST voucher request cutoff, and the Qwen challenge page says
   coupon redemption remained July 9 at 11:59 PM GMT+7.

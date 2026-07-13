@@ -26,6 +26,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - Devpost overview currently says the public video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live Devpost form clearly accepts another host.
 - `submission/qwen-alibaba-function-compute-proof-adapter.md` records the Function Compute handler code-file candidate and the deployment-pending qualifier.
 - Devpost rules still require working-project access for judging and testing through a website, functioning demo, or test build.
+- July 14 KST external recheck: Devpost project creation still stops at an image reCAPTCHA (`Select all images with bridges`), YouTube Studio still fails at `fileChooser.setFiles` with `Not allowed`, and Alibaba Cloud Google login stops at phone verification for `82-010****7848`.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Qwen Cloud challenge page still frames final deliverables as repository, demo video, deck, and project description before the deadline.
 - `submission/qwen-presentation-deck.md` records the generated PPTX, public preview target, SHA-256, validation, and live Alibaba Cloud deployment boundary for the presentation asset.

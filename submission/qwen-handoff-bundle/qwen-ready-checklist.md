@@ -25,7 +25,7 @@ Current source facts:
 - Public rules require access to a working project for judging and testing through a website, functioning demo, or test build.
 - Devpost official rules say the demo video should be less than three (3) minutes and judges are not required to watch beyond three minutes; use this stricter threshold even if another Qwen page says 5 minutes or less.
 - Public judging criteria weight Technical Depth & Engineering at 30%, Innovation & AI Creativity at 30%, Problem Value & Impact at 25%, and Presentation & Documentation at 15%.
-- Public Devpost surfaces visible on July 14, 2026 KST show about 7,804 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible on July 14, 2026 KST show about 7,826 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
 - The Qwen Cloud challenge page still asks for a presentation PPT; `submission/BidDesk-Autopilot-Qwen-presentation.pptx` and https://memekr.github.io/biddesk-autopilot/qwen-presentation.html now cover that deck asset without claiming live Alibaba deployment.
 - Devpost overview currently says the public demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until Function Compute deployment evidence is captured.
@@ -95,7 +95,7 @@ Current source facts:
   Requires phone number, company/institution, and job title; the form remains open and the published cutoff has passed.
 - [x] Qwen Cloud API key created and stored only in ignored mode-`600` local `.env`.
 - [ ] Backend deployed on Alibaba Cloud.
-  Alibaba Cloud International recognizes the account, but its login confirmation page did not advance under browser automation on July 11 KST.
+  Alibaba Cloud International Google sign-in reached phone verification on July 14 KST; a 6-digit code was sent to `82-010****7848`, and automation stopped before the `Confirm` button.
 - [x] Alibaba Cloud Function Compute handler code-file candidate prepared.
 - [ ] Alibaba Cloud live deployment proof URL or screenshot captured.
 - [x] Judge-accessible reproducible test build instructions prepared in the public README.
@@ -104,12 +104,14 @@ Current source facts:
 - [x] Public repository URL published under entrant identity: https://github.com/memekr/biddesk-autopilot
 - [x] Public static working demo published and verified through GitHub Pages: https://memekr.github.io/biddesk-autopilot/
 - [ ] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
+  YouTube Studio upload modal is open, but `fileChooser.setFiles` still fails with `Not allowed`; exact unblock is enabling `Allow access to file URLs` for the ChatGPT Chrome Extension.
 - [x] Local under-3-minute demo video preupload asset render path prepared.
 - [x] Public GitHub Pages MP4 preview fallback prepared: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 - [x] Presentation deck or PDF URL prepared if Devpost asks for the deck field: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html plus `submission/BidDesk-Autopilot-Qwen-presentation.pptx`.
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.
 - [ ] Final `Submit project` clicked by entrant.
 - [ ] Devpost image CAPTCHA completed so the project record can be created.
+  Current challenge shown on July 14 KST: `Select all images with bridges`, then `Verify`.
 
 ## First-Open Order
 

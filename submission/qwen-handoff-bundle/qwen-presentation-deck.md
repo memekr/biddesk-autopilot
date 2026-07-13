@@ -11,7 +11,7 @@ or Devpost field paste. It records the actual public deck asset created from the
 - Qwen Cloud challenge page: https://www.qwencloud.com/challenge/hackathon
 - Rechecked: July 14, 2026 KST.
 - Current source state: Devpost overview and rules still show the July 20, 2026,
-  2:00 PM PDT deadline; public Devpost surfaces show about 7,804 participants.
+  2:00 PM PDT deadline; public Devpost surfaces show about 7,826 participants.
 - Source conflict handled: Devpost rules use a less-than-3-minute public video gate
   and list YouTube, Vimeo, or Youku, while the Qwen challenge page also asks for a
   presentation PPT. This deck fills that presentation asset without weakening the

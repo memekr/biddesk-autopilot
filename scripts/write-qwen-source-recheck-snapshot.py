@@ -68,7 +68,7 @@ def main() -> None:
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
         "Public Devpost surfaces visible during the July 14, 2026 KST recheck "
-        "show about 7,804 participants, so final form values should make "
+        "show about 7,826 participants, so final form values should make "
         "track fit, proof, and business value obvious without judge inference.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "

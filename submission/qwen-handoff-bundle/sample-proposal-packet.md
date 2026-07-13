@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-13T18:09:52+00:00
+Generated: 2026-07-13T23:58:27+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -81,14 +81,14 @@ Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 ## Qwen Cloud Live Summary
 
 **Verified Output**  
-The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs are confirmed present; no missing info is listed.
+The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and an integration scope with technical discovery checklist. All required outputs are confirmed present; no missing info is listed.
 
 **Human Approval Gates**  
-Two agents require human review: *policy* (flags “penalty”, “custom integration”, and explicit legal review request) and *approval* (routes three commitment questions to sales, legal, and delivery). Legal review is explicitly mandated by the customer — not optional.
+Two agents trigger mandatory human review: *policy* (flagging “penalty”, “custom integration”, and explicit legal review request) and *approval* (routing three commitment questions to Sales, Legal, and Delivery). Legal review is explicitly mandated by the customer—not optional.
 
 **Next Actions**  
 1. Sales must confirm pricing range commitment.  
-2. Legal must approve or revise flagged terms (“penalty”, “custom integration”) and address the explicit legal review request.  
+2. Legal must approve or revise flagged terms (“penalty”, “custom integration”) and fulfill the explicit legal review request.  
 3. Delivery must validate timeline feasibility once customer dependencies are confirmed.  
-No unverified assumptions, dates, or external systems are referenced — all facts derive solely from the provided JSON.
+No further agent automation is pending—resolution of these three questions unlocks final approval.
 

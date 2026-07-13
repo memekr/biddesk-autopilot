@@ -17,7 +17,7 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed about 7,804 participants during the July 14 source recheck.
+- Public Devpost surfaces showed about 7,826 participants during the July 14 source recheck.
 - The Qwen Cloud challenge page still asks for a presentation PPT, so the deck preview and committed PPTX should be checked even if Devpost does not expose a separate deck field.
 
 ## Private-Browser Checks
@@ -59,6 +59,11 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   `submission/BidDesk-Autopilot-Qwen-presentation.pptx`, and a public preview
   page was added at https://memekr.github.io/biddesk-autopilot/qwen-presentation.html.
   Public deck URL is GO after the public push and private-browser checks pass.
+- July 14 KST late recheck: Devpost project creation still stops at an image
+  reCAPTCHA (`Select all images with bridges`), YouTube Studio file chooser still
+  fails with `Not allowed`, and Alibaba Cloud Google login stops at phone
+  verification for `82-010****7848`. No final submit, official-host video URL,
+  or Alibaba Function Compute deployment evidence exists yet.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

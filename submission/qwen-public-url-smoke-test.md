@@ -1,6 +1,6 @@
 # Qwen Public URL Smoke Test
 
-Public sources rechecked: 2026-07-13 KST.
+Public sources rechecked: 2026-07-14 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -17,7 +17,8 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed about 7,769 participants during the July 13 source recheck.
+- Public Devpost surfaces showed about 7,804 participants during the July 14 source recheck.
+- The Qwen Cloud challenge page still asks for a presentation PPT, so the deck preview and committed PPTX should be checked even if Devpost does not expose a separate deck field.
 
 ## Private-Browser Checks
 
@@ -31,7 +32,7 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 | Demo video | Official-host public video URL after upload; local preupload file is `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4` | YouTube, Vimeo, or Youku video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, hosted only on an unaccepted fallback, or claims unverified live cloud usage. |
 | Public MP4 fallback | https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 | GitHub Pages MP4 plays without login and is labeled as supplemental preview evidence only. | MP4 does not load, differs from the validated render, or is treated as the official Devpost video URL without live-form acceptance. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Static demo opens without login, and judges can reproduce the packet through the local test build with synthetic data. | Project requires undisclosed credentials, unsafe credentials, private customer data, unavailable cloud resources, or claims Alibaba Cloud deployment from the static page. |
-| Presentation deck/PDF | Public deck or PDF URL if Devpost asks for it | Deck opens without login and matches the final architecture, demo, and truth boundary. | Deck is private, stale, or overclaims production/live proof. |
+| Presentation deck/PDF | https://memekr.github.io/biddesk-autopilot/qwen-presentation.html and https://github.com/memekr/biddesk-autopilot/blob/main/submission/BidDesk-Autopilot-Qwen-presentation.pptx | Preview opens without login, PPTX is visible in the public repo, and both match the final architecture, demo, and truth boundary. | Deck is private, stale, missing from public repo, or overclaims production/live proof. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram clearly shows Qwen Cloud, backend, Alibaba Cloud deployment, data flow, and human approval gates. | Diagram omits Qwen/Alibaba proof path or contradicts the submitted implementation. |
 
 ## Devpost Field Cross-Check
@@ -54,6 +55,10 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   GitHub Pages demo as a public preview fallback. Public video URL remains STOP
   until the MP4 is uploaded to an Official Rules-accepted public host and
   verified in a private browser.
+- July 14 KST: the presentation deck was exported to
+  `submission/BidDesk-Autopilot-Qwen-presentation.pptx`, and a public preview
+  page was added at https://memekr.github.io/biddesk-autopilot/qwen-presentation.html.
+  Public deck URL is GO after the public push and private-browser checks pass.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

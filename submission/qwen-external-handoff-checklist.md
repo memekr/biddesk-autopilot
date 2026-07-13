@@ -31,21 +31,23 @@ Open in this order during the human external session:
 27. `submission/qwen-account-risk-triage.md`
 28. `submission/qwen-video-duration-arbitration.md`
 29. `submission/qwen-judging-testing-access-gate.md`
-30. `submission/qwen-public-asset-ledger.md`
-31. `docs/index.html` / https://memekr.github.io/biddesk-autopilot/
-32. `submission/qwen-public-url-smoke-test.md`
-33. `submission/qwen-devpost-field-lock.md`
-34. `submission/qwen-recording-evidence-capture.md`
-35. `submission/qwen-demo-video-preupload.md`
-36. Run `bash scripts/render-qwen-demo-video.sh`
-37. `README.md`
-38. `reports/sample-proposal-packet.md`
-39. `submission/qwen-devpost-draft.md`
-40. `submission/qwen-judging-criteria-map.md`
-41. `submission/qwen-architecture-diagram.md`
-42. `submission/qwen-demo-script.md`
-43. `submission/qwen-presentation-deck-outline.md`
-44. `submission/qwen-final-devpost-submit-runbook.md`
+30. `submission/qwen-presentation-deck.md`
+31. `submission/qwen-public-asset-ledger.md`
+32. `docs/index.html` / https://memekr.github.io/biddesk-autopilot/
+33. `docs/qwen-presentation.html` / https://memekr.github.io/biddesk-autopilot/qwen-presentation.html
+34. `submission/qwen-public-url-smoke-test.md`
+35. `submission/qwen-devpost-field-lock.md`
+36. `submission/qwen-recording-evidence-capture.md`
+37. `submission/qwen-demo-video-preupload.md`
+38. Run `bash scripts/render-qwen-demo-video.sh`
+39. `README.md`
+40. `reports/sample-proposal-packet.md`
+41. `submission/qwen-devpost-draft.md`
+42. `submission/qwen-judging-criteria-map.md`
+43. `submission/qwen-architecture-diagram.md`
+44. `submission/qwen-demo-script.md`
+45. `submission/qwen-presentation-deck-outline.md`
+46. `submission/qwen-final-devpost-submit-runbook.md`
 
 ## Exact External Sites and Buttons
 
@@ -80,7 +82,7 @@ Open in this order during the human external session:
 - Demo video preupload: follow `submission/qwen-demo-video-preupload.md` before opening YouTube, Vimeo, or Youku; the local MP4 is not a public Devpost URL until uploaded and verified.
 - Public Pages video fallback: follow `submission/qwen-public-pages-video-fallback.md`; https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 is supplemental public evidence, not the official Devpost video URL.
 - Account risk triage: follow `submission/qwen-account-risk-triage.md` before claiming Qwen Cloud access, hackathon credits, API-key proof, or Alibaba Cloud deployment.
-- Presentation deck: build from `submission/qwen-presentation-deck-outline.md`, export to a public URL or PDF URL only under the entrant identity.
+- Presentation deck: use `submission/qwen-presentation-deck.md`, https://memekr.github.io/biddesk-autopilot/qwen-presentation.html, and `submission/BidDesk-Autopilot-Qwen-presentation.pptx`; verify publicly after push and do not claim live Alibaba Cloud deployment from the deck.
 - Final Devpost action: accept official rules, then click `Submit project`.
 
 ## Data Required From Entrant
@@ -95,6 +97,6 @@ Open in this order during the human external session:
 - Alibaba Cloud deployment proof code-file URL in the public repository.
 - Judge-accessible reproducible test build instructions from the public README.
 - Qwen Cloud usage proof.
-- Presentation deck/PDF URL if the field is present.
+- Presentation deck/PDF URL if the field is present: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html or the public repository PPTX URL.
 - Safe temporary test credentials only if the project is private and the entrant deliberately creates non-admin synthetic-data credentials.
 - Any real customer/revenue/business claims. Do not invent these.

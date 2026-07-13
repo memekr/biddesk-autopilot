@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BidDesk Autopilot Qwen Presentation</title>
+    <meta
+      name="description"
+      content="Public presentation preview for BidDesk Autopilot's Qwen Cloud hackathon submission."
+    >
+    <link rel="icon" href="data:,">
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8fb;
+        --surface: #ffffff;
+        --surface-2: #f0f3f7;
+        --ink: #20242a;
+        --muted: #646b76;
+        --line: #d9dee8;
+        --blue: #2563eb;
+        --amber: #a45f05;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: var(--bg);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .topbar {
+        border-bottom: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .topbar-inner,
+      main {
+        max-width: 1160px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 18px 24px;
+      }
+
+      .topbar-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 23px;
+        line-height: 1.15;
+      }
+
+      .subtitle {
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 38px;
+        padding: 8px 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        border-color: var(--ink);
+        color: #fff;
+      }
+
+      main {
+        padding-top: 28px;
+        padding-bottom: 48px;
+      }
+
+      .summary {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 320px;
+        gap: 18px;
+        align-items: stretch;
+      }
+
+      .summary-text,
+      .proof-box,
+      .slide {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+      }
+
+      .summary-text {
+        padding: 24px;
+      }
+
+      .summary-text h2 {
+        max-width: 760px;
+        font-size: 34px;
+        line-height: 1.12;
+      }
+
+      .summary-text p {
+        margin-top: 16px;
+        max-width: 820px;
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.55;
+      }
+
+      .proof-box {
+        padding: 20px;
+        display: grid;
+        align-content: start;
+        gap: 14px;
+      }
+
+      .proof-box strong {
+        display: block;
+        font-size: 13px;
+        color: var(--blue);
+      }
+
+      .proof-box span {
+        display: block;
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.4;
+      }
+
+      .slides {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .slide {
+        min-height: 260px;
+        padding: 22px;
+        display: grid;
+        align-content: start;
+        gap: 14px;
+      }
+
+      .slide-number {
+        color: var(--blue);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .slide h2 {
+        font-size: 24px;
+        line-height: 1.16;
+      }
+
+      .slide p,
+      .slide li {
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.45;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .warning {
+        border-left: 4px solid var(--amber);
+        padding-left: 14px;
+      }
+
+      @media (max-width: 850px) {
+        .topbar-inner,
+        .summary {
+          grid-template-columns: 1fr;
+        }
+
+        .topbar-inner {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .actions {
+          justify-content: flex-start;
+        }
+
+        .summary-text h2 {
+          font-size: 28px;
+        }
+
+        .slides {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div>
+          <h1>BidDesk Autopilot Qwen Presentation</h1>
+          <p class="subtitle">Public preview for the hackathon deck asset</p>
+        </div>
+        <nav class="actions" aria-label="Presentation links">
+          <a class="button" href="./">Demo</a>
+          <a class="button" href="https://github.com/memekr/biddesk-autopilot">Repository</a>
+          <a
+            class="button primary"
+            href="https://github.com/memekr/biddesk-autopilot/blob/main/submission/BidDesk-Autopilot-Qwen-presentation.pptx"
+          >Open PPTX</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="summary" aria-label="Presentation summary">
+        <div class="summary-text">
+          <h2>Proposal automation that moves fast without bypassing approvals</h2>
+          <p>
+            The deck explains how BidDesk Autopilot turns messy RFP and customer-email
+            inputs into proposal packets, risk flags, quote drafts, and approval questions.
+            It keeps live Qwen and Alibaba Cloud claims gated to public proof.
+          </p>
+        </div>
+        <aside class="proof-box">
+          <div>
+            <strong>Public deck file</strong>
+            <span>submission/BidDesk-Autopilot-Qwen-presentation.pptx</span>
+          </div>
+          <div>
+            <strong>SHA-256</strong>
+            <span>92ab617c0ba79597b2d1ea9edfa0665c609fbedda5b123b8238a810e2efe4e43</span>
+          </div>
+          <div>
+            <strong>Truth boundary</strong>
+            <span>Alibaba deployment is not claimed until live proof exists.</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="slides" aria-label="Slide preview">
+        <article class="slide">
+          <span class="slide-number">01</span>
+          <h2>BidDesk Autopilot</h2>
+          <p>Qwen-powered proposal operations with human approval gates.</p>
+          <ul>
+            <li>Public MIT repository</li>
+            <li>GitHub Pages working demo</li>
+            <li>Redacted live Qwen proof</li>
+            <li>Alibaba Function Compute code-file candidate</li>
+          </ul>
+        </article>
+        <article class="slide">
+          <span class="slide-number">02</span>
+          <h2>Proposal teams need speed without losing control</h2>
+          <p>Revenue teams lose accuracy when intake, pricing rules, legal policy, and approvals are spread across tools.</p>
+        </article>
+        <article class="slide">
+          <span class="slide-number">03</span>
+          <h2>Five agents convert messy requests into approval-ready packets</h2>
+          <p>Intake, research, policy, quote, and approval agents turn synthetic RFP input into reproducible proposal evidence.</p>
+        </article>
+        <article class="slide">
+          <span class="slide-number">04</span>
+          <h2>Architecture separates live AI proof from unverified claims</h2>
+          <p class="warning">Qwen Cloud is claimed only after redacted live evidence; Alibaba Cloud remains a deployment-pending proof path.</p>
+        </article>
+        <article class="slide">
+          <span class="slide-number">05</span>
+          <h2>The demo is already judge-readable with synthetic data</h2>
+          <p>Judges can use the Pages demo and local CLI path without credentials, billing data, or customer data.</p>
+        </article>
+        <article class="slide">
+          <span class="slide-number">06</span>
+          <h2>Governance is a product feature, not a disclaimer</h2>
+          <p>BidDesk drafts the work, then stops before pricing, legal, delivery, or customer commitments.</p>
+        </article>
+        <article class="slide">
+          <span class="slide-number">07</span>
+          <h2>The scoring story is direct</h2>
+          <p>Technical depth, innovation, business value, and documentation each map to a public artifact or reproducible test path.</p>
+        </article>
+        <article class="slide">
+          <span class="slide-number">08</span>
+          <h2>Submission assets are strong; two blockers remain</h2>
+          <p>Official-host video URL, live Alibaba deployment evidence, Devpost CAPTCHA, and final submit remain external blockers.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

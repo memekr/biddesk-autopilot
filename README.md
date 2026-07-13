@@ -34,6 +34,13 @@ The MP4 preview is the validated under-three-minute demo asset on GitHub Pages.
 It is supplemental public evidence; the final Devpost video field still needs a
 YouTube, Vimeo, or Youku URL unless the live form explicitly accepts another host.
 
+Public presentation preview: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html
+
+The presentation deck is also committed as
+`submission/BidDesk-Autopilot-Qwen-presentation.pptx` for any Devpost or Qwen
+presentation/PPT field. The deck keeps Alibaba Cloud deployment wording
+deployment-pending until live proof exists.
+
 To verify the Qwen Cloud connector path without making a network request:
 
 ```bash
@@ -94,6 +101,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-demo-script.md` keeps the video under the stricter Devpost rules threshold.
 - `scripts/render-qwen-demo-video.sh` renders a local under-3-minute MP4 preupload asset from generated packet evidence and Playwright screenshots into ignored `output/playwright/qwen-demo-video/`.
 - `submission/qwen-presentation-deck-outline.md` gives slide-by-slide source copy for the required presentation deck.
+- `submission/qwen-presentation-deck.md` records the generated PPTX, public preview URL, SHA-256, validation, and Alibaba deployment truth boundary for the deck asset.
 - `submission/qwen-judging-criteria-map.md` maps Devpost scoring criteria to exact local evidence and truth boundaries.
 - `submission/qwen-video-duration-arbitration.md` resolves public duration conflicts by using a less-than-3-minute final demo gate.
 - `submission/qwen-judging-testing-access-gate.md` defines the Devpost testing instructions, working-project access, and safe credential boundary for judges.
@@ -114,4 +122,5 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - Alibaba Cloud deployment proof for the backend. The repository now contains a Function Compute handler code-file candidate at https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py, but live deployment proof remains pending.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot
 - Judge-accessible working project path is the public static demo at https://memekr.github.io/biddesk-autopilot/ plus the reproducible local test build in the public README until an Alibaba Cloud endpoint exists.
-- Public demo video preview is available on GitHub Pages, but the required public YouTube, Vimeo, or Youku URL, presentation deck URL if requested, and final Devpost submission remain external.
+- Public presentation preview is available on GitHub Pages and the PPTX is committed in `submission/`.
+- Public demo video preview is available on GitHub Pages, but the required public YouTube, Vimeo, or Youku URL and final Devpost submission remain external.

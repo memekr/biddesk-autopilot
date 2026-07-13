@@ -1,6 +1,6 @@
 # Qwen Devpost Field Lock
 
-Public sources rechecked: 2026-07-13 KST.
+Public sources rechecked: 2026-07-14 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -12,11 +12,12 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 
 - Devpost overview and rules now show the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the submission deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 13, 2026 KST show about 7,769 participants.
+- Public Devpost surfaces visible on July 14, 2026 KST show about 7,804 participants.
 - The public rules require a public code repository, text description, Alibaba Cloud deployment proof, architecture diagram, demonstration video, and track selection.
 - Alibaba Cloud deployment proof must be a public repository code-file link that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - Devpost rules require access to a working project for judging and testing through a website, functioning demo, or test build; private projects require testing credentials in the testing instructions.
+- The Qwen Cloud challenge page still asks for a presentation PPT; the generated deck preview and committed PPTX now cover that asset.
 
 ## Locked Fields
 
@@ -35,7 +36,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 | Architecture diagram | `submission/qwen-architecture-diagram.md` | Diagram is included in repo, deck, or public asset URL | GO if visible to judges |
 | Alibaba Cloud proof | `submission/qwen-deployment-proof-gate.md` and `submission/qwen-alibaba-function-compute-proof-adapter.md` | Public code-file URL demonstrates Alibaba Cloud Function Compute handler/API usage; live deployment evidence is still required before claiming the backend is running on Alibaba Cloud | DOWNGRADE until public URL is pushed and live deployment proof exists |
 | Working project/testing instructions | `submission/qwen-judging-testing-access-gate.md` | Static web demo or reproducible test build is accessible to judges without credentials | GO for static demo plus local test build; STOP for Alibaba endpoint claims until deployment proof exists |
-| Presentation deck/PDF | `submission/qwen-presentation-deck-outline.md` | Public deck/PDF URL exists if Devpost asks for it | DOWNGRADE if no field exists; STOP if required field exists without URL |
+| Presentation deck/PDF | `submission/qwen-presentation-deck.md`, https://memekr.github.io/biddesk-autopilot/qwen-presentation.html, and `submission/BidDesk-Autopilot-Qwen-presentation.pptx` | Public preview opens without login and PPTX is visible in the public repository | GO after public browser check passes |
 | Blog/social prize URL | Entrant-owned public post | Optional public URL, no sensitive data | Leave blank unless entrant intentionally published it |
 | Screenshots/images | Sample report and local terminal screenshots | No API keys, emails, account IDs, billing data, or private customer data | GO only after scrub |
 | Eligibility/team info | Entrant only | Entrant has personally verified eligibility and team details | STOP for automation |

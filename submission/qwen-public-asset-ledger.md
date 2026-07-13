@@ -1,6 +1,6 @@
 # Qwen Public Asset Ledger
 
-Public sources rechecked: 2026-07-13 KST.
+Public sources rechecked: 2026-07-14 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -12,7 +12,8 @@ Use this after the entrant has public URLs or proof links, and before `submissio
 
 - Devpost overview and rules now list the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 13, 2026 KST show about 7,769 participants.
+- Public Devpost surfaces visible on July 14, 2026 KST show about 7,804 participants.
+- The Qwen Cloud challenge page still asks for a presentation PPT; the generated public preview and committed PPTX now cover this deck asset.
 - Devpost rules still require a public open-source repository, text description, architecture diagram, track selection, public demo video, Alibaba Cloud deployment proof, and working-project access for judging/testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
@@ -36,7 +37,7 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Public static demo opens without login, and reproducible local test build works with synthetic data. | Testing instructions | GO as static demo plus local test build; do not claim Alibaba Cloud endpoint. |
 | Test credentials, if needed |  | Entrant-created non-admin synthetic-data credentials only; no personal, billing, or production access. | Testing instructions | STOP for automation; entrant must decide. |
 | Architecture diagram | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-architecture-diagram.md | Diagram shows Qwen Cloud, backend, Alibaba Cloud proof path, state/data flow, and human approval gates. | Architecture diagram or repository/deck link | GO if visible to judges. |
-| Presentation deck/PDF |  | Public deck or PDF matches final claims and opens without login if Devpost asks for it. | Deck/PDF field if present | STOP only if Devpost requires it and URL is missing. |
+| Presentation deck/PDF | https://memekr.github.io/biddesk-autopilot/qwen-presentation.html and https://github.com/memekr/biddesk-autopilot/blob/main/submission/BidDesk-Autopilot-Qwen-presentation.pptx | Public deck preview opens without login, the PPTX is visible in the public repository, and both match final claims without live Alibaba overclaiming. | Deck/PDF or presentation field if present | GO after public browser check passes. |
 | Blog/social bonus post |  | Entrant-owned optional post, no sensitive data, no invented metrics. | Optional blog/social field | Leave blank unless entrant intentionally published it. |
 | Screenshots/images |  | Scrubbed for API keys, emails, account IDs, billing data, customer data, and private endpoints. | Optional media fields | GO only after scrub. |
 | Team/eligibility details |  | Entrant personally verifies team, country, age, employer, and tax/eligibility facts. | Devpost profile/form | STOP for automation. |
@@ -78,6 +79,15 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Packet: `submission/qwen-alibaba-function-compute-proof-adapter.md`
 - Public URL target: https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py
 - Boundary: the code file demonstrates a Function Compute-compatible handler and sanitized FC runtime metadata, but it is not proof that the backend is already running on Alibaba Cloud until deployment evidence is captured.
+
+## July 14 Presentation Deck Asset
+
+- Public preview target: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html
+- Public PPTX target: https://github.com/memekr/biddesk-autopilot/blob/main/submission/BidDesk-Autopilot-Qwen-presentation.pptx
+- Repository file: `submission/BidDesk-Autopilot-Qwen-presentation.pptx`
+- Packet: `submission/qwen-presentation-deck.md`
+- SHA-256: `92ab617c0ba79597b2d1ea9edfa0665c609fbedda5b123b8238a810e2efe4e43`
+- Boundary: this deck is presentation evidence only; it does not convert the Function Compute code-file candidate into live Alibaba Cloud deployment proof.
 
 Use live wording only when the repository, demo video, Qwen Cloud proof, Alibaba Cloud proof code-file URL, architecture diagram, and judge-access path are all verified.
 

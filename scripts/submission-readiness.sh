@@ -28,6 +28,7 @@ uv run ty check src tests
 test -f README.md
 test -f docs/index.html
 test -f docs/.nojekyll
+test -f docs/qwen-presentation.html
 test -f docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 test -f LICENSE
 test -f submission/qwen-devpost-draft.md
@@ -35,6 +36,8 @@ test -f submission/qwen-architecture-diagram.md
 test -f submission/qwen-deployment-proof-gate.md
 test -f submission/qwen-live-connector-gate.md
 test -f submission/qwen-presentation-deck-outline.md
+test -f submission/qwen-presentation-deck.md
+test -f submission/BidDesk-Autopilot-Qwen-presentation.pptx
 test -f submission/qwen-judging-criteria-map.md
 test -f submission/qwen-video-duration-arbitration.md
 test -f submission/qwen-judging-testing-access-gate.md
@@ -82,7 +85,11 @@ test -f src/biddesk_autopilot/alibaba_function_compute.py
 
 grep -q "Qwen Cloud" README.md
 grep -q "https://memekr.github.io/biddesk-autopilot/" README.md
+grep -q "https://memekr.github.io/biddesk-autopilot/qwen-presentation.html" README.md
 grep -q "BidDesk Autopilot Demo" docs/index.html
+grep -q "qwen-presentation.html" docs/index.html
+grep -q "BidDesk Autopilot Qwen Presentation" docs/qwen-presentation.html
+grep -q "Open PPTX" docs/qwen-presentation.html
 grep -q "assets/biddesk-autopilot-qwen-demo-preupload.mp4" docs/index.html
 grep -q "Alibaba Cloud deployment proof is still pending" docs/index.html
 grep -q "https://memekr.github.io/biddesk-autopilot/" docs/index.html
@@ -100,6 +107,10 @@ grep -q "STOP - never publish" submission/qwen-live-connector-gate.md
 grep -q "Slide 4 - Qwen Cloud Architecture" submission/qwen-presentation-deck-outline.md
 grep -q "GO - include live Qwen Cloud" submission/qwen-presentation-deck-outline.md
 grep -q "STOP - external commitment required" submission/qwen-presentation-deck-outline.md
+grep -q "Qwen Presentation Deck Asset" submission/qwen-presentation-deck.md
+grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-presentation-deck.md
+grep -q "92ab617c0ba79597b2d1ea9edfa0665c609fbedda5b123b8238a810e2efe4e43" submission/qwen-presentation-deck.md
+grep -q "STOP - do not use the deck to claim live Alibaba Cloud deployment" submission/qwen-presentation-deck.md
 grep -q "Technical Depth & Engineering" submission/qwen-judging-criteria-map.md
 grep -q "GO - use full judging copy" submission/qwen-judging-criteria-map.md
 grep -q "DOWNGRADE - use prototype judging copy" submission/qwen-judging-criteria-map.md
@@ -291,9 +302,10 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "about 7,769 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "about 7,804 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
+grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md
 grep -q "GO - continue live Qwen submission" submission/qwen-source-recheck-snapshot.md
 grep -q "DOWNGRADE - use Qwen-ready local prototype wording" submission/qwen-source-recheck-snapshot.md
 grep -q "STOP - external commitment required" submission/qwen-source-recheck-snapshot.md

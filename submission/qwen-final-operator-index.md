@@ -1,6 +1,6 @@
 # Qwen Final Operator Index
 
-Public sources rechecked: 2026-07-13 KST.
+Public sources rechecked: 2026-07-14 KST.
 
 Devpost public header deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -28,11 +28,12 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - Devpost rules still require working-project access for judging and testing through a website, functioning demo, or test build.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Qwen Cloud challenge page still frames final deliverables as repository, demo video, deck, and project description before the deadline.
+- `submission/qwen-presentation-deck.md` records the generated PPTX, public preview target, SHA-256, validation, and live Alibaba Cloud deployment boundary for the presentation asset.
 - `submission/qwen-d6-submission-control-board.md` turns the remaining proof work into account, Qwen, Alibaba, recording, public URL, and Devpost field checkpoints.
 - `submission/qwen-external-proof-packet.md` maps each entrant-owned external proof item to accepted evidence, redaction rules, and exact Devpost claim boundaries before recording or final paste.
 - `submission/qwen-final-96-hour-judge-access-drill.md` checks public assets, clean-room local commands, working-project access, and Qwen/Alibaba proof from a judge-first perspective before Devpost paste.
 - `submission/qwen-final-devpost-value-audit.md` checks final public form values against track fit, proof sources, judge-visible value, participant competition, and the strict less-than-3-minute video rule before field lock.
-- `submission/qwen-demo-video-preupload.md`, `submission/qwen-public-pages-video-fallback.md`, `submission/qwen-public-asset-ledger.md`, `submission/qwen-public-url-smoke-test.md`, and `submission/qwen-devpost-field-lock.md` are the final public media, public URL, and field-freeze sequence before rules acceptance.
+- `submission/qwen-demo-video-preupload.md`, `submission/qwen-public-pages-video-fallback.md`, `submission/qwen-presentation-deck.md`, `submission/qwen-public-asset-ledger.md`, `submission/qwen-public-url-smoke-test.md`, and `submission/qwen-devpost-field-lock.md` are the final public media, public URL, and field-freeze sequence before rules acceptance.
 
 ## First-Open Sequence
 
@@ -71,11 +72,12 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 33. Open `submission/qwen-demo-video-preupload.md` and run `bash scripts/render-qwen-demo-video.sh` before opening any video host.
 34. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
 35. Open `submission/qwen-public-pages-video-fallback.md` if the Official Rules-accepted video host remains blocked.
-36. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
-37. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
-38. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
-39. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
-40. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
+36. Open `submission/qwen-presentation-deck.md` before filling any presentation/deck field.
+37. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
+38. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
+39. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
+40. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
+41. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
 
 ## Evidence Capture Order
 
@@ -85,7 +87,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 4. Working project: verify the static web demo, functioning demo, or local test build instructions in a private browser or clean environment.
 5. Architecture: verify the diagram shows Qwen Cloud, backend, storage/state, frontend or CLI, and human approval gates.
 6. Video: render the local preupload MP4, use the GitHub Pages MP4 only as supplemental preview evidence while blocked, upload it to YouTube, Vimeo, or Youku for final Devpost proof, keep the final public runtime below 3 minutes, and verify the public URL in a private browser.
-7. Deck: publish or export the deck only under the entrant identity, then verify the URL if Devpost asks for it.
+7. Deck: verify https://memekr.github.io/biddesk-autopilot/qwen-presentation.html and the public PPTX URL in the repository; use `submission/qwen-presentation-deck.md` for the SHA-256 and truth boundary.
 
 ## Devpost Paste Order
 
@@ -97,7 +99,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 6. Working-project URL or test build instructions from `submission/qwen-judging-testing-access-gate.md`; use https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
 7. Architecture diagram location.
 8. Alibaba Cloud deployment proof code-file URL, with deployment-pending qualifier unless live Function Compute proof exists.
-9. Presentation deck or PDF URL if the form exposes that field.
+9. Presentation deck preview URL or PPTX URL if the form exposes that field.
 10. Final private-browser verification result from `submission/qwen-public-url-smoke-test.md`.
 
 ## GO / DOWNGRADE / STOP
@@ -106,4 +108,4 @@ GO - final live Qwen submission only if public repo, demo video, working-project
 
 DOWNGRADE - submit truthful prototype wording only if local/public assets are complete but live Qwen Cloud or Alibaba Cloud proof is incomplete.
 
-STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API key creation, cloud deployment, repository publication, video upload, deck publication, official rules acceptance, or final `Submit project`.
+STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API key creation, cloud deployment, video upload, official rules acceptance, or final `Submit project`.

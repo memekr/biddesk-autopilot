@@ -155,9 +155,9 @@ Qwen Cloud or Alibaba Cloud proof is not yet available.
 - Devpost official rules: https://qwencloud-hackathon.devpost.com/rules
 - Devpost resources: https://qwencloud-hackathon.devpost.com/resources
 - Qwen Cloud challenge page: https://www.qwencloud.com/challenge/hackathon
-- July 13, 2026 KST source state: Devpost overview, rules, and the Qwen challenge page
+- July 14, 2026 KST source state: Devpost overview, rules, and the Qwen challenge page
   align on the July 20, 2026 submission deadline.
-- Current public Devpost surface observed in this run: about 7,769 participants.
+- Current public Devpost surface observed in this run: about 7,804 participants.
 - Voucher and live account access remain external because the Devpost resources page still
   shows the July 9, 10AM PST voucher request cutoff, and the Qwen challenge page says
   coupon redemption remained July 9 at 11:59 PM GMT+7.
@@ -313,7 +313,9 @@ Observed local evidence:
 - Devpost login, `Join hackathon`, official rules acceptance, and final `Submit project`.
 - Qwen Cloud signup, voucher/credit status, Discord, API-key creation, and live proof.
 - Alibaba Cloud deployment, service/API proof code-file, and billable-resource decisions.
-- Public repository, demo video, deck/PDF, working-project hosting, and any account data.
+- Public repository, demo video, working-project hosting, and any account data.
+- Presentation deck URL is now prepared through `docs/qwen-presentation.html` and
+  `submission/BidDesk-Autopilot-Qwen-presentation.pptx`; verify it publicly after push.
 
 ## GO / DOWNGRADE / STOP
 

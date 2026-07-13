@@ -30,7 +30,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 8. Paste the public repository URL after confirming it is publicly visible and has `README.md`, `LICENSE`, source, sample inputs, and setup instructions.
 9. Paste the public demo video URL after confirming the runtime is less than 3 minutes.
 10. Paste the working-project URL or reproducible test-build instructions from `submission/qwen-judging-testing-access-gate.md`.
-11. Paste the presentation deck or PDF URL if Devpost asks for it.
+11. Paste https://memekr.github.io/biddesk-autopilot/qwen-presentation.html or the public repository PPTX URL if Devpost asks for a presentation deck or PDF.
 12. Paste architecture and Alibaba Cloud deployment proof links if the form has separate fields; otherwise include them in the project description.
 13. Run the private-browser checks in `submission/qwen-public-url-smoke-test.md`.
 14. Review every live Qwen Cloud, Alibaba Cloud, revenue, customer, and production claim against captured evidence.
@@ -46,7 +46,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 - Alibaba Cloud deployment proof URL or screenshot reference; use the Function Compute code-file candidate only with a deployment-pending qualifier until live proof exists.
 - Qwen Cloud live-call proof with secrets redacted.
 - Architecture diagram location.
-- Presentation deck or PDF URL if the field is present.
+- Presentation deck or PDF URL if the field is present: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html or the public repository PPTX URL.
 - Safe temporary judge credentials only if the project is private and the entrant intentionally created synthetic-data, non-admin credentials.
 
 ## GO / DOWNGRADE / STOP

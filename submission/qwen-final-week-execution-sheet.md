@@ -40,7 +40,7 @@ uv run biddesk-autopilot reports/sample-request.json --qwen-status --use-qwen
 ### T-5 to T-3 Days: Public Asset Assembly
 
 1. Publish the repository under the entrant identity with `README.md`, `LICENSE`, source, sample input, generated sample output, setup commands, Qwen connector instructions, and Alibaba Cloud proof file.
-2. Build the presentation deck or PDF from `submission/qwen-presentation-deck-outline.md`.
+2. Verify the prepared presentation deck from `submission/qwen-presentation-deck.md`, `submission/BidDesk-Autopilot-Qwen-presentation.pptx`, and https://memekr.github.io/biddesk-autopilot/qwen-presentation.html after public push.
 3. Record the demo from `submission/qwen-demo-script.md` after the Qwen/Alibaba proof decision is known.
 4. Keep the final video under 3 minutes and upload only to a public YouTube, Vimeo, or Facebook Video URL.
 5. Prepare the working-project URL, reproducible test-build instructions, or safe temporary judge credentials using only synthetic data.

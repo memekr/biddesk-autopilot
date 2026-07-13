@@ -33,7 +33,7 @@ Use this after `submission/qwen-d6-submission-control-board.md` and before publi
 | Working-project access | Judges can test through a website, functioning demo, or reproducible local test build | URL, test build instructions, or safe temporary non-admin credentials | Use synthetic data only; no personal, customer, billing, or admin credentials | Say "judge-accessible working project" only after clean verification |
 | Public demo video | Public video under 3 minutes shows local flow, live Qwen proof if available, and Alibaba proof if available | YouTube, Vimeo, Facebook Video, Youku, or Devpost-accepted public video URL | Blur keys, accounts, emails, billing, and private cloud console details | If live proof is missing, record prototype-only wording |
 | Architecture diagram | Diagram shows agents, Qwen Cloud boundary, backend/deployment proof, state, CLI/frontend, and human approval gates | Public repo file, deck slide, or Devpost image attachment | No private URLs, account IDs, or deployment secrets | Use the diagram only if it matches final proof state |
-| Presentation deck/PDF | Deck explains problem, solution, architecture, demo, impact, and proof checklist | Public PDF/deck URL if Devpost asks for it | Remove private account details and any unverified metrics | Treat as optional unless Devpost exposes the field |
+| Presentation deck/PDF | Deck explains problem, solution, architecture, demo, impact, and proof checklist | https://memekr.github.io/biddesk-autopilot/qwen-presentation.html and public repository PPTX URL | Remove private account details and any unverified metrics | GO after public browser check; do not claim live Alibaba deployment from the deck |
 
 ## Evidence Capture Order
 
@@ -63,4 +63,4 @@ GO - external proof packet ready if Devpost enrollment, Qwen Cloud proof, Alibab
 
 DOWNGRADE - external proof packet prototype path if repository, architecture, local test build, and demo video are public but live Qwen Cloud or Alibaba Cloud proof is incomplete; use only prototype wording from `submission/qwen-devpost-field-lock.md`.
 
-STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API-key creation, cloud deployment, repository publication, media upload, deck publication, official rules acceptance, or final `Submit project`.
+STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API-key creation, cloud deployment, media upload, official rules acceptance, or final `Submit project`.

@@ -1,10 +1,18 @@
 # Qwen Presentation Deck Outline
 
-Purpose: give the entrant a ready-to-build slide source for the Qwen Cloud Devpost deck requirement.
+Purpose: give the entrant a source outline for the Qwen Cloud presentation deck.
 
-Public sources rechecked: 2026-06-30 KST.
+Public sources rechecked: 2026-07-14 KST.
 
-Deadline: July 9, 2026, 2:00 PM PDT, which is July 10, 2026, 6:00 AM KST.
+Deadline: July 20, 2026, 2:00 PM PDT, which is July 21, 2026, 6:00 AM KST.
+
+Generated deck asset:
+
+- PPTX: `submission/BidDesk-Autopilot-Qwen-presentation.pptx`
+- Asset packet: `submission/qwen-presentation-deck.md`
+- Public preview URL target: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html
+- Public PPTX URL target: https://github.com/memekr/biddesk-autopilot/blob/main/submission/BidDesk-Autopilot-Qwen-presentation.pptx
+- SHA-256: `92ab617c0ba79597b2d1ea9edfa0665c609fbedda5b123b8238a810e2efe4e43`
 
 ## Slide 1 - BidDesk Autopilot
 

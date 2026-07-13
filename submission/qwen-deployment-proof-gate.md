@@ -7,7 +7,7 @@ Deadline: July 20, 2026, 2:00 PM PDT, which is July 21, 2026, 6:00 AM KST.
 ## Current Source Facts
 
 - Devpost overview and Official Rules now show the Qwen Cloud hackathon deadline as July 20, 2026, 2:00 PM Pacific Time.
-- Devpost public pages showed 7,722 participants during the July 13 source recheck.
+- Devpost public pages showed about 7,742 participants during the July 13 source recheck.
 - Qwen Cloud challenge page says the submission deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
 - Devpost requirements say projects must use Qwen Cloud and provide proof that the backend runs on Alibaba Cloud.
 - Devpost rules specify Alibaba Cloud deployment proof as a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.

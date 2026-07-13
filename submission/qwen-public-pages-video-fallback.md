@@ -9,7 +9,7 @@ Use this after `submission/qwen-demo-video-preupload.md` and before final Devpos
 - Devpost overview: https://qwencloud-hackathon.devpost.com/
 - Devpost official rules: https://qwencloud-hackathon.devpost.com/rules
 - Qwen Cloud challenge page: https://www.qwencloud.com/challenge/hackathon
-- Current public source state on July 13, 2026 KST: Devpost overview and Official Rules still show the submission deadline as July 20, 2026, 2:00 PM Pacific Time; public Devpost surfaces showed 7,722 participants during this run.
+- Current public source state on July 13, 2026 KST: Devpost overview and Official Rules still show the submission deadline as July 20, 2026, 2:00 PM Pacific Time; public Devpost surfaces showed about 7,742 participants during this run.
 
 ## Deadline and Timezone
 

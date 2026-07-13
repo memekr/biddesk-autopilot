@@ -12,7 +12,7 @@ Use this after the entrant has public URLs or proof links, and before `submissio
 
 - Devpost overview and rules now list the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 13, 2026 KST show 7,722 participants.
+- Public Devpost surfaces visible on July 13, 2026 KST show about 7,742 participants.
 - Devpost rules still require a public open-source repository, text description, architecture diagram, track selection, public demo video, Alibaba Cloud deployment proof, and working-project access for judging/testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.

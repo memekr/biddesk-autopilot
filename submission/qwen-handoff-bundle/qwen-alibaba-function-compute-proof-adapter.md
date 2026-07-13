@@ -9,7 +9,7 @@ Use this after `submission/qwen-deployment-proof-gate.md` and before `submission
 - Devpost overview: https://qwencloud-hackathon.devpost.com/
 - Devpost official rules: https://qwencloud-hackathon.devpost.com/rules
 - Qwen Cloud challenge page: https://www.qwencloud.com/challenge/hackathon
-- Current public source state on July 13, 2026 KST: Devpost overview and Official Rules still show the submission deadline as July 20, 2026, 2:00 PM Pacific Time; public pages showed about 7,742 participants during this run.
+- Current public source state on July 13, 2026 KST: Devpost overview and Official Rules still show the submission deadline as July 20, 2026, 2:00 PM Pacific Time; public pages showed about 7,769 participants during this run.
 - Current video-host source conflict: the Devpost overview says videos must be uploaded to YouTube, Vimeo, or Facebook Video, while Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live Devpost form clearly accepts another host.
 
 ## Proof Code File

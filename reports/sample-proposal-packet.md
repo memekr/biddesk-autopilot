@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-13T05:50:02+00:00
+Generated: 2026-07-13T11:51:55+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -81,11 +81,11 @@ Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 ## Qwen Cloud Live Summary
 
 **Verified Output**  
-The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs are confirmed generated.
+The packet for Northstar Facilities (Track 4 Autopilot Agent + Track 3 Agent Society evidence) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs from intake, research, quote, and approval agents are confirmed present. No missing_info is listed.
 
 **Human Approval Gates**  
-Two agents trigger mandatory human review: *policy* (flags “penalty”, “custom integration”, and explicit legal review request) and *approval* (routes three commitment questions to Sales, Legal, and Delivery). No missing info is reported, and all agent outputs align with requirements.
+Two human gates are active: policy agent flags *penalty*, *custom integration*, and explicit legal review request; approval agent escalates three commitment questions—to sales (pricing), legal (flagged terms/fallback language), and delivery (timeline contingent on confirmed dependencies). Legal review is explicitly mandated by the customer.
 
 **Next Actions**  
-Sales must confirm pricing range commitment; Legal must approve or revise flagged terms (penalty, custom integration); Delivery must validate timeline feasibility once customer dependencies are confirmed. No unverified dates, credentials, or external systems are referenced — all facts derive solely from the provided JSON.
+Await responses to the three approval questions. Resolve policy flags—specifically term “penalty” and “custom integration”—with fallback language or acceptance. Confirm customer-side dependencies to finalize delivery timeline. No missing facts or attachments require collection per current data.
 

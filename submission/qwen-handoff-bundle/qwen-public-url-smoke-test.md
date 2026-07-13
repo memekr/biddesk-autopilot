@@ -17,7 +17,7 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed about 7,742 participants during the July 13 source recheck.
+- Public Devpost surfaces showed about 7,769 participants during the July 13 source recheck.
 
 ## Private-Browser Checks
 

@@ -2,7 +2,7 @@
 
 Purpose: give the entrant a source outline for the Qwen Cloud presentation deck.
 
-Public sources rechecked: 2026-07-14 KST.
+Public sources rechecked: 2026-07-15 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT, which is July 21, 2026, 6:00 AM KST.
 

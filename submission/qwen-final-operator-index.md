@@ -1,6 +1,6 @@
 # Qwen Final Operator Index
 
-Public sources rechecked: 2026-07-14 KST.
+Public sources rechecked: 2026-07-15 KST.
 
 Devpost public header deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -27,6 +27,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - `submission/qwen-alibaba-function-compute-proof-adapter.md` records the Function Compute handler code-file candidate and the deployment-pending qualifier.
 - Devpost rules still require working-project access for judging and testing through a website, functioning demo, or test build.
 - July 14 KST external recheck: Devpost project creation still stops at an image reCAPTCHA (`Select all images with bridges`), the official YouTube demo is public at https://youtu.be/mEV2CP06JQo, and Alibaba Cloud Google login stops at phone verification for `82-010****7848`.
+- July 15 KST source refresh: public Devpost surfaces show about 7,883 participants, and Devpost plus Qwen challenge-page deadlines still align on July 20, 2026.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Qwen Cloud challenge page still frames final deliverables as repository, demo video, deck, and project description before the deadline.
 - `submission/qwen-presentation-deck.md` records the generated PPTX, public preview target, SHA-256, validation, and live Alibaba Cloud deployment boundary for the presentation asset.

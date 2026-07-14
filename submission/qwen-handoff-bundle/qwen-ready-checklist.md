@@ -1,6 +1,6 @@
 # Qwen Ready Checklist
 
-Public sources rechecked: 2026-07-14 KST.
+Public sources rechecked: 2026-07-15 KST.
 
 Devpost public header deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -25,7 +25,7 @@ Current source facts:
 - Public rules require access to a working project for judging and testing through a website, functioning demo, or test build.
 - Devpost official rules say the demo video should be less than three (3) minutes and judges are not required to watch beyond three minutes; use this stricter threshold even if another Qwen page says 5 minutes or less.
 - Public judging criteria weight Technical Depth & Engineering at 30%, Innovation & AI Creativity at 30%, Problem Value & Impact at 25%, and Presentation & Documentation at 15%.
-- Public Devpost surfaces visible on July 14, 2026 KST show about 7,865 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible on July 15, 2026 KST show about 7,883 participants, so final fields should make track fit, proof, and business value obvious without judge inference.
 - The Qwen Cloud challenge page still asks for a presentation PPT; `submission/BidDesk-Autopilot-Qwen-presentation.pptx` and https://memekr.github.io/biddesk-autopilot/qwen-presentation.html now cover that deck asset without claiming live Alibaba deployment.
 - Devpost overview currently says the public demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until Function Compute deployment evidence is captured.

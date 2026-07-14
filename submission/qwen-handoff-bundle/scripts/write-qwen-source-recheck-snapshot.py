@@ -28,7 +28,7 @@ def main() -> None:
     phase = "active submission window" if remaining_seconds > 0 else "deadline passed"
 
     facts = [
-        "Devpost deadline alignment reconfirmed during the July 14, 2026 KST "
+        "Devpost deadline alignment reconfirmed during the July 15, 2026 KST "
         "recheck: the Devpost overview header, rules page header, and Official "
         "Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is "
         "July 21, 2026, 6:00 AM KST.",
@@ -67,8 +67,8 @@ def main() -> None:
         "Public judging criteria weight Technical Depth & Engineering 30%, "
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
-        "Public Devpost surfaces visible during the July 14, 2026 KST late recheck "
-        "show about 7,865 participants, so final form values should make "
+        "Public Devpost surfaces visible during the July 15, 2026 KST source refresh "
+        "show about 7,883 participants, so final form values should make "
         "track fit, proof, and business value obvious without judge inference.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "

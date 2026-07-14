@@ -1,6 +1,6 @@
 # Qwen Final Devpost Submit Runbook
 
-Public sources rechecked: 2026-07-14 KST.
+Public sources rechecked: 2026-07-15 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -11,6 +11,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 ## Source Facts
 
 - Devpost overview and Official Rules list the Qwen Cloud hackathon deadline as July 20, 2026, 2:00 PM Pacific Time.
+- Public Devpost surfaces show about 7,883 participants during the July 15, 2026 KST source refresh.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - The public requirement set still includes Qwen Cloud usage, Alibaba Cloud deployment proof, a public code repository, an architecture diagram, a public demo video, working-project access for judges, and project text.
 - Alibaba Cloud deployment proof should be a link to a public repository code file demonstrating use of Alibaba Cloud services and APIs.

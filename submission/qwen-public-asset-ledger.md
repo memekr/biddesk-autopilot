@@ -1,6 +1,6 @@
 # Qwen Public Asset Ledger
 
-Public sources rechecked: 2026-07-14 KST.
+Public sources rechecked: 2026-07-15 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -12,7 +12,7 @@ Use this after the entrant has public URLs or proof links, and before `submissio
 
 - Devpost overview and rules now list the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 14, 2026 KST show about 7,865 participants.
+- Public Devpost surfaces visible on July 15, 2026 KST show about 7,883 participants.
 - The Qwen Cloud challenge page still asks for a presentation PPT; the generated public preview and committed PPTX now cover this deck asset.
 - Devpost rules still require a public open-source repository, text description, architecture diagram, track selection, public demo video, Alibaba Cloud deployment proof, and working-project access for judging/testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating use of Alibaba Cloud services and APIs.
@@ -103,6 +103,12 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Packet: `submission/qwen-presentation-deck.md`
 - SHA-256: `92ab617c0ba79597b2d1ea9edfa0665c609fbedda5b123b8238a810e2efe4e43`
 - Boundary: this deck is presentation evidence only; it does not convert the Function Compute code-file candidate into live Alibaba Cloud deployment proof.
+
+## July 15 Source Refresh
+
+- Devpost overview and Official Rules still show the July 20, 2026, 2:00 PM PDT deadline.
+- Public Devpost surfaces now show about 7,883 participants.
+- Qwen Cloud challenge page still asks for repository, demo video, deck, and project description before the July 20 submission deadline.
 
 Use live wording only when the repository, demo video, Qwen Cloud proof, Alibaba Cloud proof code-file URL, architecture diagram, and judge-access path are all verified.
 

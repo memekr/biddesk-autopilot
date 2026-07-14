@@ -1,6 +1,6 @@
 # Qwen Public URL Smoke Test
 
-Public sources rechecked: 2026-07-14 KST.
+Public sources rechecked: 2026-07-15 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -17,7 +17,7 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed about 7,865 participants during the July 14 source recheck.
+- Public Devpost surfaces showed about 7,883 participants during the July 15 source refresh.
 - The Qwen Cloud challenge page still asks for a presentation PPT, so the deck preview and committed PPTX should be checked even if Devpost does not expose a separate deck field.
 
 ## Private-Browser Checks
@@ -65,6 +65,9 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   is public at https://youtu.be/mEV2CP06JQo, with runtime `1:46` in YouTube
   Studio and HTTP 200 from YouTube oEmbed. No final submit or Alibaba Function
   Compute deployment evidence exists yet.
+- July 15 KST source refresh: Devpost overview, Devpost rules, and the Qwen
+  challenge page still align on the July 20, 2026 submission deadline, while
+  public Devpost surfaces show about 7,883 participants.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

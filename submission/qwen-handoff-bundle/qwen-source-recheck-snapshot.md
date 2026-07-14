@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-14T06:14:12+00:00
+Generated UTC: 2026-07-14T11:53:17+00:00
 
-Generated KST: 2026-07-14T15:14:12+09:00
+Generated KST: 2026-07-14T20:53:17+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 6d 14h 45m
+Remaining: 6d 9h 6m
 
 Phase: active submission window
 
@@ -43,7 +43,7 @@ Phase: active submission window
 - Devpost resources route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
 - Public judging criteria weight Technical Depth & Engineering 30%, Innovation & AI Creativity 30%, Problem Value & Impact 25%, and Presentation & Documentation 15%.
-- Public Devpost surfaces visible during the July 14, 2026 KST recheck show about 7,826 participants, so final form values should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible during the July 14, 2026 KST late recheck show about 7,865 participants, so final form values should make track fit, proof, and business value obvious without judge inference.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.

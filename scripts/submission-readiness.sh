@@ -250,7 +250,7 @@ grep -q "GO - final 48-hour public proof lock ready" submission/qwen-final-48-ho
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "STOP - external commitment required" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "Qwen Final External Blocker Matrix" submission/qwen-final-external-blocker-matrix.md
-grep -q "about 7,826 participants" submission/qwen-final-external-blocker-matrix.md
+grep -q "about 7,865 participants" submission/qwen-final-external-blocker-matrix.md
 grep -q "Devpost enrollment" submission/qwen-final-external-blocker-matrix.md
 grep -q "GO - final external blockers cleared" submission/qwen-final-external-blocker-matrix.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-external-blocker-matrix.md
@@ -304,7 +304,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "about 7,826 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "about 7,865 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md

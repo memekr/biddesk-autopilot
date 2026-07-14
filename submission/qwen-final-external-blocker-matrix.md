@@ -12,7 +12,7 @@ Use this as the final stop sheet before any browser action that creates an accou
 
 - Devpost overview and Official Rules section 1 show the deadline as July 20, 2026, 2:00 PM Pacific Time.
 - Qwen Cloud challenge-page key dates show the build period as May 26 to July 19 and the submission deadline as July 20, 2026.
-- Public Devpost surfaces visible on July 14, 2026 KST show about 7,826 participants.
+- Public Devpost surfaces visible on July 14, 2026 KST show about 7,865 participants.
 - Rules require Qwen models available on Qwen Cloud, a public open-source repository, text description, track selection, architecture diagram, Alibaba Cloud backend deployment proof, public demo video, and working-project access for judging and testing.
 - Alibaba Cloud deployment proof must be a public repository code-file link demonstrating Alibaba Cloud services and APIs.
 - Official rules keep the stricter demo-video threshold at less than 3 minutes.

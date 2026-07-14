@@ -103,8 +103,8 @@ Current source facts:
 - [x] Live Qwen Cloud proof captured in `qwen-live-call-evidence.md` without exposing the API key.
 - [x] Public repository URL published under entrant identity: https://github.com/memekr/biddesk-autopilot
 - [x] Public static working demo published and verified through GitHub Pages: https://memekr.github.io/biddesk-autopilot/
-- [ ] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
-  YouTube Studio upload modal is open, but `fileChooser.setFiles` still fails with `Not allowed`; exact unblock is enabling `Allow access to file URLs` for the ChatGPT Chrome Extension.
+- [x] Public demo video uploaded, publicly viewable, and verified as less than 3 minutes.
+  Official YouTube URL: https://youtu.be/mEV2CP06JQo. YouTube Studio showed runtime `1:46`, public visibility, no copyright issues found, and public oEmbed returned HTTP 200.
 - [x] Local under-3-minute demo video preupload asset render path prepared.
 - [x] Public GitHub Pages MP4 preview fallback prepared: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 - [x] Presentation deck or PDF URL prepared if Devpost asks for the deck field: https://memekr.github.io/biddesk-autopilot/qwen-presentation.html plus `submission/BidDesk-Autopilot-Qwen-presentation.pptx`.
@@ -155,7 +155,7 @@ Current source facts:
 38. Open `submission/qwen-devpost-field-lock.md`.
 39. Open `submission/qwen-recording-evidence-capture.md`.
 40. Open `submission/qwen-demo-video-preupload.md`.
-41. Run `bash scripts/render-qwen-demo-video.sh` before any public video upload.
+41. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
 42. Open `submission/qwen-account-risk-triage.md`.
 43. Open `submission/qwen-demo-script.md`.
 44. Open `submission/qwen-presentation-deck-outline.md`.
@@ -168,4 +168,4 @@ GO - submit live Qwen entry only if the public repo, public video, architecture 
 
 DOWNGRADE - submit prototype wording only if local artifacts and the Function Compute code-file candidate are public but live Alibaba Cloud proof is incomplete.
 
-STOP - external commitment required before any account signup, voucher claim, Discord join, repository publication, video upload, rules acceptance, or final submit.
+STOP - external commitment required before any account signup, voucher claim, Discord join, rules acceptance, or final submit.

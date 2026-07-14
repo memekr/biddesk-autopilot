@@ -1,6 +1,6 @@
 # BidDesk Autopilot Demo Packet
 
-Generated: 2026-07-13T23:58:27+00:00
+Generated: 2026-07-14T06:14:07+00:00
 Customer: Northstar Facilities
 Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 
@@ -81,14 +81,11 @@ Track: Track 4 Autopilot Agent with Track 3 Agent Society evidence
 ## Qwen Cloud Live Summary
 
 **Verified Output**  
-The packet for Northstar Facilities (Track 4 Autopilot + Track 3 Agent Society) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and an integration scope with technical discovery checklist. All required outputs are confirmed present; no missing info is listed.
+The packet for Northstar Facilities (Track 4 Autopilot Agent + Track 3 Agent Society evidence) includes: a single approval-ready proposal; SOC2-mapped security questionnaire response; line-item quote totaling $72,250 across three scopes; delivery timeline noting customer-side dependencies; and integration scope with technical discovery checklist. All required outputs from intake, research, quote, and approval agents are confirmed complete. No missing info is listed.
 
 **Human Approval Gates**  
-Two agents trigger mandatory human review: *policy* (flagging “penalty”, “custom integration”, and explicit legal review request) and *approval* (routing three commitment questions to Sales, Legal, and Delivery). Legal review is explicitly mandated by the customer—not optional.
+Two human gates are active: policy agent flags *penalty terms*, *custom integration*, and explicit legal review request; approval agent escalates three commitment questions—to sales (pricing), legal (flagged terms/fallback language), and delivery (timeline contingent on confirmed dependencies).
 
 **Next Actions**  
-1. Sales must confirm pricing range commitment.  
-2. Legal must approve or revise flagged terms (“penalty”, “custom integration”) and fulfill the explicit legal review request.  
-3. Delivery must validate timeline feasibility once customer dependencies are confirmed.  
-No further agent automation is pending—resolution of these three questions unlocks final approval.
+Await responses to the three approval questions. Legal must address penalty/custom integration terms; sales must confirm pricing acceptance; delivery must validate timeline feasibility once Northstar confirms dependencies. No further agent automation is triggered until these gates resolve.
 

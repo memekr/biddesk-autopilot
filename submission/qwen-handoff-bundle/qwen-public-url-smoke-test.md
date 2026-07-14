@@ -29,7 +29,7 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 | Public repository | https://github.com/memekr/biddesk-autopilot | Repository loads without login and shows README, license, source, sample input, validation commands, and Qwen truth boundary. | Repo is private, missing license/setup, or contains secrets/customer data. |
 | Alibaba Cloud deployment proof | Code-file URL in the public repository | File visibly demonstrates Alibaba Cloud service/API usage for the backend deployment proof. | Proof is only a private screenshot, vague README claim, or unrelated code. |
 | Qwen Cloud proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Evidence shows Qwen Cloud/DashScope API usage without exposing keys, tokens, account IDs, billing data, or private endpoints. | Evidence contains secrets or only claims generic Qwen/Bedrock/local model usage. |
-| Demo video | Official-host public video URL after upload; local preupload file is `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4` | YouTube, Vimeo, or Youku video plays without login and runtime is less than 3 minutes. | Video is private, longer than 2:59, unavailable, hosted only on an unaccepted fallback, or claims unverified live cloud usage. |
+| Demo video | https://youtu.be/mEV2CP06JQo | YouTube video plays without login and runtime is less than 3 minutes; YouTube oEmbed returns HTTP 200. | Video is private, longer than 2:59, unavailable, hosted only on an unaccepted fallback, or claims unverified live cloud usage. |
 | Public MP4 fallback | https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 | GitHub Pages MP4 plays without login and is labeled as supplemental preview evidence only. | MP4 does not load, differs from the validated render, or is treated as the official Devpost video URL without live-form acceptance. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Static demo opens without login, and judges can reproduce the packet through the local test build with synthetic data. | Project requires undisclosed credentials, unsafe credentials, private customer data, unavailable cloud resources, or claims Alibaba Cloud deployment from the static page. |
 | Presentation deck/PDF | https://memekr.github.io/biddesk-autopilot/qwen-presentation.html and https://github.com/memekr/biddesk-autopilot/blob/main/submission/BidDesk-Autopilot-Qwen-presentation.pptx | Preview opens without login, PPTX is visible in the public repo, and both match the final architecture, demo, and truth boundary. | Deck is private, stale, missing from public repo, or overclaims production/live proof. |
@@ -60,10 +60,11 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   page was added at https://memekr.github.io/biddesk-autopilot/qwen-presentation.html.
   Public deck URL is GO after the public push and private-browser checks pass.
 - July 14 KST late recheck: Devpost project creation still stops at an image
-  reCAPTCHA (`Select all images with bridges`), YouTube Studio file chooser still
-  fails with `Not allowed`, and Alibaba Cloud Google login stops at phone
-  verification for `82-010****7848`. No final submit, official-host video URL,
-  or Alibaba Function Compute deployment evidence exists yet.
+  reCAPTCHA (`Select all images with bridges`), and Alibaba Cloud Google login
+  stops at phone verification for `82-010****7848`. The official YouTube video
+  is public at https://youtu.be/mEV2CP06JQo, with runtime `1:46` in YouTube
+  Studio and HTTP 200 from YouTube oEmbed. No final submit or Alibaba Function
+  Compute deployment evidence exists yet.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.
@@ -78,4 +79,4 @@ GO - public URLs ready only if every required URL opens in a private browser, th
 
 DOWNGRADE - submit truthful prototype wording only if the public repo, local test build, diagram, deck, and demo video are ready but live Qwen Cloud or Alibaba Cloud deployment proof is incomplete.
 
-STOP - external commitment required before publishing repositories, uploading videos, creating cloud credentials, adding judge credentials, accepting official rules, or clicking final Devpost `Submit project`.
+STOP - external commitment required before creating cloud credentials, adding judge credentials, accepting official rules, or clicking final Devpost `Submit project`.

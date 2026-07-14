@@ -1,8 +1,8 @@
 # Qwen Demo Video Preupload Packet
 
-Generated for the July 12, 2026 KST submission run. Updated July 13, 2026 KST after the public Pages fallback and YouTube upload retry.
+Generated for the July 12, 2026 KST submission run. Updated July 14, 2026 KST after the official YouTube publication.
 
-Use this packet after `submission/qwen-final-72-hour-recording-lock.md` and before any public upload to YouTube, Vimeo, or Youku. It records the local video asset, validation command, truth boundary, and the exact external blocker that remains before a final Devpost video URL exists.
+Use this packet after `submission/qwen-final-72-hour-recording-lock.md` and before final Devpost paste. It records the local video asset, official YouTube URL, validation command, and truth boundary.
 
 ## Event URL and Source Snapshot
 
@@ -37,6 +37,15 @@ The Official Rules require a public demonstration video that is less than three 
 - Repository file: `docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4`
 - Boundary: this is a public preview and supplemental evidence, not the final Official Rules-compliant video URL unless the live Devpost form explicitly accepts it.
 
+## Official Public YouTube Video
+
+- Public URL: https://youtu.be/mEV2CP06JQo
+- Published title: `BidDesk Autopilot Qwen Ready Proposal Operations Demo`
+- Published date shown in YouTube Studio: July 14, 2026.
+- Public runtime shown in YouTube Studio: `1:46`.
+- YouTube Studio status: upload 100%, copyright check complete, no issues found, audience set to not made for kids, visibility set to public.
+- Public verification: YouTube oEmbed returned HTTP 200 for `https://youtu.be/mEV2CP06JQo` with the published title and provider `YouTube`.
+
 ## Content Map
 
 | Segment | Evidence shown | Claim boundary |
@@ -52,16 +61,15 @@ The Official Rules require a public demonstration video that is less than three 
 
 1. Run `bash scripts/render-qwen-demo-video.sh`.
 2. Confirm `ffprobe.json` shows duration under 179 seconds and 1280x720 H.264 output.
-3. Upload the MP4 to YouTube, Vimeo, or Youku under the entrant account.
-4. Set visibility to public.
-5. Open the video URL in a private browser and confirm public playback without login.
-6. Paste only the verified public URL into Devpost.
+3. Use the published YouTube URL `https://youtu.be/mEV2CP06JQo` as the official Devpost demo video URL.
+4. Keep the GitHub Pages MP4 as supplemental preview evidence only.
+5. Re-run a public URL check before final Devpost paste if YouTube metadata changes.
 
 ## Submission Answer Update
 
 Use this video title:
 
-`BidDesk Autopilot - Qwen-Ready Proposal Operations Demo`
+`BidDesk Autopilot Qwen Ready Proposal Operations Demo`
 
 Use this public description:
 
@@ -95,10 +103,17 @@ July 13, 2026 KST upload retry:
 - Narrow unblock from Chrome upload troubleshooting: go to `chrome://extensions`, click Details under the ChatGPT Chrome Extension, and enable `Allow access to file URLs`.
 - Public fallback created by copying the validated MP4 to `docs/assets/` and embedding it in the GitHub Pages demo.
 
+July 14, 2026 KST official YouTube publication:
+
+- Native macOS file picker selection from YouTube Studio succeeded with the same validated MP4.
+- YouTube Studio showed upload complete, public visibility, runtime `1:46`, and no copyright issues found.
+- Public URL: https://youtu.be/mEV2CP06JQo
+- Public oEmbed verification returned HTTP 200 and the published title `BidDesk Autopilot Qwen Ready Proposal Operations Demo`.
+
 ## GO / DOWNGRADE / STOP
 
-GO - upload to YouTube, Vimeo, or Youku only if the rendered MP4 is under three minutes, uses synthetic data, and still matches the current Qwen and Alibaba proof state.
+GO - use https://youtu.be/mEV2CP06JQo as the official Devpost demo video URL if the final form accepts YouTube and the public URL still opens.
 
-DOWNGRADE - use prototype-only Devpost wording if only the GitHub Pages MP4 fallback is public or if Alibaba Cloud deployment proof remains missing.
+DOWNGRADE - use prototype-only Devpost wording if Alibaba Cloud deployment proof remains missing.
 
-STOP - external commitment required before YouTube, Vimeo, or Youku login/upload, public URL publication, rules acceptance, or final Devpost `Submit project`.
+STOP - external commitment required before rules acceptance or final Devpost `Submit project`.

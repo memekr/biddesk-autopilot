@@ -31,7 +31,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 | How it uses Qwen Cloud | `submission/qwen-live-connector-gate.md` | Redacted live run includes `Qwen Cloud Live Summary` | GO for live wording only after proof; DOWNGRADE to target API wording otherwise |
 | Built with | `submission/qwen-devpost-draft.md` | No secret or account data included | GO |
 | Repository URL | Entrant-owned public repository | Private/incognito browser shows README, LICENSE, source, sample input, and setup instructions | STOP until public URL exists |
-| Demo video URL | `submission/qwen-video-duration-arbitration.md` and entrant upload | Public YouTube, Vimeo, or Youku video opens in private/incognito browser and runtime is less than 3 minutes | STOP until official-host public URL exists |
+| Demo video URL | https://youtu.be/mEV2CP06JQo | Public YouTube video opens in private/incognito browser and runtime is less than 3 minutes | GO after final private-browser recheck |
 | Public MP4 preview | `submission/qwen-public-pages-video-fallback.md` | GitHub Pages MP4 opens without login and is labeled as supplemental evidence only | GO for description/testing evidence; do not use as the official video URL unless the live form accepts it |
 | Architecture diagram | `submission/qwen-architecture-diagram.md` | Diagram is included in repo, deck, or public asset URL | GO if visible to judges |
 | Alibaba Cloud proof | `submission/qwen-deployment-proof-gate.md` and `submission/qwen-alibaba-function-compute-proof-adapter.md` | Public code-file URL demonstrates Alibaba Cloud Function Compute handler/API usage; live deployment evidence is still required before claiming the backend is running on Alibaba Cloud | DOWNGRADE until public URL is pushed and live deployment proof exists |
@@ -51,7 +51,7 @@ Use live Qwen Cloud wording only when all of these are true:
 - `uv run biddesk-autopilot reports/sample-request.json --qwen-status --use-qwen` completed with secrets redacted.
 - The generated packet includes `Qwen Cloud Live Summary`.
 - Alibaba Cloud deployment proof exists as a public repository code-file URL and any live-deployment claim is backed by deployment evidence, not only the code-file candidate.
-- The public demo video shows or states the live path without exposing credentials; the GitHub Pages MP4 fallback is not treated as the official video URL.
+- The public demo video at https://youtu.be/mEV2CP06JQo shows the demo path without exposing credentials; the GitHub Pages MP4 fallback is supplemental.
 
 If any item is missing, use this downgrade sentence in the project description:
 
@@ -65,7 +65,7 @@ If any item is missing, use this downgrade sentence in the project description:
 4. Compare each Devpost field against the table above.
 5. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
 6. Confirm the Devpost project-creation CAPTCHA is complete; the July 14 KST blocker was `Select all images with bridges` plus `Verify`.
-7. Confirm the official-host video URL exists; the July 14 KST YouTube blocker was `fileChooser.setFiles` returning `Not allowed`.
+7. Confirm the official-host video URL exists at https://youtu.be/mEV2CP06JQo and still opens publicly.
 8. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to `82-010****7848`.
 9. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.
 
@@ -75,4 +75,4 @@ GO - field lock ready only if every required Devpost field maps to a current loc
 
 DOWNGRADE - submit truthful prototype wording if the repository, demo video, architecture diagram, deck, and local test build are ready but live Qwen Cloud or Alibaba Cloud proof is incomplete.
 
-STOP - external commitment required before Devpost login, joining the hackathon, accepting official rules, publishing a repository, uploading a video, creating credentials, adding private judge credentials, or clicking final `Submit project`.
+STOP - external commitment required before Devpost login, joining the hackathon, accepting official rules, creating credentials, adding private judge credentials, or clicking final `Submit project`.

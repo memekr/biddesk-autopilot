@@ -37,7 +37,7 @@ Use this as the final stop sheet before any browser action that creates an accou
 | Alibaba Cloud proof code file | Public GitHub repository | Public Function Compute handler file | Public URL to `src/biddesk_autopilot/alibaba_function_compute.py` | GO as code-file candidate only; live deployment remains blocked |
 | Public repository | GitHub under entrant identity | Published | Public URL, license, source, README, sample files | Complete |
 | Working project access | GitHub Pages and repository test build | Verify judge-clean access | Public URL or exact clean-room commands; safe synthetic credentials only if private | Complete as static demo plus local test build; no Alibaba endpoint claim |
-| Public demo video | YouTube/Vimeo/Youku or live Devpost-accepted host | Upload/publish video | Public URL, less-than-3-minute runtime, proof-visible first 30 seconds | YouTube chooser opens, but `fileChooser.setFiles` fails with `Not allowed`; enable Chrome extension file URL access |
+| Public demo video | YouTube | Published public video | https://youtu.be/mEV2CP06JQo, runtime `1:46`, proof-visible first 30 seconds, public oEmbed HTTP 200 | Complete; recheck public playback before final paste |
 | Public MP4 fallback | GitHub Pages | Public preview MP4 | Supplemental playback URL, hash match, clear non-official label | GO only as fallback evidence |
 | Presentation deck/PDF | Public deck preview and public PPTX | Publish deck/PDF | Public URL based on `qwen-presentation-deck.md` | Complete |
 | Devpost final project | Devpost project form | `Submit project` | All public URLs, track, testing instructions, eligibility, rules acceptance | Stop at ready-to-paste packet |
@@ -50,7 +50,7 @@ Use this as the final stop sheet before any browser action that creates an accou
 4. Run `uv run biddesk-autopilot reports/sample-request.json --qwen-status --out reports/sample-proposal-packet.md --json reports/sample-proposal-packet.json`.
 5. Open every public URL in a private/incognito browser.
 6. Freeze Devpost copy from `submission/qwen-devpost-field-lock.md` and `submission/qwen-final-devpost-value-audit.md`.
-7. Resume the preserved Chrome blockers only after the user completes the visible reCAPTCHA, enables file URL access, or enters the Alibaba phone verification code.
+7. Resume the preserved Chrome blockers only after the user completes the visible Devpost reCAPTCHA or enters the Alibaba phone verification code.
 8. Stop before accepting official rules or clicking `Submit project`.
 
 ## Paste-Ready Downgrade Lines
@@ -73,4 +73,4 @@ GO - final external blockers cleared only if Devpost enrollment, public reposito
 
 DOWNGRADE - submit truthful prototype wording if local artifacts are public and reproducible but Qwen Cloud proof, Alibaba Cloud proof, hosted access, public deck, or other external evidence is missing.
 
-STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API key creation, cloud deployment, repository publication, public video upload, deck publication, official rules acceptance, or final Devpost `Submit project`.
+STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API key creation, cloud deployment, official rules acceptance, or final Devpost `Submit project`.

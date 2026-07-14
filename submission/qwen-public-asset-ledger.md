@@ -32,7 +32,7 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 | Alibaba Cloud proof code file | https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py | Public repo code-file URL demonstrates Alibaba Cloud Function Compute handler/service usage. Live deployment must still be separately verified. | Alibaba Cloud deployment proof field or project description | GO as proof-code candidate after public browser check passes; DOWNGRADE for any live deployment claim until deployment evidence exists. |
 | Alibaba Cloud proof recording |  | Separate recording, if used, hides account IDs, billing, private console identifiers, and secrets. | Optional supporting link or video notes | DOWNGRADE if only local proof exists. |
 | Qwen Cloud live proof | https://github.com/memekr/biddesk-autopilot/blob/main/submission/qwen-live-call-evidence.md | Redacted run log shows configured Qwen Cloud/DashScope API use and no API keys or account data. | "How it uses Qwen Cloud" copy and demo video | GO for synthetic local live proof only. |
-| Demo video |  | Public YouTube, Vimeo, or Youku URL opens without login and runtime is less than 3 minutes. Local preupload asset can be rendered at `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`. | Demo video URL | STOP until official-host public URL exists and duration passes. |
+| Demo video | https://youtu.be/mEV2CP06JQo | Public YouTube URL opens without login and runtime is less than 3 minutes. YouTube Studio showed runtime `1:46`, public visibility, and no copyright issues found; public oEmbed returned HTTP 200. | Demo video URL | GO after final private-browser recheck. |
 | Public MP4 fallback | https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4 | GitHub Pages MP4 opens without login, hash matches the local preupload asset, and it is labeled as supplemental preview evidence only. | Supplemental project description/testing evidence only | GO as fallback evidence; do not paste as the official video URL unless the live form accepts it. |
 | Working project access | https://memekr.github.io/biddesk-autopilot/ and https://github.com/memekr/biddesk-autopilot#local-demo | Public static demo opens without login, and reproducible local test build works with synthetic data. | Testing instructions | GO as static demo plus local test build; do not claim Alibaba Cloud endpoint. |
 | Test credentials, if needed |  | Entrant-created non-admin synthetic-data credentials only; no personal, billing, or production access. | Testing instructions | STOP for automation; entrant must decide. |
@@ -62,7 +62,8 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Render command: `bash scripts/render-qwen-demo-video.sh`
 - Local MP4 output: `output/playwright/qwen-demo-video/biddesk-autopilot-qwen-demo-preupload.mp4`
 - Validation outputs: `output/playwright/qwen-demo-video/ffprobe.json` and `output/playwright/qwen-demo-video/sha256.txt`
-- Upload boundary: the MP4 is ready for public-host upload only after YouTube, Vimeo, or Youku account access is available; the Devpost video URL field remains blank until a private-browser public playback check passes.
+- Official YouTube URL: https://youtu.be/mEV2CP06JQo.
+- Publication evidence: YouTube Studio showed upload complete, public visibility, runtime `1:46`, not made for kids, and no copyright issues found; YouTube oEmbed returned HTTP 200 with the published title.
 
 ## July 13 Public Pages Video Fallback
 
@@ -70,13 +71,21 @@ Fill the `Final URL or value` column only during the entrant-owned external sess
 - Public MP4 fallback target: https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 - Repository file: `docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4`
 - SHA-256: `cb70b6e2f88105a8f9da422faf1c6df1cc657597e257591e69c0ec220cd3afb2`
-- YouTube upload retry result: `fileChooser.setFiles` failed with `Not allowed`; exact unblock is enabling `Allow access to file URLs` for the ChatGPT Chrome Extension.
-- Boundary: this fallback improves public judge access but does not satisfy the Official Rules video-host requirement by itself.
+- Boundary: this fallback improves public judge access but is now supplemental to the official YouTube URL.
+
+## July 14 Official YouTube Video
+
+- Public URL: https://youtu.be/mEV2CP06JQo
+- Published title: `BidDesk Autopilot Qwen Ready Proposal Operations Demo`
+- Runtime: `1:46`
+- Visibility: public.
+- Copyright check: no issues found.
+- Public verification: YouTube oEmbed returned HTTP 200.
 
 ## July 14 External Blocker Recheck
 
 - Devpost project creation reached the image reCAPTCHA again. Current visible challenge: `Select all images with bridges`, followed by the `Verify` button.
-- YouTube Studio still opens the upload dialog under the signed-in channel, but setting the local MP4 through the file chooser fails with `Not allowed`.
+- Official YouTube video is public at https://youtu.be/mEV2CP06JQo; the remaining external blockers are Devpost reCAPTCHA/final submit and Alibaba Cloud phone verification/deployment proof.
 - Alibaba Cloud international Google login with `spdish12@gmail.com` reached phone verification. A code was sent to `82-010****7848`; no Function Compute deployment or paid/billable resource was created.
 
 ## July 13 Alibaba Function Compute Code-File Candidate
@@ -106,7 +115,7 @@ If Qwen Cloud live proof or Alibaba Cloud deployment proof is missing, paste thi
 1. Open the repository URL.
 2. Open the Alibaba Cloud proof code-file URL.
 3. Open the public MP4 fallback URL and confirm it plays without login.
-4. Open the official-host demo video URL and confirm runtime is less than 3 minutes after YouTube, Vimeo, or Youku upload succeeds.
+4. Open https://youtu.be/mEV2CP06JQo and confirm runtime is less than 3 minutes.
 5. Open the static web demo URL and follow the test build instructions from a clean checkout.
 6. Open the deck/PDF URL if Devpost asks for it.
 7. Open the architecture diagram location.
@@ -118,4 +127,4 @@ GO - public asset ledger ready only if every required public asset opens without
 
 DOWNGRADE - submit truthful prototype wording if local assets are ready but live Qwen Cloud or Alibaba Cloud deployment proof is incomplete.
 
-STOP - external commitment required before Devpost login, joining the hackathon, Qwen Cloud signup, voucher request, Discord join, API-key creation, Alibaba Cloud deployment, repository publication, video upload, deck publication, adding judge credentials, rules acceptance, or final `Submit project`.
+STOP - external commitment required before Devpost login, joining the hackathon, Qwen Cloud signup, voucher request, Discord join, API-key creation, Alibaba Cloud deployment, adding judge credentials, rules acceptance, or final `Submit project`.

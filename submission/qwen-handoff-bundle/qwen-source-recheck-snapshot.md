@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-13T23:58:32+00:00
+Generated UTC: 2026-07-14T06:14:12+00:00
 
-Generated KST: 2026-07-14T08:58:32+09:00
+Generated KST: 2026-07-14T15:14:12+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 6d 21h 1m
+Remaining: 6d 14h 45m
 
 Phase: active submission window
 
@@ -49,7 +49,7 @@ Phase: active submission window
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until a Function Compute deployment is completed and verified under the entrant account.
 - GitHub Pages was enabled from `main` `/docs` on July 12, 2026 KST and returned HTTP 200 for the static demo page during the public smoke test.
-- A local under-3-minute demo video preupload asset can be rendered with `bash scripts/render-qwen-demo-video.sh`; the validated MP4 is also embedded as a public GitHub Pages preview fallback, but it is not the final Devpost video URL until uploaded to YouTube, Vimeo, or Youku and verified in a private browser.
+- The official public YouTube demo video is available at `https://youtu.be/mEV2CP06JQo`; YouTube Studio showed runtime `1:46`, public visibility, and no copyright issues found, and public oEmbed returned HTTP 200. The validated GitHub Pages MP4 remains supplemental preview evidence.
 - The Qwen Cloud challenge page still asks for a presentation PPT; `submission/BidDesk-Autopilot-Qwen-presentation.pptx` and `docs/qwen-presentation.html` now provide the public deck asset without claiming live Alibaba Cloud deployment.
 
 ## Operator Decision
@@ -61,5 +61,5 @@ DOWNGRADE - use Qwen-ready local prototype wording if public assets exist but Qw
 Alibaba Cloud proof is missing.
 
 STOP - external commitment required before Devpost login, account signup, credit request,
-Discord join, API key creation, cloud deployment, repository publication, video upload, rules
-acceptance, or final Devpost `Submit project`.
+Discord join, API key creation, cloud deployment, rules acceptance, or final Devpost
+`Submit project`.

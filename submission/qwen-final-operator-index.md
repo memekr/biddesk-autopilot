@@ -26,7 +26,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - Devpost overview currently says the public video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live Devpost form clearly accepts another host.
 - `submission/qwen-alibaba-function-compute-proof-adapter.md` records the Function Compute handler code-file candidate and the deployment-pending qualifier.
 - Devpost rules still require working-project access for judging and testing through a website, functioning demo, or test build.
-- July 14 KST external recheck: Devpost project creation still stops at an image reCAPTCHA (`Select all images with bridges`), YouTube Studio still fails at `fileChooser.setFiles` with `Not allowed`, and Alibaba Cloud Google login stops at phone verification for `82-010****7848`.
+- July 14 KST external recheck: Devpost project creation still stops at an image reCAPTCHA (`Select all images with bridges`), the official YouTube demo is public at https://youtu.be/mEV2CP06JQo, and Alibaba Cloud Google login stops at phone verification for `82-010****7848`.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Qwen Cloud challenge page still frames final deliverables as repository, demo video, deck, and project description before the deadline.
 - `submission/qwen-presentation-deck.md` records the generated PPTX, public preview target, SHA-256, validation, and live Alibaba Cloud deployment boundary for the presentation asset.
@@ -70,7 +70,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 30. Open `submission/qwen-live-connector-gate.md` before running or recording Qwen Cloud API proof.
 31. Open `submission/qwen-account-risk-triage.md` before recording live Qwen or Alibaba proof.
 32. Open `submission/qwen-recording-evidence-capture.md` before screen recording.
-33. Open `submission/qwen-demo-video-preupload.md` and run `bash scripts/render-qwen-demo-video.sh` before opening any video host.
+33. Open `submission/qwen-demo-video-preupload.md` and verify https://youtu.be/mEV2CP06JQo before final Devpost paste.
 34. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
 35. Open `submission/qwen-public-pages-video-fallback.md` if the Official Rules-accepted video host remains blocked.
 36. Open `submission/qwen-presentation-deck.md` before filling any presentation/deck field.
@@ -87,7 +87,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 3. Alibaba Cloud: verify the public Function Compute handler code-file URL, then capture live backend deployment proof before claiming the backend is running on Alibaba Cloud.
 4. Working project: verify the static web demo, functioning demo, or local test build instructions in a private browser or clean environment.
 5. Architecture: verify the diagram shows Qwen Cloud, backend, storage/state, frontend or CLI, and human approval gates.
-6. Video: render the local preupload MP4, use the GitHub Pages MP4 only as supplemental preview evidence while blocked, upload it to YouTube, Vimeo, or Youku for final Devpost proof, keep the final public runtime below 3 minutes, and verify the public URL in a private browser.
+6. Video: verify the official public YouTube URL https://youtu.be/mEV2CP06JQo, keep the GitHub Pages MP4 only as supplemental preview evidence, confirm the runtime remains below 3 minutes, and recheck the public URL in a private browser.
 7. Deck: verify https://memekr.github.io/biddesk-autopilot/qwen-presentation.html and the public PPTX URL in the repository; use `submission/qwen-presentation-deck.md` for the SHA-256 and truth boundary.
 
 ## Devpost Paste Order
@@ -96,7 +96,7 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 2. Track: Track 4 Autopilot Agent; mention Track 3 Agent Society only as supporting evidence if the form allows it.
 3. Project description from `submission/qwen-devpost-draft.md`, with only verified live-proof additions.
 4. Public repository URL.
-5. Public demo video URL.
+5. Public demo video URL: https://youtu.be/mEV2CP06JQo.
 6. Working-project URL or test build instructions from `submission/qwen-judging-testing-access-gate.md`; use https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
 7. Architecture diagram location.
 8. Alibaba Cloud deployment proof code-file URL, with deployment-pending qualifier unless live Function Compute proof exists.
@@ -109,4 +109,4 @@ GO - final live Qwen submission only if public repo, demo video, working-project
 
 DOWNGRADE - submit truthful prototype wording only if local/public assets are complete but live Qwen Cloud or Alibaba Cloud proof is incomplete.
 
-STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API key creation, cloud deployment, video upload, official rules acceptance, or final `Submit project`.
+STOP - external commitment required before Devpost login, `Join hackathon`, Qwen Cloud signup, voucher request, Discord join, API key creation, cloud deployment, official rules acceptance, or final `Submit project`.

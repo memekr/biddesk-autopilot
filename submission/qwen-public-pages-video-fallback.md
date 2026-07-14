@@ -1,8 +1,8 @@
 # Qwen Public Pages Video Fallback
 
-Generated for the July 13, 2026 KST submission run.
+Generated for the July 13, 2026 KST submission run. Updated July 14, 2026 KST after the official YouTube video was published.
 
-Use this after `submission/qwen-demo-video-preupload.md` and before final Devpost field paste. It records the public GitHub Pages MP4 fallback created after the YouTube Studio file chooser failed under Chrome extension file-access restrictions.
+Use this after `submission/qwen-demo-video-preupload.md` and before final Devpost field paste. It records the public GitHub Pages MP4 fallback, which is now supplemental to the official YouTube demo.
 
 ## Event URL and Source Snapshot
 
@@ -19,7 +19,7 @@ Use this after `submission/qwen-demo-video-preupload.md` and before final Devpos
 
 ## Official Video Requirement
 
-The Official Rules require a public demonstration video that is less than three minutes, shows the project functioning, and is publicly visible on YouTube, Vimeo, or Youku. The GitHub Pages MP4 fallback is useful public evidence, but it is not a rules-compliant final Devpost video URL unless the live Devpost form explicitly accepts it.
+The Official Rules require a public demonstration video that is less than three minutes, shows the project functioning, and is publicly visible on YouTube, Vimeo, or Youku. The official public YouTube URL is https://youtu.be/mEV2CP06JQo. The GitHub Pages MP4 fallback is useful supplemental public evidence, but it should not replace the YouTube URL in Devpost.
 
 ## Public Fallback Asset
 
@@ -31,24 +31,25 @@ The Official Rules require a public demonstration video that is less than three 
 - Size: `2238996` bytes.
 - SHA-256: `cb70b6e2f88105a8f9da422faf1c6df1cc657597e257591e69c0ec220cd3afb2`.
 
-## Upload Attempt Evidence
+## Official Video Evidence
 
-- YouTube Studio upload tab was open under the existing Chrome session.
-- File chooser opened from the `파일 선택` button.
-- `fileChooser.setFiles` failed with `Not allowed`.
-- Narrow unblock from Chrome upload troubleshooting: go to `chrome://extensions`, click Details under the ChatGPT Chrome Extension, and enable `Allow access to file URLs`.
+- Public URL: https://youtu.be/mEV2CP06JQo
+- Published title: `BidDesk Autopilot Qwen Ready Proposal Operations Demo`
+- Runtime: `1:46`
+- YouTube Studio status: public, upload complete, no copyright issues found.
+- Public verification: YouTube oEmbed returned HTTP 200.
 
 ## Claim Boundary
 
 Allowed wording:
 
-> A public GitHub Pages preview of the validated 1:45 demo video is available for review. The final Devpost video field still needs a public YouTube, Vimeo, or Youku URL before submission.
+> The official public YouTube demo is available at https://youtu.be/mEV2CP06JQo. A public GitHub Pages preview of the validated 1:45 demo video is also available as supplemental evidence.
 
 Not allowed:
 
-> The Devpost video requirement is complete.
+> The GitHub Pages MP4 by itself completes the Devpost video requirement.
 
-Do not paste the GitHub Pages MP4 URL into Devpost as the official video URL unless the live form explicitly accepts non-YouTube/Vimeo/Youku hosts.
+Do not paste the GitHub Pages MP4 URL into Devpost as the official video URL; use https://youtu.be/mEV2CP06JQo.
 
 ## Validation
 
@@ -66,8 +67,8 @@ Expected result: the MP4 duration remains below three minutes, hash matches the 
 
 ## GO / DOWNGRADE / STOP
 
-GO - use the GitHub Pages MP4 only as supplemental public demo evidence and recording proof.
+GO - use https://youtu.be/mEV2CP06JQo as the official Devpost video URL and the GitHub Pages MP4 only as supplemental public demo evidence.
 
-DOWNGRADE - keep final Devpost wording truthful if the official video host remains missing.
+DOWNGRADE - keep final Devpost wording truthful if the YouTube URL becomes unavailable before final paste.
 
-STOP - external commitment required before YouTube, Vimeo, or Youku upload, rules acceptance, or final Devpost `Submit project`.
+STOP - external commitment required before rules acceptance or final Devpost `Submit project`.

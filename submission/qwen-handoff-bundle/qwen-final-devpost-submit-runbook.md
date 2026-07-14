@@ -1,6 +1,6 @@
 # Qwen Final Devpost Submit Runbook
 
-Public sources rechecked: 2026-07-13 KST.
+Public sources rechecked: 2026-07-14 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -17,6 +17,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 - `src/biddesk_autopilot/alibaba_function_compute.py` is the current Function Compute code-file candidate, but live deployment proof is still required before claiming the backend is running on Alibaba Cloud.
 - Devpost overview currently says the public video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
+- Official public YouTube video is available at https://youtu.be/mEV2CP06JQo; YouTube Studio showed runtime `1:46`, public visibility, and no copyright issues found, and public oEmbed returned HTTP 200.
 
 ## Paste Order
 
@@ -28,7 +29,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 6. Paste the short description from `submission/qwen-devpost-draft.md`.
 7. Paste the project description from `submission/qwen-devpost-draft.md`, then append only verified live proof from `submission/qwen-deployment-proof-gate.md`, `submission/qwen-alibaba-function-compute-proof-adapter.md`, and `submission/qwen-live-connector-gate.md`.
 8. Paste the public repository URL after confirming it is publicly visible and has `README.md`, `LICENSE`, source, sample inputs, and setup instructions.
-9. Paste the public demo video URL after confirming the runtime is less than 3 minutes.
+9. Paste the public demo video URL https://youtu.be/mEV2CP06JQo after confirming it still opens publicly and the runtime is less than 3 minutes.
 10. Paste the working-project URL or reproducible test-build instructions from `submission/qwen-judging-testing-access-gate.md`.
 11. Paste https://memekr.github.io/biddesk-autopilot/qwen-presentation.html or the public repository PPTX URL if Devpost asks for a presentation deck or PDF.
 12. Paste architecture and Alibaba Cloud deployment proof links if the form has separate fields; otherwise include them in the project description.
@@ -41,7 +42,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 
 - Entrant or team display name.
 - Public repository URL under the entrant identity.
-- Public demo video URL.
+- Public demo video URL: https://youtu.be/mEV2CP06JQo.
 - Judge-accessible working project URL or reproducible test-build instructions.
 - Alibaba Cloud deployment proof URL or screenshot reference; use the Function Compute code-file candidate only with a deployment-pending qualifier until live proof exists.
 - Qwen Cloud live-call proof with secrets redacted.
@@ -55,4 +56,4 @@ GO - final Devpost submit only if public repository, public demo video, judge-ac
 
 DOWNGRADE - submit truthful prototype wording only if public repository, local reproducible test build, architecture diagram, demo video, and deck exist but live Qwen Cloud or Alibaba Cloud proof is incomplete.
 
-STOP - external commitment required before Devpost login, joining the hackathon, accepting official rules, publishing a repository, uploading a video, creating cloud credentials, adding private test credentials, or clicking final `Submit project`.
+STOP - external commitment required before Devpost login, joining the hackathon, accepting official rules, creating cloud credentials, adding private test credentials, or clicking final `Submit project`.

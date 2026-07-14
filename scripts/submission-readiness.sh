@@ -234,13 +234,15 @@ grep -q "DOWNGRADE - record the Qwen-ready prototype path" submission/qwen-final
 grep -q "STOP - external commitment required" submission/qwen-final-72-hour-recording-lock.md
 grep -q "Qwen Demo Video Preupload Packet" submission/qwen-demo-video-preupload.md
 grep -q "scripts/render-qwen-demo-video.sh" submission/qwen-demo-video-preupload.md
-grep -q "GO - upload to YouTube, Vimeo, or Youku" submission/qwen-demo-video-preupload.md
-grep -q "DOWNGRADE - use prototype-only Devpost wording" submission/qwen-demo-video-preupload.md
+grep -q "https://youtu.be/mEV2CP06JQo" submission/qwen-demo-video-preupload.md
+grep -q "GO - use https://youtu.be/mEV2CP06JQo as the official Devpost demo video URL" submission/qwen-demo-video-preupload.md
+grep -q "DOWNGRADE - use prototype-only Devpost wording if Alibaba Cloud deployment proof remains missing" submission/qwen-demo-video-preupload.md
 grep -q "STOP - external commitment required" submission/qwen-demo-video-preupload.md
 grep -q "Qwen Public Pages Video Fallback" submission/qwen-public-pages-video-fallback.md
 grep -q "https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4" submission/qwen-public-pages-video-fallback.md
-grep -q "GO - use the GitHub Pages MP4" submission/qwen-public-pages-video-fallback.md
-grep -q "DOWNGRADE - keep final Devpost wording truthful" submission/qwen-public-pages-video-fallback.md
+grep -q "https://youtu.be/mEV2CP06JQo" submission/qwen-public-pages-video-fallback.md
+grep -q "GO - use https://youtu.be/mEV2CP06JQo as the official Devpost video URL" submission/qwen-public-pages-video-fallback.md
+grep -q "DOWNGRADE - keep final Devpost wording truthful if the YouTube URL becomes unavailable" submission/qwen-public-pages-video-fallback.md
 grep -q "STOP - external commitment required" submission/qwen-public-pages-video-fallback.md
 grep -q "Qwen Final 48-Hour Public Proof Lock" submission/qwen-final-48-hour-public-proof-lock.md
 grep -q "2026-07-06 KST" submission/qwen-final-48-hour-public-proof-lock.md

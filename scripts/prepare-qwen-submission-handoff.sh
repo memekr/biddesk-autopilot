@@ -66,6 +66,7 @@ cp submission/qwen-d1-final-submit-desk.md "$BUNDLE_DIR/qwen-d1-final-submit-des
 cp submission/qwen-final-60-hour-command-center.md "$BUNDLE_DIR/qwen-final-60-hour-command-center.md"
 cp submission/qwen-final-36-hour-eligibility-brief.md "$BUNDLE_DIR/qwen-final-36-hour-eligibility-brief.md"
 cp submission/qwen-final-48-hour-submit-readiness.md "$BUNDLE_DIR/qwen-final-48-hour-submit-readiness.md"
+cp submission/qwen-final-public-proof-refresh.md "$BUNDLE_DIR/qwen-final-public-proof-refresh.md"
 cp submission/qwen-deadline-extension-arbitration.md "$BUNDLE_DIR/qwen-deadline-extension-arbitration.md"
 cp submission/qwen-deadline-extension-confirmation.md "$BUNDLE_DIR/qwen-deadline-extension-confirmation.md"
 cp submission/qwen-source-recheck-snapshot.md "$BUNDLE_DIR/qwen-source-recheck-snapshot.md"

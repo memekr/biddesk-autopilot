@@ -22,7 +22,9 @@ The demo shows a facilities-maintenance RFI becoming an approval-ready proposal 
 
 ## How It Uses Qwen Cloud
 
-The intended deployed version uses Qwen models on Qwen Cloud for long-context extraction, policy comparison, structured proposal drafting, and approval memo generation. The API boundary is OpenAI-compatible through the Qwen Cloud base URL. The CLI includes a guarded `--qwen-status` connector check and an explicit `--use-qwen` live-call path for the entrant's API key. Local deterministic output is used only for offline packet preparation until the entrant provides a Qwen Cloud API key and Alibaba Cloud deployment.
+BidDesk Autopilot uses Qwen Cloud through an OpenAI-compatible DashScope endpoint for long-context extraction, policy comparison, structured proposal drafting, and approval memo generation. The CLI includes a guarded `--qwen-status` connector check and an explicit `--use-qwen` live-call path. A redacted live Qwen Cloud run has been captured in `submission/qwen-live-call-evidence.md`, and the generated report includes `Qwen Cloud Live Summary`.
+
+Alibaba Cloud backend deployment remains a separate proof gate. The repository includes a Function Compute handler candidate at `src/biddesk_autopilot/alibaba_function_compute.py`, but final copy should not claim the backend is running on Alibaba Cloud until the entrant completes deployment and captures public proof.
 
 ## Track
 
@@ -44,4 +46,4 @@ Use `submission/qwen-judging-testing-access-gate.md` to complete Devpost testing
 
 ## Truth Boundary
 
-Do not claim a live Qwen Cloud deployment until the backend is deployed on Alibaba Cloud, a Qwen Cloud API key is wired in, the generated packet includes `Qwen Cloud Live Summary`, and the demo video shows the live call path.
+Claim live Qwen Cloud inference only alongside the redacted evidence packet and generated output. Do not claim live Alibaba Cloud backend deployment until a verified Function Compute deployment exists under the entrant account and the public proof link is available.

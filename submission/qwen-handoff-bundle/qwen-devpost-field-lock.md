@@ -1,6 +1,6 @@
 # Qwen Devpost Field Lock
 
-Public sources rechecked: 2026-07-15 KST.
+Public sources rechecked: 2026-07-17 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -12,12 +12,14 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 
 - Devpost overview and rules now show the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the submission deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 15, 2026 KST show about 7,883 participants.
+- Public Devpost surfaces visible on July 17, 2026 KST show about 8,100 participants.
+- Devpost public summary currently shows $45,000 in cash while the event copy and rules still describe track cash plus cloud-credit awards; do not paste a single unsupported total-prize claim.
 - The public rules require a public code repository, text description, Alibaba Cloud deployment proof, architecture diagram, demonstration video, and track selection.
 - Alibaba Cloud deployment proof must be a public repository code-file link that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost overview currently says the demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - Devpost rules require access to a working project for judging and testing through a website, functioning demo, or test build; private projects require testing credentials in the testing instructions.
 - The Qwen Cloud challenge page still asks for a presentation PPT; the generated deck preview and committed PPTX now cover that asset.
+- `submission/qwen-final-public-proof-refresh.md` is the current public proof refresh for source state, URL HTTP results, and final CAPTCHA/phone-verification stop lines.
 
 ## Locked Fields
 
@@ -61,13 +63,14 @@ If any item is missing, use this downgrade sentence in the project description:
 
 1. Run `bash scripts/submission-readiness.sh`.
 2. Run `bash scripts/prepare-qwen-submission-handoff.sh`.
-3. Open every external URL in a private/incognito browser.
-4. Compare each Devpost field against the table above.
-5. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
-6. Confirm the Devpost project-creation CAPTCHA is complete; the July 14 KST blocker was `Select all images with bridges` plus `Verify`.
-7. Confirm the official-host video URL exists at https://youtu.be/mEV2CP06JQo and still opens publicly.
-8. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to `82-010****7848`.
-9. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.
+3. Open `submission/qwen-final-public-proof-refresh.md` and compare every public URL to the live form fields.
+4. Open every external URL in a private/incognito browser.
+5. Compare each Devpost field against the table above.
+6. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
+7. Confirm the Devpost project-creation CAPTCHA is complete; the July 14 KST blocker was `Select all images with bridges` plus `Verify`.
+8. Confirm the official-host video URL exists at https://youtu.be/mEV2CP06JQo and still opens publicly.
+9. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to the entrant's phone.
+10. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.
 
 ## GO / DOWNGRADE / STOP
 

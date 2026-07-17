@@ -73,6 +73,7 @@ test -f submission/qwen-d1-final-submit-desk.md
 test -f submission/qwen-final-60-hour-command-center.md
 test -f submission/qwen-final-36-hour-eligibility-brief.md
 test -f submission/qwen-final-48-hour-submit-readiness.md
+test -f submission/qwen-final-public-proof-refresh.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -291,6 +292,11 @@ grep -q "48-Hour Submit Order" submission/qwen-final-48-hour-submit-readiness.md
 grep -q "GO - final 48-hour submit readiness ready" submission/qwen-final-48-hour-submit-readiness.md
 grep -q "DOWNGRADE - final 48-hour truthful prototype path" submission/qwen-final-48-hour-submit-readiness.md
 grep -q "STOP - external commitment required" submission/qwen-final-48-hour-submit-readiness.md
+grep -q "Qwen Final Public Proof Refresh" submission/qwen-final-public-proof-refresh.md
+grep -q "about 8,100 participants" submission/qwen-final-public-proof-refresh.md
+grep -q "GO - continue toward final Qwen submission" submission/qwen-final-public-proof-refresh.md
+grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-public-proof-refresh.md
+grep -q "STOP - external commitment required" submission/qwen-final-public-proof-refresh.md
 grep -q "Qwen Deadline Extension Arbitration" submission/qwen-deadline-extension-arbitration.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-deadline-extension-arbitration.md
 grep -q "July 9, 2026, 2:00 PM Pacific Time" submission/qwen-deadline-extension-arbitration.md
@@ -304,7 +310,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "about 7,883 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "about 8,100 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md

@@ -17,7 +17,8 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed about 7,883 participants during the July 15 source refresh.
+- Public Devpost surfaces showed about 8,100 participants during the July 17 source refresh.
+- Devpost public summary currently shows $45,000 in cash while the event copy and rules still describe track cash plus cloud-credit awards; keep final copy focused on track fit and proof rather than a single prize total.
 - The Qwen Cloud challenge page still asks for a presentation PPT, so the deck preview and committed PPTX should be checked even if Devpost does not expose a separate deck field.
 
 ## Private-Browser Checks
@@ -68,6 +69,12 @@ Open a fresh private/incognito browser window with no entrant account logged in.
 - July 15 KST source refresh: Devpost overview, Devpost rules, and the Qwen
   challenge page still align on the July 20, 2026 submission deadline, while
   public Devpost surfaces show about 7,883 participants.
+- July 17 KST public proof refresh: GitHub repository, raw README, raw LICENSE,
+  raw sample input, raw sample output, raw Function Compute handler, raw Qwen
+  live-call evidence, GitHub Pages static demo, presentation preview, MP4
+  preview, and YouTube oEmbed all returned HTTP 200. Public raw `.env` returned
+  HTTP 404. Devpost overview/rules still show July 20, 2026 at 2:00 PM PDT,
+  and public Devpost surfaces show about 8,100 participants.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

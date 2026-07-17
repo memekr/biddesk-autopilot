@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-14T18:10:19+00:00
+Generated UTC: 2026-07-17T12:20:33+00:00
 
-Generated KST: 2026-07-15T03:10:19+09:00
+Generated KST: 2026-07-17T21:20:33+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 6d 2h 49m
+Remaining: 3d 8h 39m
 
 Phase: active submission window
 
@@ -27,7 +27,7 @@ Phase: active submission window
 
 ## Current Submission Facts
 
-- Devpost deadline alignment reconfirmed during the July 15, 2026 KST recheck: the Devpost overview header, rules page header, and Official Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is July 21, 2026, 6:00 AM KST.
+- Devpost deadline alignment reconfirmed during the July 17, 2026 KST recheck: the Devpost overview header, rules page header, and Official Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is July 21, 2026, 6:00 AM KST.
 - The July 8 deadline-extension arbitration is now historical for the Devpost header-versus-rules conflict, but it remains useful as a proof-quality guardrail.
 - The Qwen Cloud challenge page says the submission deadline was extended to July 20 and marks the build period as May 26 to July 19.
 - Devpost resources still say the last day to apply for the Qwen Cloud voucher is July 9 at 10AM PST; treat voucher, API-key, and credit setup as entrant-owned account actions.
@@ -43,7 +43,8 @@ Phase: active submission window
 - Devpost resources route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
 - Public judging criteria weight Technical Depth & Engineering 30%, Innovation & AI Creativity 30%, Problem Value & Impact 25%, and Presentation & Documentation 15%.
-- Public Devpost surfaces visible during the July 15, 2026 KST source refresh show about 7,883 participants, so final form values should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible during the July 17, 2026 KST source refresh show about 8,100 participants, so final form values should make track fit, proof, and business value obvious without judge inference.
+- Devpost overview currently shows $45,000 in cash prizes on the public event summary while the challenge copy and rules still describe track cash plus cloud-credit awards; final copy should avoid overclaiming a single total prize figure.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.

@@ -96,6 +96,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-final-36-hour-eligibility-brief.md` locks the July 8 source state, about 6,997 to 7,004 participants, and the last eligibility filter around Qwen proof, Alibaba proof, public URLs, and truthful prototype fallback wording.
 - `submission/qwen-final-48-hour-submit-readiness.md` refreshes the July 8 source state, about 7,028 participants, and the final readiness order before entrant-owned Devpost, Qwen, Alibaba, repository, video, deck, or submit actions.
 - `submission/qwen-final-public-proof-refresh.md` refreshes the July 17 source state, about 8,100 participants, public URL HTTP results, current prize-copy boundary, and final CAPTCHA/phone-verification stop lines.
+- `submission/qwen-final-devpost-access-recheck.md` records the July 18 Chrome Devpost access check, 8,176 public participants, current reCAPTCHA draft-creation blocker, and final public proof paste boundary.
 - `submission/qwen-deadline-extension-arbitration.md` captures the historical July 8 source conflict where the Devpost header showed Jul 20, 2026 while the Official Rules body still showed Jul 9, 2026.
 - `submission/qwen-deadline-extension-confirmation.md` captures the current Jul 20, 2026 deadline alignment across Devpost and the Qwen challenge page while keeping the voucher/account/proof blockers visible.
 - `submission/qwen-deployment-proof-gate.md` is the first proof gate before any live Qwen Cloud claim.

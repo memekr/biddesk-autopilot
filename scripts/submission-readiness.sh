@@ -5,18 +5,25 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 QWEN_ARGS=()
-if [[ -f .env ]]; then
+LIVE_QWEN=0
+if [[ -f .env && "${QWEN_OFFLINE_ONLY:-0}" != "1" ]]; then
   set -a
   # shellcheck disable=SC1091
   source .env
   set +a
   QWEN_ARGS=(--qwen-status --use-qwen)
+  LIVE_QWEN=1
 fi
 
-uv run biddesk-autopilot reports/sample-request.json \
-  --out reports/sample-proposal-packet.md \
-  --json reports/sample-proposal-packet.json \
-  "${QWEN_ARGS[@]}"
+CMD=(
+  uv run biddesk-autopilot reports/sample-request.json
+  --out reports/sample-proposal-packet.md
+  --json reports/sample-proposal-packet.json
+)
+if [[ "$LIVE_QWEN" == "1" ]]; then
+  CMD+=("${QWEN_ARGS[@]}")
+fi
+"${CMD[@]}"
 
 python3 scripts/write-qwen-source-recheck-snapshot.py
 python3 scripts/write-qwen-judge-clean-room-rehearsal.py
@@ -74,6 +81,7 @@ test -f submission/qwen-final-60-hour-command-center.md
 test -f submission/qwen-final-36-hour-eligibility-brief.md
 test -f submission/qwen-final-48-hour-submit-readiness.md
 test -f submission/qwen-final-public-proof-refresh.md
+test -f submission/qwen-final-devpost-access-recheck.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -95,7 +103,7 @@ grep -q "assets/biddesk-autopilot-qwen-demo-preupload.mp4" docs/index.html
 grep -q "Alibaba Cloud deployment proof is still pending" docs/index.html
 grep -q "https://memekr.github.io/biddesk-autopilot/" docs/index.html
 grep -q "https://memekr.github.io/biddesk-autopilot/assets/biddesk-autopilot-qwen-demo-preupload.mp4" README.md
-if [[ -f .env ]]; then
+if [[ "$LIVE_QWEN" == "1" ]]; then
   grep -q "Qwen Cloud Live Summary" reports/sample-proposal-packet.md
   grep -q '"qwen_cloud_live_summary"' reports/sample-proposal-packet.json
 fi
@@ -297,6 +305,12 @@ grep -q "about 8,100 participants" submission/qwen-final-public-proof-refresh.md
 grep -q "GO - continue toward final Qwen submission" submission/qwen-final-public-proof-refresh.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-public-proof-refresh.md
 grep -q "STOP - external commitment required" submission/qwen-final-public-proof-refresh.md
+grep -q "Qwen Final Devpost Access Recheck" submission/qwen-final-devpost-access-recheck.md
+grep -q "Participants (8176)" submission/qwen-final-devpost-access-recheck.md
+grep -q "recaptcha challenge expires in two minutes" submission/qwen-final-devpost-access-recheck.md
+grep -q "GO - final live Qwen submission" submission/qwen-final-devpost-access-recheck.md
+grep -q "DOWNGRADE - submit truthful Qwen-ready prototype wording" submission/qwen-final-devpost-access-recheck.md
+grep -q "STOP - external commitment required" submission/qwen-final-devpost-access-recheck.md
 grep -q "Qwen Deadline Extension Arbitration" submission/qwen-deadline-extension-arbitration.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-deadline-extension-arbitration.md
 grep -q "July 9, 2026, 2:00 PM Pacific Time" submission/qwen-deadline-extension-arbitration.md
@@ -310,7 +324,7 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "about 8,100 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "8,176 participants" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md

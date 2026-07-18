@@ -17,7 +17,7 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed 8,176 participants during the July 18 source refresh.
+- Public Devpost surfaces showed 8,194 to 8,197 participants during the July 18 source/browser refresh.
 - Devpost public summary currently shows $45,000 in cash while the overview title and Qwen Cloud challenge page still describe $70,000+ across cash plus cloud-credit awards; keep final copy focused on track fit and proof rather than a single prize total.
 - The Qwen Cloud challenge page still asks for a presentation PPT, so the deck preview and committed PPTX should be checked even if Devpost does not expose a separate deck field.
 
@@ -79,6 +79,10 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   access and `Participants (8176)`, but no stable existing draft was visible on
   the manage-submissions page. Clicking `Create project` triggered reCAPTCHA
   challenge frames titled `recaptcha challenge expires in two minutes`.
+- July 18 15:15 KST final gate: Chrome showed `Participants (8197)`, no stable
+  existing draft, and an active `Select all images with traffic lights`
+  reCAPTCHA after `Create project`. No CAPTCHA answer, project draft, field
+  paste, or final submit was created.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

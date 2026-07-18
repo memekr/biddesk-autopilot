@@ -97,6 +97,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-final-48-hour-submit-readiness.md` refreshes the July 8 source state, about 7,028 participants, and the final readiness order before entrant-owned Devpost, Qwen, Alibaba, repository, video, deck, or submit actions.
 - `submission/qwen-final-public-proof-refresh.md` refreshes the July 17 source state, about 8,100 participants, public URL HTTP results, current prize-copy boundary, and final CAPTCHA/phone-verification stop lines.
 - `submission/qwen-final-devpost-access-recheck.md` records the July 18 Chrome Devpost access check, 8,176 public participants, current reCAPTCHA draft-creation blocker, and final public proof paste boundary.
+- `submission/qwen-final-63-hour-submission-gate.md` records the July 18 15:15 KST final browser gate, 8,194 to 8,197 participant surfaces, active `traffic lights` reCAPTCHA, no stable Devpost draft, and final GO/DOWNGRADE/STOP decision.
 - `submission/qwen-deadline-extension-arbitration.md` captures the historical July 8 source conflict where the Devpost header showed Jul 20, 2026 while the Official Rules body still showed Jul 9, 2026.
 - `submission/qwen-deadline-extension-confirmation.md` captures the current Jul 20, 2026 deadline alignment across Devpost and the Qwen challenge page while keeping the voucher/account/proof blockers visible.
 - `submission/qwen-deployment-proof-gate.md` is the first proof gate before any live Qwen Cloud claim.
@@ -121,7 +122,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 
 ## External Blockers
 
-- Devpost project creation and final submit still require human image CAPTCHA completion.
+- Devpost project creation and final submit still require human image CAPTCHA completion. The latest Chrome gate left the Qwen manage-submissions tab at an active `Select all images with traffic lights` reCAPTCHA after `Create project`.
 - Qwen Cloud voucher request and Discord join. Account creation, free-tier activation, API key creation, and live local inference are complete.
 - Alibaba Cloud deployment proof for the backend. The repository now contains a Function Compute handler code-file candidate at https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py, but live deployment proof remains pending.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot

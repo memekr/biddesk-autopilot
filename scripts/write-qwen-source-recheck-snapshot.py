@@ -28,7 +28,7 @@ def main() -> None:
     phase = "active submission window" if remaining_seconds > 0 else "deadline passed"
 
     facts = [
-        "Devpost deadline alignment reconfirmed during the July 18, 2026 KST "
+        "Devpost deadline alignment reconfirmed during the July 19, 2026 KST "
         "recheck: the Devpost overview header, rules page header, and Official "
         "Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is "
         "July 21, 2026, 6:00 AM KST.",
@@ -67,10 +67,10 @@ def main() -> None:
         "Public judging criteria weight Technical Depth & Engineering 30%, "
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
-        "Public Devpost surfaces visible during the July 18, 2026 21:18 KST "
-        "source refresh showed `Participants (8228)`; earlier July 18 "
-        "browser/source checks showed 8,194 to 8,197 participants across "
-        "unauthenticated Devpost reads and the signed-in Chrome manage page. "
+        "Public Devpost surfaces visible during the July 19, 2026 03:19 KST "
+        "source refresh showed `Participants (8255)`; July 18 browser/source "
+        "checks showed 8,194 to 8,228 participants across unauthenticated "
+        "Devpost reads and the signed-in Chrome manage page. "
         "Treat participant counts as live counters, and make final form values "
         "show track fit, proof, and business value without judge inference.",
         "Devpost overview currently shows $45,000 in cash prizes on the public "
@@ -97,6 +97,11 @@ def main() -> None:
         "post-CAPTCHA paste sheet to keep open after manual Devpost project "
         "creation succeeds; it contains the final field values and public URLs "
         "with the Alibaba deployment truth boundary.",
+        "`submission/qwen-final-51-hour-public-proof-refresh.md` is the latest "
+        "public proof refresh: repository, raw README, license, sample input, "
+        "sample output, Function Compute handler, redacted Qwen evidence, static "
+        "demo, presentation preview, MP4 preview, and YouTube oEmbed returned "
+        "HTTP 200, while public raw `.env` returned HTTP 404.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
         "that no proof means not eligible.",

@@ -1,6 +1,6 @@
 # Qwen Devpost Field Lock
 
-Public sources rechecked: 2026-07-18 KST.
+Public sources rechecked: 2026-07-19 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -12,7 +12,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 
 - Devpost overview and rules now show the deadline as July 20, 2026, 2:00 PM PDT.
 - Qwen Cloud challenge page also says the submission deadline was extended to July 20, while coupon redemption remained July 9 at 11:59 PM GMT+7.
-- Public Devpost surfaces visible on July 18, 2026 KST show 8,194 to 8,197 participants across unauthenticated source reads and the signed-in Chrome manage page.
+- Public Devpost surfaces visible on July 19, 2026 KST show 8,255 participants; July 18 source/browser checks showed 8,194 to 8,228 participants across unauthenticated source reads and the signed-in Chrome manage page.
 - Devpost public summary currently shows $45,000 in cash while the overview title and Qwen Cloud challenge page still describe $70,000+ across cash plus cloud-credit awards; do not paste a single unsupported total-prize claim.
 - The public rules require a public code repository, text description, Alibaba Cloud deployment proof, architecture diagram, demonstration video, and track selection.
 - Alibaba Cloud deployment proof must be a public repository code-file link that demonstrates use of Alibaba Cloud services and APIs.
@@ -22,7 +22,8 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 - `submission/qwen-final-public-proof-refresh.md` records the July 17 public proof refresh for source state, URL HTTP results, and final CAPTCHA/phone-verification stop lines.
 - `submission/qwen-final-devpost-access-recheck.md` is the morning Devpost access refresh: My projects is reachable, no stable existing draft is visible, and `Create project` still triggers reCAPTCHA challenge frames.
 - `submission/qwen-final-63-hour-submission-gate.md` is the latest 15:15 KST browser gate: `Create project` opens an active `Select all images with traffic lights` reCAPTCHA, and no project draft or final form access exists yet.
-- `submission/qwen-final-captcha-bridge-paste-sheet.md` is the one-file paste sheet to use after manual CAPTCHA completion; it includes the July 18 21:18 KST public source refresh with `Participants (8228)` and every current field value/URL.
+- `submission/qwen-final-captcha-bridge-paste-sheet.md` is the one-file paste sheet to use after manual CAPTCHA completion; it includes the July 19 03:19 KST public source refresh with `Participants (8255)` and every current field value/URL.
+- `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public proof sheet; it includes the July 19 03:19 KST `Participants (8255)` source state, current public URL HTTP results, GitHub Pages build status, and the Alibaba live-deployment downgrade boundary.
 
 ## Locked Fields
 
@@ -66,7 +67,7 @@ If any item is missing, use this downgrade sentence in the project description:
 
 1. Run `bash scripts/submission-readiness.sh`.
 2. Run `bash scripts/prepare-qwen-submission-handoff.sh`.
-3. Open `submission/qwen-final-public-proof-refresh.md` and compare every public URL to the live form fields.
+3. Open `submission/qwen-final-public-proof-refresh.md` and `submission/qwen-final-51-hour-public-proof-refresh.md`, then compare every public URL to the live form fields.
 4. Open `submission/qwen-final-devpost-access-recheck.md` and `submission/qwen-final-63-hour-submission-gate.md` before trusting Devpost draft state or attempting project creation.
 5. Open `submission/qwen-final-captcha-bridge-paste-sheet.md` immediately after CAPTCHA completion and before any final field paste.
 6. Open every external URL in a private/incognito browser.

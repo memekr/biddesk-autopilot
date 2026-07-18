@@ -1,6 +1,6 @@
 # Qwen Final CAPTCHA Bridge Paste Sheet
 
-Rechecked: 2026-07-18 21:18 KST.
+Rechecked: 2026-07-19 03:19 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -24,8 +24,8 @@ truth boundaries.
 
 - Devpost overview and rules page headers still show `Deadline: Jul 20, 2026 @
   2:00pm PDT`.
-- Devpost public pages showed `Participants (8228)` during the 2026-07-18
-  21:18 KST unauthenticated source recheck. Treat this as a live counter, not a
+- Devpost public pages showed `Participants (8255)` during the 2026-07-19
+  03:19 KST unauthenticated source recheck. Treat this as a live counter, not a
   locked final claim.
 - Devpost public summary shows `$45,000 in cash`, while the overview title and
   Qwen Cloud challenge page describe `$70K` or `$70,000+` across cash and cloud
@@ -44,6 +44,9 @@ truth boundaries.
   Cloud API and be deployed on Alibaba Cloud infrastructure.
 - Qwen Cloud challenge submission copy still asks for Devpost submission,
   GitHub repo, presentation PPT, project description, and demo video.
+- `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public
+  URL proof sheet: required public assets returned HTTP 200, public `.env`
+  returned HTTP 404, and live Alibaba deployment remains pending.
 
 ## Browser Gate State To Resume
 

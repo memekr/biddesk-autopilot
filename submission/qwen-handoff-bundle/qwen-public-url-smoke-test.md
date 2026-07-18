@@ -1,6 +1,6 @@
 # Qwen Public URL Smoke Test
 
-Public sources rechecked: 2026-07-18 KST.
+Public sources rechecked: 2026-07-19 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -17,7 +17,7 @@ Run this after public URLs exist and before accepting rules or clicking the fina
 - Devpost rules require Alibaba Cloud deployment proof as a link to a code file in the repository that demonstrates use of Alibaba Cloud services and APIs.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
-- Public Devpost surfaces showed 8,194 to 8,197 participants during the July 18 source/browser refresh.
+- Public Devpost surfaces showed 8,255 participants during the July 19 source refresh; July 18 source/browser refreshes showed 8,194 to 8,228 participants.
 - Devpost public summary currently shows $45,000 in cash while the overview title and Qwen Cloud challenge page still describe $70,000+ across cash plus cloud-credit awards; keep final copy focused on track fit and proof rather than a single prize total.
 - The Qwen Cloud challenge page still asks for a presentation PPT, so the deck preview and committed PPTX should be checked even if Devpost does not expose a separate deck field.
 
@@ -87,6 +87,13 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   rules pages still showed the July 20, 2026 2:00 PM PDT deadline and public
   pages showed `Participants (8228)`. `submission/qwen-final-captcha-bridge-paste-sheet.md`
   now provides one post-CAPTCHA field/value sheet for final paste.
+- July 19 03:19 KST public proof refresh: unauthenticated Devpost overview and
+  rules pages still showed the July 20, 2026 2:00 PM PDT deadline and public
+  pages showed `Participants (8255)`. Public repository, raw README, raw
+  LICENSE, raw sample input, raw sample output, raw Function Compute handler,
+  raw Qwen live-call evidence, GitHub Pages static demo, presentation preview,
+  MP4 preview, and YouTube oEmbed returned HTTP 200. Public raw `.env` returned
+  HTTP 404. GitHub Pages latest build status was `built`.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

@@ -1,6 +1,6 @@
 # Qwen Final Operator Index
 
-Public sources rechecked: 2026-07-18 KST.
+Public sources rechecked: 2026-07-19 KST.
 
 Devpost public header deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -35,6 +35,8 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 - `submission/qwen-final-devpost-access-recheck.md` is the morning access proof; `submission/qwen-final-63-hour-submission-gate.md` is now the latest last-mile submission gate before CAPTCHA completion, Alibaba phone verification, rules acceptance, or final submit.
 - July 18 21:18 KST public source refresh showed `Participants (8228)` on Devpost while the same July 20, 2026 2:00 PM PDT deadline and public requirements remained in place.
 - `submission/qwen-final-captcha-bridge-paste-sheet.md` is the post-CAPTCHA paste sheet: open it immediately after the human completes Devpost project creation CAPTCHA and before entering final Devpost fields.
+- July 19 03:19 KST public source and URL refresh showed `Participants (8255)`, public repository/static demo/deck/video/Qwen evidence HTTP 200, public raw `.env` HTTP 404, GitHub Pages latest build `built`, and no change to the Devpost/Qwen deadline or proof requirements.
+- `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public proof sheet before any final Devpost preview or paste session.
 - Devpost public summary currently shows $45,000 in cash while the event copy and rules still describe track cash plus cloud-credit awards; final copy should not overclaim a single prize total.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Qwen Cloud challenge page still frames final deliverables as repository, demo video, deck, and project description before the deadline.
@@ -78,20 +80,21 @@ Use this as the live-session index after `submission/qwen-source-recheck-snapsho
 29. Open `submission/qwen-final-devpost-access-recheck.md` before attempting Devpost project creation or trusting project draft state.
 30. Open `submission/qwen-final-63-hour-submission-gate.md` before deciding whether the current Chrome tab is ready for human CAPTCHA completion or another stop.
 31. Open `submission/qwen-final-captcha-bridge-paste-sheet.md` after the human completes the Devpost project-creation CAPTCHA and before any field paste.
-32. Open `submission/qwen-deployment-proof-gate.md` before making any Alibaba Cloud or live deployment claim.
-33. Open `submission/qwen-alibaba-function-compute-proof-adapter.md` before using the Alibaba code-file URL candidate.
-34. Open `submission/qwen-live-connector-gate.md` before running or recording Qwen Cloud API proof.
-35. Open `submission/qwen-account-risk-triage.md` before recording live Qwen or Alibaba proof.
-36. Open `submission/qwen-recording-evidence-capture.md` before screen recording.
-37. Open `submission/qwen-demo-video-preupload.md` and verify https://youtu.be/mEV2CP06JQo before final Devpost paste.
-38. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
-39. Open `submission/qwen-public-pages-video-fallback.md` if the Official Rules-accepted video host remains blocked.
-40. Open `submission/qwen-presentation-deck.md` before filling any presentation/deck field.
-41. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
-42. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
-43. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
-44. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
-45. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
+32. Open `submission/qwen-final-51-hour-public-proof-refresh.md` before trusting public URL state during the final external session.
+33. Open `submission/qwen-deployment-proof-gate.md` before making any Alibaba Cloud or live deployment claim.
+34. Open `submission/qwen-alibaba-function-compute-proof-adapter.md` before using the Alibaba code-file URL candidate.
+35. Open `submission/qwen-live-connector-gate.md` before running or recording Qwen Cloud API proof.
+36. Open `submission/qwen-account-risk-triage.md` before recording live Qwen or Alibaba proof.
+37. Open `submission/qwen-recording-evidence-capture.md` before screen recording.
+38. Open `submission/qwen-demo-video-preupload.md` and verify https://youtu.be/mEV2CP06JQo before final Devpost paste.
+39. Open `submission/qwen-video-duration-arbitration.md` before uploading the public demo video.
+40. Open `submission/qwen-public-pages-video-fallback.md` if the Official Rules-accepted video host remains blocked.
+41. Open `submission/qwen-presentation-deck.md` before filling any presentation/deck field.
+42. Open `submission/qwen-judging-testing-access-gate.md` before writing Devpost testing instructions.
+43. Open `submission/qwen-public-asset-ledger.md` after the entrant has public URLs or proof links to fill.
+44. Open `submission/qwen-public-url-smoke-test.md` after all public URLs exist.
+45. Open `submission/qwen-devpost-field-lock.md` before pasting final Devpost fields.
+46. Open `submission/qwen-final-devpost-submit-runbook.md` only after every public URL and proof link has passed.
 
 ## Evidence Capture Order
 

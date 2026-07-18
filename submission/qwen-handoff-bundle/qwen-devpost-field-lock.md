@@ -22,6 +22,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 - `submission/qwen-final-public-proof-refresh.md` records the July 17 public proof refresh for source state, URL HTTP results, and final CAPTCHA/phone-verification stop lines.
 - `submission/qwen-final-devpost-access-recheck.md` is the morning Devpost access refresh: My projects is reachable, no stable existing draft is visible, and `Create project` still triggers reCAPTCHA challenge frames.
 - `submission/qwen-final-63-hour-submission-gate.md` is the latest 15:15 KST browser gate: `Create project` opens an active `Select all images with traffic lights` reCAPTCHA, and no project draft or final form access exists yet.
+- `submission/qwen-final-captcha-bridge-paste-sheet.md` is the one-file paste sheet to use after manual CAPTCHA completion; it includes the July 18 21:18 KST public source refresh with `Participants (8228)` and every current field value/URL.
 
 ## Locked Fields
 
@@ -67,13 +68,14 @@ If any item is missing, use this downgrade sentence in the project description:
 2. Run `bash scripts/prepare-qwen-submission-handoff.sh`.
 3. Open `submission/qwen-final-public-proof-refresh.md` and compare every public URL to the live form fields.
 4. Open `submission/qwen-final-devpost-access-recheck.md` and `submission/qwen-final-63-hour-submission-gate.md` before trusting Devpost draft state or attempting project creation.
-5. Open every external URL in a private/incognito browser.
-6. Compare each Devpost field against the table above.
-7. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
-8. Confirm the Devpost project-creation CAPTCHA is complete; the July 18 15:15 KST blocker was an active reCAPTCHA image challenge with `Select all images with traffic lights`.
-9. Confirm the official-host video URL exists at https://youtu.be/mEV2CP06JQo and still opens publicly.
-10. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to the entrant's phone.
-11. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.
+5. Open `submission/qwen-final-captcha-bridge-paste-sheet.md` immediately after CAPTCHA completion and before any final field paste.
+6. Open every external URL in a private/incognito browser.
+7. Compare each Devpost field against the table above.
+8. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
+9. Confirm the Devpost project-creation CAPTCHA is complete; the July 18 15:15 KST blocker was an active reCAPTCHA image challenge with `Select all images with traffic lights`.
+10. Confirm the official-host video URL exists at https://youtu.be/mEV2CP06JQo and still opens publicly.
+11. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to the entrant's phone.
+12. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.
 
 ## GO / DOWNGRADE / STOP
 

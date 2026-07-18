@@ -83,6 +83,10 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   existing draft, and an active `Select all images with traffic lights`
   reCAPTCHA after `Create project`. No CAPTCHA answer, project draft, field
   paste, or final submit was created.
+- July 18 21:18 KST public source refresh: unauthenticated Devpost overview and
+  rules pages still showed the July 20, 2026 2:00 PM PDT deadline and public
+  pages showed `Participants (8228)`. `submission/qwen-final-captcha-bridge-paste-sheet.md`
+  now provides one post-CAPTCHA field/value sheet for final paste.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

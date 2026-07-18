@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-18T06:24:49+00:00
+Generated UTC: 2026-07-18T12:24:20+00:00
 
-Generated KST: 2026-07-18T15:24:49+09:00
+Generated KST: 2026-07-18T21:24:20+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 2d 14h 35m
+Remaining: 2d 8h 35m
 
 Phase: active submission window
 
@@ -43,12 +43,13 @@ Phase: active submission window
 - Devpost resources route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
 - Public judging criteria weight Technical Depth & Engineering 30%, Innovation & AI Creativity 30%, Problem Value & Impact 25%, and Presentation & Documentation 15%.
-- Public Devpost surfaces visible during the July 18, 2026 KST source refresh showed 8,194 to 8,197 participants across unauthenticated Devpost reads and the signed-in Chrome manage page, so final form values should make track fit, proof, and business value obvious without judge inference.
+- Public Devpost surfaces visible during the July 18, 2026 21:18 KST source refresh showed `Participants (8228)`; earlier July 18 browser/source checks showed 8,194 to 8,197 participants across unauthenticated Devpost reads and the signed-in Chrome manage page. Treat participant counts as live counters, and make final form values show track fit, proof, and business value without judge inference.
 - Devpost overview currently shows $45,000 in cash prizes on the public event summary while the overview title and Qwen Cloud challenge page still describe $70,000+ across cash and cloud-credit awards; final copy should avoid overclaiming a single total prize figure.
 - Chrome Devpost access recheck on July 18, 2026 KST showed the signed-in session has My projects access, but the manage-submissions page still does not expose a stable existing draft and Create project triggers reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`.
 - `submission/qwen-final-devpost-access-recheck.md` records the current Devpost access state, public source refresh, and final CAPTCHA/phone verification stop lines.
 - The July 18, 2026 15:15 KST final 63-hour gate rechecked Chrome again: the manage-submissions page still exposed no stable draft, clicking Create project opened an active reCAPTCHA image challenge with `Select all images with traffic lights`, and no CAPTCHA answer, project draft, field paste, final submit, payment, identity, tax, banking, travel, or employment/IP commitment was created.
 - `submission/qwen-final-63-hour-submission-gate.md` is the latest last-mile submission gate before CAPTCHA completion or Alibaba Cloud phone/deployment proof.
+- `submission/qwen-final-captcha-bridge-paste-sheet.md` is the post-CAPTCHA paste sheet to keep open after manual Devpost project creation succeeds; it contains the final field values and public URLs with the Alibaba deployment truth boundary.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.

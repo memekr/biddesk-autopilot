@@ -83,6 +83,7 @@ Current source facts:
 - [x] Final public proof refresh drafted.
 - [x] Final Devpost access recheck drafted.
 - [x] Final 63-hour submission gate drafted.
+- [x] Final CAPTCHA bridge paste sheet drafted.
 - [x] Deadline extension arbitration drafted.
 - [x] Deadline extension confirmation drafted.
 - [x] Source recheck snapshot generator drafted.
@@ -152,27 +153,28 @@ Current source facts:
 26. Open `submission/qwen-final-public-proof-refresh.md`.
 27. Open `submission/qwen-final-devpost-access-recheck.md`.
 28. Open `submission/qwen-final-63-hour-submission-gate.md`.
-29. Open `submission/qwen-deadline-extension-arbitration.md` only if you need the July 8 conflict history.
-30. Open `submission/qwen-final-week-execution-sheet.md`.
-31. Open `submission/qwen-deployment-proof-gate.md`.
-32. Open `submission/qwen-alibaba-function-compute-proof-adapter.md`.
-33. Open `submission/qwen-live-connector-gate.md`.
-34. Open `submission/qwen-devpost-draft.md`.
-35. Open `submission/qwen-judging-criteria-map.md`.
-36. Open `submission/qwen-video-duration-arbitration.md`.
-37. Open `submission/qwen-judging-testing-access-gate.md`.
-38. Open `submission/qwen-public-asset-ledger.md`.
-39. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
-40. Open `submission/qwen-public-url-smoke-test.md`.
-41. Open `submission/qwen-devpost-field-lock.md`.
-42. Open `submission/qwen-recording-evidence-capture.md`.
-43. Open `submission/qwen-demo-video-preupload.md`.
-44. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
-45. Open `submission/qwen-account-risk-triage.md`.
-46. Open `submission/qwen-demo-script.md`.
-47. Open `submission/qwen-presentation-deck-outline.md`.
-48. Open `submission/qwen-final-devpost-submit-runbook.md`.
-49. Open `submission/qwen-external-handoff-checklist.md`.
+29. Open `submission/qwen-final-captcha-bridge-paste-sheet.md` immediately after manual Devpost CAPTCHA completion and before any field paste.
+30. Open `submission/qwen-deadline-extension-arbitration.md` only if you need the July 8 conflict history.
+31. Open `submission/qwen-final-week-execution-sheet.md`.
+32. Open `submission/qwen-deployment-proof-gate.md`.
+33. Open `submission/qwen-alibaba-function-compute-proof-adapter.md`.
+34. Open `submission/qwen-live-connector-gate.md`.
+35. Open `submission/qwen-devpost-draft.md`.
+36. Open `submission/qwen-judging-criteria-map.md`.
+37. Open `submission/qwen-video-duration-arbitration.md`.
+38. Open `submission/qwen-judging-testing-access-gate.md`.
+39. Open `submission/qwen-public-asset-ledger.md`.
+40. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
+41. Open `submission/qwen-public-url-smoke-test.md`.
+42. Open `submission/qwen-devpost-field-lock.md`.
+43. Open `submission/qwen-recording-evidence-capture.md`.
+44. Open `submission/qwen-demo-video-preupload.md`.
+45. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
+46. Open `submission/qwen-account-risk-triage.md`.
+47. Open `submission/qwen-demo-script.md`.
+48. Open `submission/qwen-presentation-deck-outline.md`.
+49. Open `submission/qwen-final-devpost-submit-runbook.md`.
+50. Open `submission/qwen-external-handoff-checklist.md`.
 
 ## GO / STOP
 

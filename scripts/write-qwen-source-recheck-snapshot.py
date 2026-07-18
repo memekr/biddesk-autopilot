@@ -67,10 +67,12 @@ def main() -> None:
         "Public judging criteria weight Technical Depth & Engineering 30%, "
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
-        "Public Devpost surfaces visible during the July 18, 2026 KST source refresh "
-        "showed 8,194 to 8,197 participants across unauthenticated Devpost reads "
-        "and the signed-in Chrome manage page, so final form values should make "
-        "track fit, proof, and business value obvious without judge inference.",
+        "Public Devpost surfaces visible during the July 18, 2026 21:18 KST "
+        "source refresh showed `Participants (8228)`; earlier July 18 "
+        "browser/source checks showed 8,194 to 8,197 participants across "
+        "unauthenticated Devpost reads and the signed-in Chrome manage page. "
+        "Treat participant counts as live counters, and make final form values "
+        "show track fit, proof, and business value without judge inference.",
         "Devpost overview currently shows $45,000 in cash prizes on the public "
         "event summary while the overview title and Qwen Cloud challenge page "
         "still describe $70,000+ across cash and cloud-credit awards; final copy "
@@ -91,6 +93,10 @@ def main() -> None:
         "`submission/qwen-final-63-hour-submission-gate.md` is the latest "
         "last-mile submission gate before CAPTCHA completion or Alibaba Cloud "
         "phone/deployment proof.",
+        "`submission/qwen-final-captcha-bridge-paste-sheet.md` is the "
+        "post-CAPTCHA paste sheet to keep open after manual Devpost project "
+        "creation succeeds; it contains the final field values and public URLs "
+        "with the Alibaba deployment truth boundary.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
         "that no proof means not eligible.",

@@ -1,6 +1,6 @@
 # Qwen Final Devpost Submit Runbook
 
-Public sources rechecked: 2026-07-15 KST.
+Public sources rechecked: 2026-07-18 KST.
 
 Deadline: July 20, 2026, 2:00 PM PDT.
 
@@ -11,7 +11,7 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 ## Source Facts
 
 - Devpost overview and Official Rules list the Qwen Cloud hackathon deadline as July 20, 2026, 2:00 PM Pacific Time.
-- Public Devpost surfaces show about 7,883 participants during the July 15, 2026 KST source refresh.
+- Public Devpost surfaces showed `Participants (8228)` during the July 18, 2026 21:18 KST source refresh.
 - Devpost resources still route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - The public requirement set still includes Qwen Cloud usage, Alibaba Cloud deployment proof, a public code repository, an architecture diagram, a public demo video, working-project access for judges, and project text.
 - Alibaba Cloud deployment proof should be a link to a public repository code file demonstrating use of Alibaba Cloud services and APIs.
@@ -19,25 +19,27 @@ Use this only after `submission/qwen-source-recheck-snapshot.md`, `submission/qw
 - Devpost overview currently says the public video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - Devpost rules use the stricter demo-video threshold of less than 3 minutes.
 - Official public YouTube video is available at https://youtu.be/mEV2CP06JQo; YouTube Studio showed runtime `1:46`, public visibility, and no copyright issues found, and public oEmbed returned HTTP 200.
+- `submission/qwen-final-captcha-bridge-paste-sheet.md` now contains the exact post-CAPTCHA paste values and should be opened as soon as Devpost creates a stable project draft.
 
 ## Paste Order
 
 1. Open `https://qwencloud-hackathon.devpost.com/`.
 2. Click `Join hackathon` if the entrant has not joined yet.
 3. Open the project submission form from Devpost.
-4. Select Track 4 Autopilot Agent. Add Track 3 Agent Society only as secondary evidence if the form permits multiple track signals.
-5. Paste the title from `submission/qwen-devpost-draft.md`.
-6. Paste the short description from `submission/qwen-devpost-draft.md`.
-7. Paste the project description from `submission/qwen-devpost-draft.md`, then append only verified live proof from `submission/qwen-deployment-proof-gate.md`, `submission/qwen-alibaba-function-compute-proof-adapter.md`, and `submission/qwen-live-connector-gate.md`.
-8. Paste the public repository URL after confirming it is publicly visible and has `README.md`, `LICENSE`, source, sample inputs, and setup instructions.
-9. Paste the public demo video URL https://youtu.be/mEV2CP06JQo after confirming it still opens publicly and the runtime is less than 3 minutes.
-10. Paste the working-project URL or reproducible test-build instructions from `submission/qwen-judging-testing-access-gate.md`.
-11. Paste https://memekr.github.io/biddesk-autopilot/qwen-presentation.html or the public repository PPTX URL if Devpost asks for a presentation deck or PDF.
-12. Paste architecture and Alibaba Cloud deployment proof links if the form has separate fields; otherwise include them in the project description.
-13. Run the private-browser checks in `submission/qwen-public-url-smoke-test.md`.
-14. Review every live Qwen Cloud, Alibaba Cloud, revenue, customer, and production claim against captured evidence.
-15. Accept official rules only after the entrant has personally reviewed eligibility, terms, and all public URLs.
-16. Click final `Submit project` only after the entrant confirms the complete form.
+4. After manual CAPTCHA completion creates or opens a stable project draft, open `submission/qwen-final-captcha-bridge-paste-sheet.md`.
+5. Select Track 4 Autopilot Agent. Add Track 3 Agent Society only as secondary evidence if the form permits multiple track signals.
+6. Paste the title from `submission/qwen-final-captcha-bridge-paste-sheet.md`.
+7. Paste the short description from `submission/qwen-final-captcha-bridge-paste-sheet.md`.
+8. Paste the project description from `submission/qwen-final-captcha-bridge-paste-sheet.md`, then append only verified live proof from `submission/qwen-deployment-proof-gate.md`, `submission/qwen-alibaba-function-compute-proof-adapter.md`, and `submission/qwen-live-connector-gate.md`.
+9. Paste the public repository URL after confirming it is publicly visible and has `README.md`, `LICENSE`, source, sample inputs, and setup instructions.
+10. Paste the public demo video URL https://youtu.be/mEV2CP06JQo after confirming it still opens publicly and the runtime is less than 3 minutes.
+11. Paste the working-project URL or reproducible test-build instructions from `submission/qwen-final-captcha-bridge-paste-sheet.md`.
+12. Paste https://memekr.github.io/biddesk-autopilot/qwen-presentation.html or the public repository PPTX URL if Devpost asks for a presentation deck or PDF.
+13. Paste architecture and Alibaba Cloud deployment proof links if the form has separate fields; otherwise include them in the project description.
+14. Run the private-browser checks in `submission/qwen-public-url-smoke-test.md`.
+15. Review every live Qwen Cloud, Alibaba Cloud, revenue, customer, and production claim against captured evidence.
+16. Accept official rules only after the entrant has personally reviewed eligibility, terms, and all public URLs.
+17. Click final `Submit project` only after the entrant confirms the complete form.
 
 ## Required Data
 

@@ -97,6 +97,7 @@ test -f submission/qwen-final-48-hour-submit-readiness.md
 test -f submission/qwen-final-public-proof-refresh.md
 test -f submission/qwen-final-devpost-access-recheck.md
 test -f submission/qwen-final-63-hour-submission-gate.md
+test -f submission/qwen-final-captcha-bridge-paste-sheet.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -332,6 +333,15 @@ grep -q "Select all images with traffic lights" submission/qwen-final-63-hour-su
 grep -q "GO - final live Qwen submission" submission/qwen-final-63-hour-submission-gate.md
 grep -q "DOWNGRADE - submit truthful Qwen-ready prototype wording" submission/qwen-final-63-hour-submission-gate.md
 grep -q "STOP - external commitment required" submission/qwen-final-63-hour-submission-gate.md
+grep -q "Qwen Final CAPTCHA Bridge Paste Sheet" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "Participants (8228)" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "BidDesk Autopilot: Qwen-Powered Proposal Operations" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "https://github.com/memekr/biddesk-autopilot" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "https://youtu.be/mEV2CP06JQo" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "https://memekr.github.io/biddesk-autopilot/" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "GO - paste full live Qwen wording" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "DOWNGRADE - paste truthful prototype wording" submission/qwen-final-captcha-bridge-paste-sheet.md
+grep -q "STOP - external commitment required" submission/qwen-final-captcha-bridge-paste-sheet.md
 grep -q "Qwen Deadline Extension Arbitration" submission/qwen-deadline-extension-arbitration.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-deadline-extension-arbitration.md
 grep -q "July 9, 2026, 2:00 PM Pacific Time" submission/qwen-deadline-extension-arbitration.md
@@ -345,8 +355,9 @@ grep -q "GO - confirmed Devpost extension path" submission/qwen-deadline-extensi
 grep -q "DOWNGRADE - use truthful Qwen-ready prototype wording" submission/qwen-deadline-extension-confirmation.md
 grep -q "STOP - external commitment required" submission/qwen-deadline-extension-confirmation.md
 grep -q "Qwen Source Recheck Snapshot" submission/qwen-source-recheck-snapshot.md
-grep -q "8,194 to 8,197 participants" submission/qwen-source-recheck-snapshot.md
+grep -q "Participants (8228)" submission/qwen-source-recheck-snapshot.md
 grep -q "qwen-final-63-hour-submission-gate.md" submission/qwen-source-recheck-snapshot.md
+grep -q "qwen-final-captcha-bridge-paste-sheet.md" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md

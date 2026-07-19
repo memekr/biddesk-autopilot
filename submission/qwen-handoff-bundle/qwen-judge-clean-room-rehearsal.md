@@ -1,6 +1,6 @@
 # Qwen Judge Clean-Room Rehearsal
 
-Generated UTC: 2026-07-19T06:27:48+00:00
+Generated UTC: 2026-07-19T12:27:40+00:00
 
 Use this after `submission/qwen-post-extension-10-day-proof-sprint.md` and before any
 public URL publication. It rehearses the exact no-account path a judge can run if live

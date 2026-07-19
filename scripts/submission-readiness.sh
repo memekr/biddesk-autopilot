@@ -101,6 +101,7 @@ test -f submission/qwen-final-captcha-bridge-paste-sheet.md
 test -f submission/qwen-final-51-hour-public-proof-refresh.md
 test -f submission/qwen-final-45-hour-devpost-handoff.md
 test -f submission/qwen-final-39-hour-submission-lock.md
+test -f submission/qwen-final-33-hour-last-call.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -204,6 +205,13 @@ grep -q "Google Chrome was not running" submission/qwen-final-39-hour-submission
 grep -q "576ca8eeeaa5dfd263b9f33eb139fc5a8938dbc0" submission/qwen-final-39-hour-submission-lock.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-39-hour-submission-lock.md
 grep -q "STOP - external commitment required" submission/qwen-final-39-hour-submission-lock.md
+grep -q "Qwen Final 33-Hour Last Call" submission/qwen-final-33-hour-last-call.md
+grep -q "Participants (8329)" submission/qwen-final-33-hour-last-call.md
+grep -q "Google Chrome running: no" submission/qwen-final-33-hour-last-call.md
+grep -q "3439cf671b93cb8fb8d0f5db50e2b0c29cd325c8" submission/qwen-final-33-hour-last-call.md
+grep -q "GO - final live Qwen wording" submission/qwen-final-33-hour-last-call.md
+grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-33-hour-last-call.md
+grep -q "STOP - external commitment required" submission/qwen-final-33-hour-last-call.md
 grep -q "Qwen Post-Extension 10-Day Proof Sprint" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "GO - continue toward a live Qwen submission" submission/qwen-post-extension-10-day-proof-sprint.md
@@ -379,6 +387,8 @@ grep -q "Participants (8255)" submission/qwen-source-recheck-snapshot.md
 grep -q "qwen-final-63-hour-submission-gate.md" submission/qwen-source-recheck-snapshot.md
 grep -q "qwen-final-captcha-bridge-paste-sheet.md" submission/qwen-source-recheck-snapshot.md
 grep -q "qwen-final-51-hour-public-proof-refresh.md" submission/qwen-source-recheck-snapshot.md
+grep -q "qwen-final-33-hour-last-call.md" submission/qwen-source-recheck-snapshot.md
+grep -q "Participants (8329)" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md

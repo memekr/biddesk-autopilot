@@ -116,6 +116,22 @@ def main() -> None:
         "public URL checks remain green, Google Chrome was not running for "
         "fresh tab inspection, and Devpost CAPTCHA/project creation plus "
         "Alibaba phone/deployment proof remain the active hard blockers.",
+        "The July 19, 2026 21:23 KST final 33-hour public recheck showed "
+        "Devpost overview/rules `Participants (8329)`, the same July 20, "
+        "2026 2:00 PM PDT deadline, and unchanged public requirements. "
+        "Repository, raw README, raw LICENSE, raw sample input, raw sample "
+        "output, raw Function Compute handler, redacted Qwen evidence, "
+        "GitHub Pages static demo, presentation preview, and YouTube oEmbed "
+        "returned HTTP 200; public raw `.env` returned HTTP 404.",
+        "Chrome diagnostics during the July 19, 2026 21:23 KST run showed "
+        "Google Chrome installed, the ChatGPT Chrome Extension installed and "
+        "enabled, and the native host manifest correct, but Google Chrome was "
+        "not running and browser-client returned `Browser is not available: "
+        "extension`; no Chrome window was opened without user permission.",
+        "`submission/qwen-final-33-hour-last-call.md` is the latest "
+        "last-call submission sheet before the entrant either completes "
+        "Devpost CAPTCHA/project creation or keeps the entry on the truthful "
+        "downgraded prototype path.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
         "that no proof means not eligible.",

@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-19T06:27:48+00:00
+Generated UTC: 2026-07-19T12:27:40+00:00
 
-Generated KST: 2026-07-19T15:27:48+09:00
+Generated KST: 2026-07-19T21:27:40+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 1d 14h 32m
+Remaining: 1d 8h 32m
 
 Phase: active submission window
 
@@ -53,6 +53,9 @@ Phase: active submission window
 - `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public proof refresh: repository, raw README, license, sample input, sample output, Function Compute handler, redacted Qwen evidence, static demo, presentation preview, MP4 preview, and YouTube oEmbed returned HTTP 200, while public raw `.env` returned HTTP 404.
 - `submission/qwen-final-45-hour-devpost-handoff.md` is the latest signed-in Devpost handoff: My projects access showed Participants (8277), Start project and Create project were visible, no stable draft was visible, reCAPTCHA challenge frames were present, and public repository/static demo/deck/video/Qwen evidence URLs still returned HTTP 200 while public raw `.env` returned HTTP 404.
 - `submission/qwen-final-39-hour-submission-lock.md` is the latest submission lock: public sources still show the July 20 deadline, public URL checks remain green, Google Chrome was not running for fresh tab inspection, and Devpost CAPTCHA/project creation plus Alibaba phone/deployment proof remain the active hard blockers.
+- The July 19, 2026 21:23 KST final 33-hour public recheck showed Devpost overview/rules `Participants (8329)`, the same July 20, 2026 2:00 PM PDT deadline, and unchanged public requirements. Repository, raw README, raw LICENSE, raw sample input, raw sample output, raw Function Compute handler, redacted Qwen evidence, GitHub Pages static demo, presentation preview, and YouTube oEmbed returned HTTP 200; public raw `.env` returned HTTP 404.
+- Chrome diagnostics during the July 19, 2026 21:23 KST run showed Google Chrome installed, the ChatGPT Chrome Extension installed and enabled, and the native host manifest correct, but Google Chrome was not running and browser-client returned `Browser is not available: extension`; no Chrome window was opened without user permission.
+- `submission/qwen-final-33-hour-last-call.md` is the latest last-call submission sheet before the entrant either completes Devpost CAPTCHA/project creation or keeps the entry on the truthful downgraded prototype path.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.

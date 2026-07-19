@@ -32,6 +32,7 @@ Current source facts:
 - `submission/qwen-final-51-hour-public-proof-refresh.md` records the July 19 03:19 KST source and public URL refresh: `Participants (8255)`, public repository/static demo/deck/video/Qwen evidence HTTP 200, public `.env` HTTP 404, and Alibaba live deployment still downgraded pending phone/deployment proof.
 - `submission/qwen-final-45-hour-devpost-handoff.md` records the July 19 09:20 KST signed-in Devpost handoff: `Participants (8277)`, Start/Create project visible, no stable draft, reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`, public repository/static demo/deck/video/Qwen evidence HTTP 200, public `.env` HTTP 404, and Pages build status `built` for commit `5febda1`.
 - `submission/qwen-final-39-hour-submission-lock.md` records the July 19 15:22 KST public source and URL refresh: Devpost overview/rules showed `Participants (8284)` to `Participants (8285)`, Google Chrome was not running for fresh signed-in tab inspection, public repository/static demo/deck/video/Qwen evidence HTTP 200, public `.env` HTTP 404, and Pages build status `built` for commit `576ca8e`.
+- `submission/qwen-final-33-hour-last-call.md` records the July 19 21:23 KST last-call public source and URL refresh: Devpost overview/rules showed `Participants (8329)`, Google Chrome was installed but not running, extension/native-host checks passed, public repository/static demo/deck/video/Qwen evidence HTTP 200, public `.env` HTTP 404, and Pages build status `built` for commit `3439cf6`.
 - The Qwen Cloud challenge page still asks for a presentation PPT; `submission/BidDesk-Autopilot-Qwen-presentation.pptx` and https://memekr.github.io/biddesk-autopilot/qwen-presentation.html now cover that deck asset without claiming live Alibaba deployment.
 - Devpost overview currently says the public demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until Function Compute deployment evidence is captured.
@@ -90,6 +91,7 @@ Current source facts:
 - [x] Final 51-hour public proof refresh drafted.
 - [x] Final 45-hour Devpost handoff drafted.
 - [x] Final 39-hour submission lock drafted.
+- [x] Final 33-hour last call drafted.
 - [x] Deadline extension arbitration drafted.
 - [x] Deadline extension confirmation drafted.
 - [x] Source recheck snapshot generator drafted.
@@ -124,7 +126,7 @@ Current source facts:
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.
 - [ ] Final `Submit project` clicked by entrant.
 - [ ] Devpost image CAPTCHA completed so the project record can be created.
-  Current challenge state on July 19 15:22 KST: the latest signed-in proof remains the July 19 09:20 Chrome handoff with Start/Create project, no stable draft, and reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`; a fresh Chrome tab inspection was not possible because Google Chrome was not running, while extension/native-host checks passed.
+  Current challenge state on July 19 21:23 KST: the latest signed-in proof remains the July 19 09:20 Chrome handoff with Start/Create project, no stable draft, and reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`; fresh Chrome inspection was not possible because Google Chrome was not running. Chrome is installed, the ChatGPT Chrome Extension is enabled, and the native host manifest is correct.
 
 ## First-Open Order
 
@@ -160,27 +162,28 @@ Current source facts:
 30. Open `submission/qwen-final-51-hour-public-proof-refresh.md` before trusting public URL state during the final external session.
 31. Open `submission/qwen-final-45-hour-devpost-handoff.md` before resuming the signed-in Chrome Devpost tab.
 32. Open `submission/qwen-final-39-hour-submission-lock.md` before deciding whether to relaunch Chrome for CAPTCHA completion or keep the submission downgraded/blocked.
-33. Open `submission/qwen-deadline-extension-arbitration.md` only if you need the July 8 conflict history.
-34. Open `submission/qwen-final-week-execution-sheet.md`.
-35. Open `submission/qwen-deployment-proof-gate.md`.
-36. Open `submission/qwen-alibaba-function-compute-proof-adapter.md`.
-37. Open `submission/qwen-live-connector-gate.md`.
-38. Open `submission/qwen-devpost-draft.md`.
-39. Open `submission/qwen-judging-criteria-map.md`.
-40. Open `submission/qwen-video-duration-arbitration.md`.
-41. Open `submission/qwen-judging-testing-access-gate.md`.
-42. Open `submission/qwen-public-asset-ledger.md`.
-43. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
-44. Open `submission/qwen-public-url-smoke-test.md`.
-45. Open `submission/qwen-devpost-field-lock.md`.
-46. Open `submission/qwen-recording-evidence-capture.md`.
-47. Open `submission/qwen-demo-video-preupload.md`.
-48. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
-49. Open `submission/qwen-account-risk-triage.md`.
-50. Open `submission/qwen-demo-script.md`.
-51. Open `submission/qwen-presentation-deck-outline.md`.
-52. Open `submission/qwen-final-devpost-submit-runbook.md`.
-53. Open `submission/qwen-external-handoff-checklist.md`.
+33. Open `submission/qwen-final-33-hour-last-call.md` before the final manual CAPTCHA/draft attempt or prototype downgrade decision.
+34. Open `submission/qwen-deadline-extension-arbitration.md` only if you need the July 8 conflict history.
+35. Open `submission/qwen-final-week-execution-sheet.md`.
+36. Open `submission/qwen-deployment-proof-gate.md`.
+37. Open `submission/qwen-alibaba-function-compute-proof-adapter.md`.
+38. Open `submission/qwen-live-connector-gate.md`.
+39. Open `submission/qwen-devpost-draft.md`.
+40. Open `submission/qwen-judging-criteria-map.md`.
+41. Open `submission/qwen-video-duration-arbitration.md`.
+42. Open `submission/qwen-judging-testing-access-gate.md`.
+43. Open `submission/qwen-public-asset-ledger.md`.
+44. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
+45. Open `submission/qwen-public-url-smoke-test.md`.
+46. Open `submission/qwen-devpost-field-lock.md`.
+47. Open `submission/qwen-recording-evidence-capture.md`.
+48. Open `submission/qwen-demo-video-preupload.md`.
+49. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
+50. Open `submission/qwen-account-risk-triage.md`.
+51. Open `submission/qwen-demo-script.md`.
+52. Open `submission/qwen-presentation-deck-outline.md`.
+53. Open `submission/qwen-final-devpost-submit-runbook.md`.
+54. Open `submission/qwen-external-handoff-checklist.md`.
 
 ## GO / STOP
 

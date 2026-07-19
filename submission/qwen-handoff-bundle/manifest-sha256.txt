@@ -1,6 +1,6 @@
 92ab617c0ba79597b2d1ea9edfa0665c609fbedda5b123b8238a810e2efe4e43  ./BidDesk-Autopilot-Qwen-presentation.pptx
 a2c504ae88036cad485ab65590a9192ea962f78fb3cfa9a80cc4676618bf48b2  ./LICENSE
-b895ef02a8cd2bbcca2c7afc3f1383d765e11a579592c106743f36ec8fc84bdd  ./README.md
+7bc4a36a11b23416309225181515fa9eed77d9117019c61dc6e6867887b1fcd3  ./README.md
 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b  ./docs/.nojekyll
 cb70b6e2f88105a8f9da422faf1c6df1cc657597e257591e69c0ec220cd3afb2  ./docs/assets/biddesk-autopilot-qwen-demo-preupload.mp4
 4ef5aaccba32422e4ce870403ea344b43f4a39829a842b3080ba8fc78291a218  ./docs/index.html
@@ -24,6 +24,7 @@ b54b965ed36bf3e4f84ddf13af7ec1d7e933b884eeefc21f7b2027c77c9e9ac5  ./qwen-externa
 d21baff9957dce2fbc022b16af0018f6102ed168d010b58bd940342568faec64  ./qwen-external-proof-packet.md
 152b83d44af26bed142f16da555b2bfc846cbfc3c04d69a1febaa584ea56e293  ./qwen-final-120-hour-evidence-freeze.md
 ac7d6e39f654afb0a2f9d6676e3628ff91e7c0bb16df9007af1c10d5e48bf41b  ./qwen-final-36-hour-eligibility-brief.md
+cc3e21fa1fed633d711b78a6a3f82a08d972d75eb862ad930b7f3776b5821240  ./qwen-final-39-hour-submission-lock.md
 333a08540b06cdddceb005a6f90ee4c5e95c8bbcfed086c2f287f812819d8cd4  ./qwen-final-45-hour-devpost-handoff.md
 bb076c61d50a51c83a9feaf8fc1e72352191edd452e6146075f25ad978d66925  ./qwen-final-48-hour-public-proof-lock.md
 2823c148a334711a9297cf5eb7326eb632ece2898989ef1d22929a62cdb740ca  ./qwen-final-48-hour-submit-readiness.md
@@ -38,11 +39,11 @@ d04a9b8fc78ed8264cbce6c2d9ae4616cfb6791856f6a37ad39ee837015b9504  ./qwen-final-6
 72eb4c909facc91680440829c8dc002741db8cc32ad37777a253b5bcf3d3dbb4  ./qwen-final-devpost-submit-runbook.md
 8ced3bb4eaf223adc1b92f19e666414403b2a6b2a5f9beddaba84509bfc842b2  ./qwen-final-devpost-value-audit.md
 f57a560705bd5ef6da86297768a1e97cd6d92bb27a74a54181e6a9e0606255b5  ./qwen-final-external-blocker-matrix.md
-f093d8f698ab2a7228705218a0877138891e36006ad6b80a0cd26ffc078ba374  ./qwen-final-operator-index.md
+c198cc2613d018a8802c8e550629433343e9cee95d892611db4151dc63e2d3e7  ./qwen-final-operator-index.md
 befab734ece78c8b780e7ebd37dede205427844ef36679dc7dae426e7dcc91a7  ./qwen-final-public-proof-evidence-lock.md
 619f59ac5ee713145216720740f4353ee0d5880a4e381a9f6615e71973542691  ./qwen-final-public-proof-refresh.md
 1db139b433bdea9f3301cdd0063f20fb13ee0aae66f703d676c67b597edd61e5  ./qwen-final-week-execution-sheet.md
-70eb760137e9ab58ae1ba120dcbf3e2424caed951340f66df10427d2865febe8  ./qwen-judge-clean-room-rehearsal.md
+4f938ad546752df086eb8de555a231805fe38a35b77b2d92385d63f06e16108d  ./qwen-judge-clean-room-rehearsal.md
 9c8d46d63497712b90473a8454361bb1e3a107dad32c6eb686aa429dbb96b580  ./qwen-judging-criteria-map.md
 8ddba9c13353a0221280dcfb75392847dedb9a27426aecb26cd3cf2128d87e0b  ./qwen-judging-testing-access-gate.md
 5a4a8797948279485145e880b8ea6b52e88dacc0e3218b72558db26888339930  ./qwen-live-call-evidence.md
@@ -53,10 +54,10 @@ d14c932ffaf08abc251d43f10d2d9c589e77d732d4b11ad94ca923c4867e0c2d  ./qwen-present
 fbf8b84918615990034bbe97f0efe8254ca969c3c8faea5d89de2dcdcb917cb8  ./qwen-public-asset-ledger.md
 d59147f58222255fd569e2b22a17e88e4de94450f73cd876aae2100f8b832683  ./qwen-public-pages-video-fallback.md
 b6d11f65e000a957be4a7c2875cf657d4878bd6ed0fedb17f6ee8dfc213d80ad  ./qwen-public-repository-publication.md
-09e5563036775e45d83987b2e9f2188c61142969fa837245ee5015d0d54c7a27  ./qwen-public-url-smoke-test.md
-6815b059986cc37bf74c9b88e66059cae78bd4aff4e384acfd0948a566cfd832  ./qwen-ready-checklist.md
+f4f6d24069979ddbcbf9a8d8b32871cf395dae00fa0f91bd11d816c1909bc40e  ./qwen-public-url-smoke-test.md
+3d38215c1e619556a0ef5e061d4c6d98da4f8bee0dc9d4db0ffe39eeaeb2251c  ./qwen-ready-checklist.md
 516d5481d1ab6539819b57936a8966ea6ef182a6a7f05b9cafda8446739ca1df  ./qwen-recording-evidence-capture.md
-47a9e44c298274c320eb94d1f4f6bfe5132b19f50ad547f63b322dbf90f32eef  ./qwen-source-recheck-snapshot.md
+ce4cb3af7dacc91ad248923e593567b93ed512eaa2abaf633970cf3472e97387  ./qwen-source-recheck-snapshot.md
 d278c62f0afb75d4672afa1cb4d55f06337852301e01814722e956a5edeb6637  ./qwen-video-duration-arbitration.md
 3208eadccdfba5c9c7ba5f8fdb3de6aa00ab258cff9aec7bd772ed0f30734b76  ./sample-proposal-packet.json
 157c885a8682ffa73054d6679843a8fdbd7102fec2b5348e15be0aa7e9848a89  ./sample-proposal-packet.md
@@ -64,5 +65,5 @@ d278c62f0afb75d4672afa1cb4d55f06337852301e01814722e956a5edeb6637  ./qwen-video-d
 b4602cc04641e19b4d2247bce11d05f40b947856b9fc1adf9c8868aab50c99cc  ./scripts/qwen-deadline-status.py
 a2d21f0dfd1f690debb98bdb4a57b108604125ee0a9c4c22a4162bd1b43682fc  ./scripts/render-qwen-demo-video.sh
 bc0a6d5d8f1c9c1ada7d8b064c5b88dbe6c58b44f18ade20b18207f22a891240  ./scripts/write-qwen-judge-clean-room-rehearsal.py
-819de33b906788fe2733e1d1129ba235586b2cff9cc1240c4add1e38b1edf099  ./scripts/write-qwen-source-recheck-snapshot.py
+2fad41d813067cd3a6e4f304e4dcf0a765a55606134b1cc771df6467fe643b61  ./scripts/write-qwen-source-recheck-snapshot.py
 4560659d7b9c537b278b9e06f42b2b7ff22e9a2cccb0877ada7f6a8fe4780ee2  ./src/biddesk_autopilot/alibaba_function_compute.py

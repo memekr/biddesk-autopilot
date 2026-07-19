@@ -100,6 +100,7 @@ test -f submission/qwen-final-63-hour-submission-gate.md
 test -f submission/qwen-final-captcha-bridge-paste-sheet.md
 test -f submission/qwen-final-51-hour-public-proof-refresh.md
 test -f submission/qwen-final-45-hour-devpost-handoff.md
+test -f submission/qwen-final-39-hour-submission-lock.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -197,6 +198,12 @@ grep -q "recaptcha challenge expires in two minutes" submission/qwen-final-45-ho
 grep -q "5febda1477632d5367bf6f055ceffd0e61c658e2" submission/qwen-final-45-hour-devpost-handoff.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-45-hour-devpost-handoff.md
 grep -q "STOP - external commitment required" submission/qwen-final-45-hour-devpost-handoff.md
+grep -q "Qwen Final 39-Hour Submission Lock" submission/qwen-final-39-hour-submission-lock.md
+grep -q "Participants (8284)" submission/qwen-final-39-hour-submission-lock.md
+grep -q "Google Chrome was not running" submission/qwen-final-39-hour-submission-lock.md
+grep -q "576ca8eeeaa5dfd263b9f33eb139fc5a8938dbc0" submission/qwen-final-39-hour-submission-lock.md
+grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-39-hour-submission-lock.md
+grep -q "STOP - external commitment required" submission/qwen-final-39-hour-submission-lock.md
 grep -q "Qwen Post-Extension 10-Day Proof Sprint" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "GO - continue toward a live Qwen submission" submission/qwen-post-extension-10-day-proof-sprint.md

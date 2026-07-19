@@ -67,12 +67,13 @@ def main() -> None:
         "Public judging criteria weight Technical Depth & Engineering 30%, "
         "Innovation & AI Creativity 30%, Problem Value & Impact 25%, "
         "and Presentation & Documentation 15%.",
-        "Public Devpost surfaces and the signed-in Chrome manage page visible "
-        "during the July 19, 2026 09:20 KST source refresh showed "
-        "`Participants (8277)`; the earlier July 19 03:19 KST source refresh "
-        "showed `Participants (8255)`, and July 18 browser/source checks showed "
-        "8,194 to 8,228 participants across unauthenticated Devpost reads and "
-        "the signed-in Chrome manage page. "
+        "Public web recheck during the July 19, 2026 15:21 KST run showed "
+        "Devpost overview `Participants (8284)` and rules page `Participants "
+        "(8285)`; the signed-in Chrome manage page visible during the July 19 "
+        "09:20 KST source refresh showed `Participants (8277)`; the earlier "
+        "July 19 03:19 KST source refresh showed `Participants (8255)`, and "
+        "July 18 browser/source checks showed 8,194 to 8,228 participants across "
+        "unauthenticated Devpost reads and the signed-in Chrome manage page. "
         "Treat participant counts as live counters, and make final form values "
         "show track fit, proof, and business value without judge inference.",
         "Devpost overview currently shows $45,000 in cash prizes on the public "
@@ -110,6 +111,11 @@ def main() -> None:
         "was visible, reCAPTCHA challenge frames were present, and public "
         "repository/static demo/deck/video/Qwen evidence URLs still returned "
         "HTTP 200 while public raw `.env` returned HTTP 404.",
+        "`submission/qwen-final-39-hour-submission-lock.md` is the latest "
+        "submission lock: public sources still show the July 20 deadline, "
+        "public URL checks remain green, Google Chrome was not running for "
+        "fresh tab inspection, and Devpost CAPTCHA/project creation plus "
+        "Alibaba phone/deployment proof remain the active hard blockers.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
         "that no proof means not eligible.",

@@ -94,6 +94,15 @@ Open a fresh private/incognito browser window with no entrant account logged in.
   raw Qwen live-call evidence, GitHub Pages static demo, presentation preview,
   MP4 preview, and YouTube oEmbed returned HTTP 200. Public raw `.env` returned
   HTTP 404. GitHub Pages latest build status was `built`.
+- July 19 15:22 KST final 39-hour refresh: public Devpost overview/rules still
+  showed the July 20, 2026 2:00 PM PDT deadline and public pages showed
+  `Participants (8284)` to `Participants (8285)`. Public repository, raw README,
+  raw LICENSE, raw sample input, raw sample output, raw Function Compute handler,
+  raw Qwen live-call evidence, GitHub Pages static demo, presentation preview,
+  and YouTube oEmbed returned HTTP 200. Public raw `.env` returned HTTP 404.
+  GitHub Pages latest build status was `built` for commit
+  `576ca8eeeaa5dfd263b9f33eb139fc5a8938dbc0`. Fresh signed-in Chrome tab
+  inspection was not possible because Google Chrome was not running.
 
 - Title and short description match `submission/qwen-devpost-draft.md`.
 - Track is Track 4 Autopilot Agent; Track 3 Agent Society appears only as supporting evidence if the form allows it.

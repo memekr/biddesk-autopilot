@@ -72,6 +72,7 @@ cp submission/qwen-final-63-hour-submission-gate.md "$BUNDLE_DIR/qwen-final-63-h
 cp submission/qwen-final-captcha-bridge-paste-sheet.md "$BUNDLE_DIR/qwen-final-captcha-bridge-paste-sheet.md"
 cp submission/qwen-final-51-hour-public-proof-refresh.md "$BUNDLE_DIR/qwen-final-51-hour-public-proof-refresh.md"
 cp submission/qwen-final-45-hour-devpost-handoff.md "$BUNDLE_DIR/qwen-final-45-hour-devpost-handoff.md"
+cp submission/qwen-final-39-hour-submission-lock.md "$BUNDLE_DIR/qwen-final-39-hour-submission-lock.md"
 cp submission/qwen-deadline-extension-arbitration.md "$BUNDLE_DIR/qwen-deadline-extension-arbitration.md"
 cp submission/qwen-deadline-extension-confirmation.md "$BUNDLE_DIR/qwen-deadline-extension-confirmation.md"
 cp submission/qwen-source-recheck-snapshot.md "$BUNDLE_DIR/qwen-source-recheck-snapshot.md"

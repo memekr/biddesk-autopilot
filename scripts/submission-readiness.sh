@@ -102,6 +102,7 @@ test -f submission/qwen-final-51-hour-public-proof-refresh.md
 test -f submission/qwen-final-45-hour-devpost-handoff.md
 test -f submission/qwen-final-39-hour-submission-lock.md
 test -f submission/qwen-final-33-hour-last-call.md
+test -f submission/qwen-final-26-hour-passkey-stop.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -212,6 +213,13 @@ grep -q "3439cf671b93cb8fb8d0f5db50e2b0c29cd325c8" submission/qwen-final-33-hour
 grep -q "GO - final live Qwen wording" submission/qwen-final-33-hour-last-call.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-33-hour-last-call.md
 grep -q "STOP - external commitment required" submission/qwen-final-33-hour-last-call.md
+grep -q "Qwen Final 26-Hour Passkey Stop" submission/qwen-final-26-hour-passkey-stop.md
+grep -q "Participants (8376)" submission/qwen-final-26-hour-passkey-stop.md
+grep -q "passkey verification" submission/qwen-final-26-hour-passkey-stop.md
+grep -q "optional Devpost newsletter checkbox" submission/qwen-final-26-hour-passkey-stop.md
+grep -q "GO - final live Qwen wording" submission/qwen-final-26-hour-passkey-stop.md
+grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-26-hour-passkey-stop.md
+grep -q "STOP - external commitment required" submission/qwen-final-26-hour-passkey-stop.md
 grep -q "Qwen Post-Extension 10-Day Proof Sprint" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "GO - continue toward a live Qwen submission" submission/qwen-post-extension-10-day-proof-sprint.md
@@ -389,6 +397,8 @@ grep -q "qwen-final-captcha-bridge-paste-sheet.md" submission/qwen-source-rechec
 grep -q "qwen-final-51-hour-public-proof-refresh.md" submission/qwen-source-recheck-snapshot.md
 grep -q "qwen-final-33-hour-last-call.md" submission/qwen-source-recheck-snapshot.md
 grep -q "Participants (8329)" submission/qwen-source-recheck-snapshot.md
+grep -q "qwen-final-26-hour-passkey-stop.md" submission/qwen-source-recheck-snapshot.md
+grep -q "Participants (8376)" submission/qwen-source-recheck-snapshot.md
 grep -q "Devpost deadline alignment reconfirmed" submission/qwen-source-recheck-snapshot.md
 grep -q "less than 3 minutes" submission/qwen-source-recheck-snapshot.md
 grep -q "BidDesk-Autopilot-Qwen-presentation.pptx" submission/qwen-source-recheck-snapshot.md

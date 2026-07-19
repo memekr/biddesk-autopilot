@@ -28,7 +28,7 @@ def main() -> None:
     phase = "active submission window" if remaining_seconds > 0 else "deadline passed"
 
     facts = [
-        "Devpost deadline alignment reconfirmed during the July 19, 2026 KST "
+        "Devpost deadline alignment reconfirmed through the July 20, 2026 KST "
         "recheck: the Devpost overview header, rules page header, and Official "
         "Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is "
         "July 21, 2026, 6:00 AM KST.",
@@ -132,6 +132,18 @@ def main() -> None:
         "last-call submission sheet before the entrant either completes "
         "Devpost CAPTCHA/project creation or keeps the entry on the truthful "
         "downgraded prototype path.",
+        "The July 20, 2026 03:25 KST browser handoff showed the in-app "
+        "Devpost manage-submissions page at `Participants (8376)` and the "
+        "July 21, 2026 6:00 AM KST local deadline. Devpost was not logged in, "
+        "the registration path offered Google signup, automation unchecked the "
+        "optional newsletter checkbox, Google OAuth accepted the authorized "
+        "entrant email, and the flow stopped at passkey verification before "
+        "event registration, CAPTCHA, project creation, field paste, rules "
+        "acceptance, or final submit.",
+        "`submission/qwen-final-26-hour-passkey-stop.md` is the latest "
+        "browser stop sheet before the entrant either completes the in-app "
+        "Google passkey/CAPTCHA sequence manually or launches Chrome so the "
+        "existing signed-in session can be retried.",
         "A public Devpost update visible during the July 11, 2026 KST recheck "
         "emphasizes that projects must prove they ran on Alibaba Cloud and states "
         "that no proof means not eligible.",
@@ -197,8 +209,9 @@ Alibaba Cloud deployment proof, architecture diagram, and working-project access
 DOWNGRADE - use Qwen-ready local prototype wording if public assets exist but Qwen Cloud or
 Alibaba Cloud proof is missing.
 
-STOP - external commitment required before Devpost login, account signup, credit request,
-Discord join, API key creation, cloud deployment, rules acceptance, or final Devpost
+STOP - external commitment required before passkey verification, Devpost login, account
+signup, credit request, CAPTCHA completion, Discord join, API key creation, cloud
+deployment, rules acceptance, or final Devpost
 `Submit project`.
 """
     OUT.write_text(body, encoding="utf-8")

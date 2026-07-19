@@ -103,6 +103,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 - `submission/qwen-final-45-hour-devpost-handoff.md` records the July 19 09:20 KST signed-in Devpost handoff, with current 8,277 public participants, Start/Create project visible, reCAPTCHA challenge frames present, no stable draft visible, all judge-facing public assets still HTTP 200, public `.env` still HTTP 404, and Pages build status `built` for commit `5febda1`.
 - `submission/qwen-final-39-hour-submission-lock.md` records the July 19 15:22 KST source/public URL refresh, with current 8,284 to 8,285 public participant surfaces, Chrome not running for tab inspection, all judge-facing public assets still HTTP 200, public `.env` still HTTP 404, and Pages build status `built` for commit `576ca8e`.
 - `submission/qwen-final-33-hour-last-call.md` records the July 19 21:23 KST last-call source/public URL refresh, with current 8,329 public participants, Chrome installed but not running, extension/native-host checks passing, all judge-facing public assets still HTTP 200, public `.env` still HTTP 404, and Pages build status `built` for commit `3439cf6`.
+- `submission/qwen-final-26-hour-passkey-stop.md` records the July 20 03:25 KST in-app browser handoff, with current `Participants (8376)`, Devpost not logged in, optional newsletter signup unchecked, Google OAuth stopped at passkey verification, and no registration, CAPTCHA, project draft, field paste, rules acceptance, or final submit completed.
 - `submission/qwen-deadline-extension-arbitration.md` captures the historical July 8 source conflict where the Devpost header showed Jul 20, 2026 while the Official Rules body still showed Jul 9, 2026.
 - `submission/qwen-deadline-extension-confirmation.md` captures the current Jul 20, 2026 deadline alignment across Devpost and the Qwen challenge page while keeping the voucher/account/proof blockers visible.
 - `submission/qwen-deployment-proof-gate.md` is the first proof gate before any live Qwen Cloud claim.
@@ -127,7 +128,7 @@ bash scripts/prepare-qwen-submission-handoff.sh
 
 ## External Blockers
 
-- Devpost project creation and final submit still require human image CAPTCHA completion. The latest Chrome gate left the Qwen manage-submissions tab open with Start/Create project visible, no stable draft, and active reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`.
+- Devpost registration/project creation and final submit still require human security completion. The latest in-app browser gate reached Google passkey verification before Devpost registration could continue; the latest signed-in Chrome gate remains Start/Create project visible, no stable draft, and active reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`.
 - Qwen Cloud voucher request and Discord join. Account creation, free-tier activation, API key creation, and live local inference are complete.
 - Alibaba Cloud deployment proof for the backend. The repository now contains a Function Compute handler code-file candidate at https://github.com/memekr/biddesk-autopilot/blob/main/src/biddesk_autopilot/alibaba_function_compute.py, but live deployment proof remains pending.
 - Public repository URL: https://github.com/memekr/biddesk-autopilot

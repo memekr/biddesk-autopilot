@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-19T12:27:40+00:00
+Generated UTC: 2026-07-19T18:31:32+00:00
 
-Generated KST: 2026-07-19T21:27:40+09:00
+Generated KST: 2026-07-20T03:31:32+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 1d 8h 32m
+Remaining: 1d 2h 28m
 
 Phase: active submission window
 
@@ -27,7 +27,7 @@ Phase: active submission window
 
 ## Current Submission Facts
 
-- Devpost deadline alignment reconfirmed during the July 19, 2026 KST recheck: the Devpost overview header, rules page header, and Official Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is July 21, 2026, 6:00 AM KST.
+- Devpost deadline alignment reconfirmed through the July 20, 2026 KST recheck: the Devpost overview header, rules page header, and Official Rules section 1 show July 20, 2026, 2:00 PM Pacific Time, which is July 21, 2026, 6:00 AM KST.
 - The July 8 deadline-extension arbitration is now historical for the Devpost header-versus-rules conflict, but it remains useful as a proof-quality guardrail.
 - The Qwen Cloud challenge page says the submission deadline was extended to July 20 and marks the build period as May 26 to July 19.
 - Devpost resources still say the last day to apply for the Qwen Cloud voucher is July 9 at 10AM PST; treat voucher, API-key, and credit setup as entrant-owned account actions.
@@ -56,6 +56,8 @@ Phase: active submission window
 - The July 19, 2026 21:23 KST final 33-hour public recheck showed Devpost overview/rules `Participants (8329)`, the same July 20, 2026 2:00 PM PDT deadline, and unchanged public requirements. Repository, raw README, raw LICENSE, raw sample input, raw sample output, raw Function Compute handler, redacted Qwen evidence, GitHub Pages static demo, presentation preview, and YouTube oEmbed returned HTTP 200; public raw `.env` returned HTTP 404.
 - Chrome diagnostics during the July 19, 2026 21:23 KST run showed Google Chrome installed, the ChatGPT Chrome Extension installed and enabled, and the native host manifest correct, but Google Chrome was not running and browser-client returned `Browser is not available: extension`; no Chrome window was opened without user permission.
 - `submission/qwen-final-33-hour-last-call.md` is the latest last-call submission sheet before the entrant either completes Devpost CAPTCHA/project creation or keeps the entry on the truthful downgraded prototype path.
+- The July 20, 2026 03:25 KST browser handoff showed the in-app Devpost manage-submissions page at `Participants (8376)` and the July 21, 2026 6:00 AM KST local deadline. Devpost was not logged in, the registration path offered Google signup, automation unchecked the optional newsletter checkbox, Google OAuth accepted the authorized entrant email, and the flow stopped at passkey verification before event registration, CAPTCHA, project creation, field paste, rules acceptance, or final submit.
+- `submission/qwen-final-26-hour-passkey-stop.md` is the latest browser stop sheet before the entrant either completes the in-app Google passkey/CAPTCHA sequence manually or launches Chrome so the existing signed-in session can be retried.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.
@@ -72,6 +74,7 @@ Alibaba Cloud deployment proof, architecture diagram, and working-project access
 DOWNGRADE - use Qwen-ready local prototype wording if public assets exist but Qwen Cloud or
 Alibaba Cloud proof is missing.
 
-STOP - external commitment required before Devpost login, account signup, credit request,
-Discord join, API key creation, cloud deployment, rules acceptance, or final Devpost
+STOP - external commitment required before passkey verification, Devpost login, account
+signup, credit request, CAPTCHA completion, Discord join, API key creation, cloud
+deployment, rules acceptance, or final Devpost
 `Submit project`.

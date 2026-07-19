@@ -45,16 +45,20 @@ truth boundaries.
 - Qwen Cloud challenge submission copy still asks for Devpost submission,
   GitHub repo, presentation PPT, project description, and demo video.
 - `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public
-  URL proof sheet: required public assets returned HTTP 200, public `.env`
-  returned HTTP 404, and live Alibaba deployment remains pending.
+  URL proof sheet before the signed-in browser recheck: required public assets
+  returned HTTP 200, public `.env` returned HTTP 404, and live Alibaba
+  deployment remains pending.
+- `submission/qwen-final-45-hour-devpost-handoff.md` is the latest signed-in
+  browser handoff: the manage page showed `Participants (8277)`, Start/Create
+  project visible, no stable draft, reCAPTCHA challenge frames, public assets
+  still HTTP 200, public `.env` still HTTP 404, and Pages build status `built`.
 
 ## Browser Gate State To Resume
 
 - Last known Chrome Devpost state: the signed-in `spdish12` session could reach
   `My projects`, but no stable Qwen project draft was visible.
-- Clicking `Create project` opened an active reCAPTCHA image challenge with
-  `Select all images with traffic lights`, and `Create project` became disabled
-  while the challenge was active.
+- The manage page showed Start/Create project controls and reCAPTCHA challenge
+  frames titled `recaptcha challenge expires in two minutes`.
 - Automation did not answer or bypass CAPTCHA and did not create a project
   draft, paste fields, accept rules, or click final submit.
 - If the CAPTCHA expires, reload the manage-submissions page, click

@@ -24,6 +24,7 @@ Use this after the source snapshot, deployment proof gate, Alibaba Function Comp
 - `submission/qwen-final-63-hour-submission-gate.md` is the latest 15:15 KST browser gate: `Create project` opens an active `Select all images with traffic lights` reCAPTCHA, and no project draft or final form access exists yet.
 - `submission/qwen-final-captcha-bridge-paste-sheet.md` is the one-file paste sheet to use after manual CAPTCHA completion; it includes the July 19 03:19 KST public source refresh with `Participants (8255)` and every current field value/URL.
 - `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public proof sheet; it includes the July 19 03:19 KST `Participants (8255)` source state, current public URL HTTP results, GitHub Pages build status, and the Alibaba live-deployment downgrade boundary.
+- `submission/qwen-final-45-hour-devpost-handoff.md` is the latest signed-in browser handoff; it includes the July 19 09:20 KST `Participants (8277)` state, Start/Create project visibility, no stable draft, active reCAPTCHA challenge frames, current public URL HTTP results, GitHub Pages build status, and the Alibaba live-deployment downgrade boundary.
 
 ## Locked Fields
 
@@ -67,13 +68,13 @@ If any item is missing, use this downgrade sentence in the project description:
 
 1. Run `bash scripts/submission-readiness.sh`.
 2. Run `bash scripts/prepare-qwen-submission-handoff.sh`.
-3. Open `submission/qwen-final-public-proof-refresh.md` and `submission/qwen-final-51-hour-public-proof-refresh.md`, then compare every public URL to the live form fields.
+3. Open `submission/qwen-final-public-proof-refresh.md`, `submission/qwen-final-51-hour-public-proof-refresh.md`, and `submission/qwen-final-45-hour-devpost-handoff.md`, then compare every public URL to the live form fields.
 4. Open `submission/qwen-final-devpost-access-recheck.md` and `submission/qwen-final-63-hour-submission-gate.md` before trusting Devpost draft state or attempting project creation.
 5. Open `submission/qwen-final-captcha-bridge-paste-sheet.md` immediately after CAPTCHA completion and before any final field paste.
 6. Open every external URL in a private/incognito browser.
 7. Compare each Devpost field against the table above.
 8. Remove any claim that lacks a public URL, generated artifact, or redacted live proof.
-9. Confirm the Devpost project-creation CAPTCHA is complete; the July 18 15:15 KST blocker was an active reCAPTCHA image challenge with `Select all images with traffic lights`.
+9. Confirm the Devpost project-creation CAPTCHA is complete; the July 19 09:20 KST blocker was a signed-in manage page with Start/Create project visible, no stable draft, and reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`.
 10. Confirm the official-host video URL exists at https://youtu.be/mEV2CP06JQo and still opens publicly.
 11. Confirm Alibaba Cloud phone verification and zero-cost Function Compute deployment evidence exist before any live deployment claim; the July 14 KST blocker was a 6-digit code sent to the entrant's phone.
 12. Stop before rules acceptance or final submit unless every required row is GO or intentionally downgraded.

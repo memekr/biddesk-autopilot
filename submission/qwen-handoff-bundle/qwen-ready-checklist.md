@@ -30,6 +30,7 @@ Current source facts:
 - `submission/qwen-final-devpost-access-recheck.md` records the morning Chrome Devpost access state: My projects is reachable, no stable existing draft is visible, and `Create project` still triggers reCAPTCHA challenge frames.
 - `submission/qwen-final-63-hour-submission-gate.md` records the latest 15:15 KST gate: no stable draft, active `Select all images with traffic lights` reCAPTCHA after `Create project`, and no draft, paste, final submit, payment, identity, tax, banking, travel, or employment/IP action.
 - `submission/qwen-final-51-hour-public-proof-refresh.md` records the July 19 03:19 KST source and public URL refresh: `Participants (8255)`, public repository/static demo/deck/video/Qwen evidence HTTP 200, public `.env` HTTP 404, and Alibaba live deployment still downgraded pending phone/deployment proof.
+- `submission/qwen-final-45-hour-devpost-handoff.md` records the July 19 09:20 KST signed-in Devpost handoff: `Participants (8277)`, Start/Create project visible, no stable draft, reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`, public repository/static demo/deck/video/Qwen evidence HTTP 200, public `.env` HTTP 404, and Pages build status `built` for commit `5febda1`.
 - The Qwen Cloud challenge page still asks for a presentation PPT; `submission/BidDesk-Autopilot-Qwen-presentation.pptx` and https://memekr.github.io/biddesk-autopilot/qwen-presentation.html now cover that deck asset without claiming live Alibaba deployment.
 - Devpost overview currently says the public demo video can be on YouTube, Vimeo, or Facebook Video; Official Rules section 4 says YouTube, Vimeo, or Youku. Use the Official Rules host list unless the live form clearly accepts another host.
 - The repository now includes `src/biddesk_autopilot/alibaba_function_compute.py` as the Alibaba Cloud Function Compute handler code-file candidate; it is not live deployment proof until Function Compute deployment evidence is captured.
@@ -86,6 +87,7 @@ Current source facts:
 - [x] Final 63-hour submission gate drafted.
 - [x] Final CAPTCHA bridge paste sheet drafted.
 - [x] Final 51-hour public proof refresh drafted.
+- [x] Final 45-hour Devpost handoff drafted.
 - [x] Deadline extension arbitration drafted.
 - [x] Deadline extension confirmation drafted.
 - [x] Source recheck snapshot generator drafted.
@@ -120,10 +122,7 @@ Current source facts:
 - [x] Devpost eligibility requirements, Official Rules, and Terms accepted on July 11, 2026 KST.
 - [ ] Final `Submit project` clicked by entrant.
 - [ ] Devpost image CAPTCHA completed so the project record can be created.
-  Current challenge state on July 18 15:15 KST: clicking `Create project`
-  triggered an active reCAPTCHA frame with `Select all images with traffic
-  lights`, and the `Create project` button became disabled while the challenge
-  was active.
+  Current challenge state on July 19 09:20 KST: signed-in Chrome shows Start/Create project, no stable draft, and reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`.
 
 ## First-Open Order
 
@@ -157,27 +156,28 @@ Current source facts:
 28. Open `submission/qwen-final-63-hour-submission-gate.md`.
 29. Open `submission/qwen-final-captcha-bridge-paste-sheet.md` immediately after manual Devpost CAPTCHA completion and before any field paste.
 30. Open `submission/qwen-final-51-hour-public-proof-refresh.md` before trusting public URL state during the final external session.
-31. Open `submission/qwen-deadline-extension-arbitration.md` only if you need the July 8 conflict history.
-32. Open `submission/qwen-final-week-execution-sheet.md`.
-33. Open `submission/qwen-deployment-proof-gate.md`.
-34. Open `submission/qwen-alibaba-function-compute-proof-adapter.md`.
-35. Open `submission/qwen-live-connector-gate.md`.
-36. Open `submission/qwen-devpost-draft.md`.
-37. Open `submission/qwen-judging-criteria-map.md`.
-38. Open `submission/qwen-video-duration-arbitration.md`.
-39. Open `submission/qwen-judging-testing-access-gate.md`.
-40. Open `submission/qwen-public-asset-ledger.md`.
-41. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
-42. Open `submission/qwen-public-url-smoke-test.md`.
-43. Open `submission/qwen-devpost-field-lock.md`.
-44. Open `submission/qwen-recording-evidence-capture.md`.
-45. Open `submission/qwen-demo-video-preupload.md`.
-46. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
-47. Open `submission/qwen-account-risk-triage.md`.
-48. Open `submission/qwen-demo-script.md`.
-49. Open `submission/qwen-presentation-deck-outline.md`.
-50. Open `submission/qwen-final-devpost-submit-runbook.md`.
-51. Open `submission/qwen-external-handoff-checklist.md`.
+31. Open `submission/qwen-final-45-hour-devpost-handoff.md` before resuming the signed-in Chrome Devpost tab.
+32. Open `submission/qwen-deadline-extension-arbitration.md` only if you need the July 8 conflict history.
+33. Open `submission/qwen-final-week-execution-sheet.md`.
+34. Open `submission/qwen-deployment-proof-gate.md`.
+35. Open `submission/qwen-alibaba-function-compute-proof-adapter.md`.
+36. Open `submission/qwen-live-connector-gate.md`.
+37. Open `submission/qwen-devpost-draft.md`.
+38. Open `submission/qwen-judging-criteria-map.md`.
+39. Open `submission/qwen-video-duration-arbitration.md`.
+40. Open `submission/qwen-judging-testing-access-gate.md`.
+41. Open `submission/qwen-public-asset-ledger.md`.
+42. Open `docs/index.html` or https://memekr.github.io/biddesk-autopilot/ after GitHub Pages is live.
+43. Open `submission/qwen-public-url-smoke-test.md`.
+44. Open `submission/qwen-devpost-field-lock.md`.
+45. Open `submission/qwen-recording-evidence-capture.md`.
+46. Open `submission/qwen-demo-video-preupload.md`.
+47. Open https://youtu.be/mEV2CP06JQo and confirm it remains public before final Devpost paste.
+48. Open `submission/qwen-account-risk-triage.md`.
+49. Open `submission/qwen-demo-script.md`.
+50. Open `submission/qwen-presentation-deck-outline.md`.
+51. Open `submission/qwen-final-devpost-submit-runbook.md`.
+52. Open `submission/qwen-external-handoff-checklist.md`.
 
 ## GO / STOP
 

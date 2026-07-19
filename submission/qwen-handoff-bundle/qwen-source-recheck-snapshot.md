@@ -1,8 +1,8 @@
 # Qwen Source Recheck Snapshot
 
-Generated UTC: 2026-07-18T18:24:11+00:00
+Generated UTC: 2026-07-19T00:25:12+00:00
 
-Generated KST: 2026-07-19T03:24:11+09:00
+Generated KST: 2026-07-19T09:25:12+09:00
 
 Visible header deadline PDT: 2026-07-20T14:00:00-07:00
 
@@ -14,7 +14,7 @@ Official rules body deadline PDT: 2026-07-20T14:00:00-07:00
 
 Official rules body deadline KST: 2026-07-21T06:00:00+09:00
 
-Remaining: 2d 2h 35m
+Remaining: 1d 20h 34m
 
 Phase: active submission window
 
@@ -43,7 +43,7 @@ Phase: active submission window
 - Devpost resources route entrants through Devpost registration, Qwen Cloud signup, hackathon credits, Discord, first API call, model selection, and API-key documentation.
 - Devpost resources list the OpenAI-compatible API base URL as `https://dashscope-intl.aliyuncs.com/compatible-mode/v1`.
 - Public judging criteria weight Technical Depth & Engineering 30%, Innovation & AI Creativity 30%, Problem Value & Impact 25%, and Presentation & Documentation 15%.
-- Public Devpost surfaces visible during the July 19, 2026 03:19 KST source refresh showed `Participants (8255)`; July 18 browser/source checks showed 8,194 to 8,228 participants across unauthenticated Devpost reads and the signed-in Chrome manage page. Treat participant counts as live counters, and make final form values show track fit, proof, and business value without judge inference.
+- Public Devpost surfaces and the signed-in Chrome manage page visible during the July 19, 2026 09:20 KST source refresh showed `Participants (8277)`; the earlier July 19 03:19 KST source refresh showed `Participants (8255)`, and July 18 browser/source checks showed 8,194 to 8,228 participants across unauthenticated Devpost reads and the signed-in Chrome manage page. Treat participant counts as live counters, and make final form values show track fit, proof, and business value without judge inference.
 - Devpost overview currently shows $45,000 in cash prizes on the public event summary while the overview title and Qwen Cloud challenge page still describe $70,000+ across cash and cloud-credit awards; final copy should avoid overclaiming a single total prize figure.
 - Chrome Devpost access recheck on July 18, 2026 KST showed the signed-in session has My projects access, but the manage-submissions page still does not expose a stable existing draft and Create project triggers reCAPTCHA challenge frames titled `recaptcha challenge expires in two minutes`.
 - `submission/qwen-final-devpost-access-recheck.md` records the current Devpost access state, public source refresh, and final CAPTCHA/phone verification stop lines.
@@ -51,6 +51,7 @@ Phase: active submission window
 - `submission/qwen-final-63-hour-submission-gate.md` is the latest last-mile submission gate before CAPTCHA completion or Alibaba Cloud phone/deployment proof.
 - `submission/qwen-final-captcha-bridge-paste-sheet.md` is the post-CAPTCHA paste sheet to keep open after manual Devpost project creation succeeds; it contains the final field values and public URLs with the Alibaba deployment truth boundary.
 - `submission/qwen-final-51-hour-public-proof-refresh.md` is the latest public proof refresh: repository, raw README, license, sample input, sample output, Function Compute handler, redacted Qwen evidence, static demo, presentation preview, MP4 preview, and YouTube oEmbed returned HTTP 200, while public raw `.env` returned HTTP 404.
+- `submission/qwen-final-45-hour-devpost-handoff.md` is the latest signed-in Devpost handoff: My projects access showed Participants (8277), Start project and Create project were visible, no stable draft was visible, reCAPTCHA challenge frames were present, and public repository/static demo/deck/video/Qwen evidence URLs still returned HTTP 200 while public raw `.env` returned HTTP 404.
 - A public Devpost update visible during the July 11, 2026 KST recheck emphasizes that projects must prove they ran on Alibaba Cloud and states that no proof means not eligible.
 - Public discussion topics visible during the July 11, 2026 KST source recheck still show account-region, credit, security-verification, Alibaba Cloud, and non-Qwen-provider risk.
 - The public static demo URL `https://memekr.github.io/biddesk-autopilot/` is the current judge-facing working-project URL for the synthetic workflow and test-build path; it is not Alibaba Cloud deployment proof.

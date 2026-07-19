@@ -99,6 +99,7 @@ test -f submission/qwen-final-devpost-access-recheck.md
 test -f submission/qwen-final-63-hour-submission-gate.md
 test -f submission/qwen-final-captcha-bridge-paste-sheet.md
 test -f submission/qwen-final-51-hour-public-proof-refresh.md
+test -f submission/qwen-final-45-hour-devpost-handoff.md
 test -f submission/qwen-deadline-extension-arbitration.md
 test -f submission/qwen-deadline-extension-confirmation.md
 test -f submission/qwen-source-recheck-snapshot.md
@@ -190,6 +191,12 @@ grep -q "Participants (8255)" submission/qwen-final-51-hour-public-proof-refresh
 grep -q 'Public `.env` absence' submission/qwen-final-51-hour-public-proof-refresh.md
 grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-51-hour-public-proof-refresh.md
 grep -q "STOP - external commitment required" submission/qwen-final-51-hour-public-proof-refresh.md
+grep -q "Qwen Final 45-Hour Devpost Handoff" submission/qwen-final-45-hour-devpost-handoff.md
+grep -q "Participants (8277)" submission/qwen-final-45-hour-devpost-handoff.md
+grep -q "recaptcha challenge expires in two minutes" submission/qwen-final-45-hour-devpost-handoff.md
+grep -q "5febda1477632d5367bf6f055ceffd0e61c658e2" submission/qwen-final-45-hour-devpost-handoff.md
+grep -q "DOWNGRADE - submit truthful prototype wording" submission/qwen-final-45-hour-devpost-handoff.md
+grep -q "STOP - external commitment required" submission/qwen-final-45-hour-devpost-handoff.md
 grep -q "Qwen Post-Extension 10-Day Proof Sprint" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "July 20, 2026, 2:00 PM PDT" submission/qwen-post-extension-10-day-proof-sprint.md
 grep -q "GO - continue toward a live Qwen submission" submission/qwen-post-extension-10-day-proof-sprint.md
